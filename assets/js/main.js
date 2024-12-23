@@ -1,13 +1,38 @@
 function getCurrentWeekPildora(pildoras) {
+    // Verificar si hay una fecha en la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const dateParam = urlParams.get('date');
+    
+    if (dateParam) {
+        const pildora = pildoras.find(p => p.date === dateParam);
+        if (pildora) return pildora;
+    }
+
+    // Si no hay fecha en la URL o no es válida, usar la fecha actual
     const today = new Date();
-    // Encontrar el viernes más reciente
     const day = today.getDay();
-    const diff = (day <= 5) ? (day + 2) : (day - 5); // Ajusta al viernes más reciente
+    const diff = (day <= 5) ? (day + 2) : (day - 5);
     const lastFriday = new Date(today);
     lastFriday.setDate(today.getDate() - diff);
     
     const formattedDate = lastFriday.toISOString().split('T')[0];
     return pildoras.find(p => p.date === formattedDate);
+}
+
+function sharePildora(date) {
+    const shareUrl = `${window.location.origin}${window.location.pathname}?date=${date}`;
+    
+    if (navigator.share) {
+        navigator.share({
+            title: 'Píldora Formativa',
+            text: 'Mira esta píldora formativa',
+            url: shareUrl
+        }).catch(console.error);
+    } else {
+        navigator.clipboard.writeText(shareUrl)
+            .then(() => alert('¡Enlace copiado al portapapeles!'))
+            .catch(console.error);
+    }
 }
 
 function updateMetaTags(pildora) {
@@ -45,7 +70,12 @@ async function loadPildoras() {
                         <div class="card-body">
                             <div class="text-muted small mb-2">${pildora.date}</div>
                             <div class="card-text">${marked.parse(pildora.description)}</div>
-                            <a href="${pildora.url}" class="btn btn-primary mt-3" target="_blank">Visitar</a>
+                            <div class="d-flex justify-content-between mt-3">
+                                <a href="${pildora.url}" class="btn btn-primary" target="_blank">Visitar</a>
+                                <button class="btn btn-outline-secondary" onclick="sharePildora('${pildora.date}')">
+                                    <i class="bi bi-share"></i> Compartir
+                                </button>
+                            </div>
                         </div>
                     </div>
                 `;
