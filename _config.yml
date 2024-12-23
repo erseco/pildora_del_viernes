@@ -1,6 +1,28 @@
 title: "Píldoras Formativas"
 description: "Una colección de recursos y herramientas útiles compartidas periódicamente."
-baseurl: "" # Si usas GitHub Pages, ajusta según corresponda
-url: "https://tu-usuario.github.io" # Cambia esto por tu URL
+baseurl: ""
+url: "https://tu-usuario.github.io"
 theme: minima
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  pildoras:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pildoras"
+    values:
+      layout: "pildora"
+
+# Search settings
+search_enabled: true
 

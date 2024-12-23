@@ -3,17 +3,38 @@ layout: default
 title: "Píldoras Formativas"
 ---
 
-<h1>Píldoras Formativas</h1>
+<div class="search-container">
+  <input type="text" id="search-input" placeholder="Buscar píldoras...">
+  <div id="search-results"></div>
+</div>
 
 <div class="pildoras">
   {% for pildora in site.data.data.pildoras %}
-    <div class="pildora">
+    <div class="pildora" data-title="{{ pildora.title | downcase }}" data-description="{{ pildora.description | downcase }}">
       <img src="/images/{{ pildora.image }}" alt="{{ pildora.title }}">
       <h2>{{ pildora.title }}</h2>
       <p>{{ pildora.description }}</p>
-      <a href="{{ pildora.url }}" target="_blank">Más información</a>
-      <p><small>Fecha: {{ pildora.date }}</small></p>
+      <a href="{{ pildora.url }}" target="_blank" class="button">Más información</a>
+      <p class="date">{{ pildora.date | date: "%d-%m-%Y" }}</p>
     </div>
   {% endfor %}
 </div>
+
+<script>
+document.getElementById('search-input').addEventListener('input', function() {
+  const searchTerm = this.value.toLowerCase();
+  const pildoras = document.querySelectorAll('.pildora');
+  
+  pildoras.forEach(pildora => {
+    const title = pildora.dataset.title;
+    const description = pildora.dataset.description;
+    
+    if (title.includes(searchTerm) || description.includes(searchTerm)) {
+      pildora.style.display = '';
+    } else {
+      pildora.style.display = 'none';
+    }
+  });
+});
+</script>
 
