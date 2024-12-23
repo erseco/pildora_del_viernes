@@ -1,0 +1,6 @@
+title: "Píldoras Formativas"
+description: "Una colección de recursos y herramientas útiles compartidas periódicamente."
+baseurl: "" # Si usas GitHub Pages, ajusta según corresponda
+url: "https://tu-usuario.github.io" # Cambia esto por tu URL
+theme: minima
+

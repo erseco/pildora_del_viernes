@@ -1,0 +1,19 @@
+---
+layout: default
+title: "Píldoras Formativas"
+---
+
+<h1>Píldoras Formativas</h1>
+
+<div class="pildoras">
+  {% for pildora in site.data.data.pildoras %}
+    <div class="pildora">
+      <img src="/images/{{ pildora.image }}" alt="{{ pildora.title }}">
+      <h2>{{ pildora.title }}</h2>
+      <p>{{ pildora.description }}</p>
+      <a href="{{ pildora.url }}" target="_blank">Más información</a>
+      <p><small>Fecha: {{ pildora.date }}</small></p>
+    </div>
+  {% endfor %}
+</div>
+
