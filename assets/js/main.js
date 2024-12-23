@@ -4,11 +4,17 @@ function getCurrentWeekPildora(pildoras) {
     const dateParam = urlParams.get('date');
     
     if (dateParam) {
+        // Si hay fecha en la URL, mostrar solo esa píldora
         const pildora = pildoras.find(p => p.date === dateParam);
-        if (pildora) return pildora;
+        if (pildora) {
+            // Filtrar el array para que solo contenga esta píldora
+            pildoras.length = 0;
+            pildoras.push(pildora);
+            return pildora;
+        }
     }
-
-    // Si no hay fecha en la URL o no es válida, usar la fecha actual
+    
+    // Si no hay fecha en la URL o no es válida, mostrar todas y resaltar la actual
     const today = new Date();
     const day = today.getDay();
     const diff = (day <= 5) ? (day + 2) : (day - 5);
