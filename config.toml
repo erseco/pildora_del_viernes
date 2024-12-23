@@ -1,6 +1,0 @@
-baseURL = 'https://tu-usuario.github.io/'
-languageCode = 'es-es'
-title = 'Píldoras Formativas'
-
-[params]
-  description = 'Una colección de recursos y herramientas útiles compartidas periódicamente.'
