@@ -1,13 +1,13 @@
 .PHONY: install serve build clean
 
 install:
-	bundle install
+	brew install hugo
 
 serve:
-	bundle exec jekyll serve --livereload
+	hugo server -D --disableFastRender
 
 build:
-	bundle exec jekyll build
+	hugo
 
 clean:
-	bundle exec jekyll clean
+	rm -rf public/
