@@ -1,13 +1,4 @@
-.PHONY: install serve build clean
-
-install:
-	brew install hugo
+.PHONY: serve
 
 serve:
-	hugo server -D --disableFastRender
-
-build:
-	hugo
-
-clean:
-	rm -rf public/
+	python3 -m http.server 8000
