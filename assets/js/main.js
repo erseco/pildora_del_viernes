@@ -11,12 +11,16 @@ async function loadPildoras() {
             container.innerHTML = '';
             pildoras.forEach(pildora => {
                 const card = document.createElement('div');
-                card.className = 'pildora';
+                card.className = 'col-md-6 col-lg-4 mb-4';
                 card.innerHTML = `
-                    <img src="images/${pildora.image}" alt="Píldora del ${pildora.date}">
-                    <div class="date">${pildora.date}</div>
-                    <div class="description">${marked.parse(pildora.description)}</div>
-                    <a href="${pildora.url}" class="button" target="_blank">Visitar</a>
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/${pildora.image}" class="card-img-top" alt="Píldora del ${pildora.date}">
+                        <div class="card-body">
+                            <div class="text-muted small mb-2">${pildora.date}</div>
+                            <div class="card-text">${marked.parse(pildora.description)}</div>
+                            <a href="${pildora.url}" class="btn btn-primary mt-3" target="_blank">Visitar</a>
+                        </div>
+                    </div>
                 `;
                 container.appendChild(card);
             });
