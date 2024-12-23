@@ -32,7 +32,7 @@ async function loadPildoras() {
             const searchTerm = e.target.value.toLowerCase();
             const filteredPildoras = data.pildoras.filter(pildora => 
                 pildora.description.toLowerCase().includes(searchTerm) ||
-                pildora.date.includes(searchTerm) ||
+                String(pildora.date).includes(searchTerm) ||
                 pildora.url.toLowerCase().includes(searchTerm) ||
                 marked.parse(pildora.description).toLowerCase().includes(searchTerm)
             );
