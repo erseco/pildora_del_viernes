@@ -15,7 +15,7 @@ async function loadPildoras() {
                 card.innerHTML = `
                     <img src="images/${pildora.image}" alt="Píldora del ${pildora.date}">
                     <div class="date">${pildora.date}</div>
-                    <p>${pildora.description}</p>
+                    <div class="description">${marked.parse(pildora.description)}</div>
                     <a href="${pildora.url}" class="button" target="_blank">Visitar</a>
                 `;
                 container.appendChild(card);

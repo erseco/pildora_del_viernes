@@ -17,7 +17,14 @@ pildoras:
   - date: 2025-01-10
     image: "2025-01-10.jpeg"
     url: https://timeywimey.co
-    description: "En la píldora formativa de hoy viernes, timeywimey.co 🕒 es una web que muestra en qué momento del día están varias ciudades a la vez, destacando sus horas doradas y azules. Perfecta para planificar reuniones internacionales, ¡y puedes enlazar directamente con Google Calendar"
+    description: |
+      En la píldora formativa de hoy viernes: **timeywimey.co** 🕒
+
+      Es una web que muestra en qué momento del día están varias ciudades a la vez, destacando sus:
+      - Horas doradas
+      - Horas azules
+
+      Perfecta para planificar reuniones internacionales, ¡y puedes [enlazar directamente con Google Calendar](https://calendar.google.com)!
 
 
 
