@@ -1,39 +1,46 @@
-{{ define "main" }}
-<div class="search-container">
-  <input type="text" id="search-input" placeholder="Buscar píldoras...">
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+    <style>
+        .pildora {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .date {
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.description }}</p>
 
-<div class="pildoras">
-  {{ range .Pages }}
-    <div class="pildora" data-title="{{ .Title | lower }}" data-description="{{ .Description | lower }}">
-      {{ with .Params.image }}
-        <img src="/images/{{ . }}" alt="{{ $.Title }}">
-      {{ end }}
-      <h2>{{ .Title }}</h2>
-      <p>{{ .Description }}</p>
-      {{ with .Params.url }}
-        <a href="{{ . }}" target="_blank" class="button">Más información</a>
-      {{ end }}
-      <p class="date">{{ .Date.Format "02-01-2006" }}</p>
+    <div class="pildoras">
+        {{ $data := getJSON "pildoras.yml" }}
+        {{ range $data.pildoras }}
+            <div class="pildora">
+                {{ with .image }}
+                    <img src="/images/{{ . }}" alt="{{ $.Title }}">
+                {{ end }}
+                <h2>{{ .title }}</h2>
+                <p>{{ .description }}</p>
+                <a href="{{ .url }}" target="_blank" class="button">Más información</a>
+                <p class="date">{{ .date }}</p>
+            </div>
+        {{ end }}
     </div>
-  {{ end }}
-</div>
-
-<script>
-document.getElementById('search-input').addEventListener('input', function() {
-  const searchTerm = this.value.toLowerCase();
-  const pildoras = document.querySelectorAll('.pildora');
-  
-  pildoras.forEach(pildora => {
-    const title = pildora.dataset.title;
-    const description = pildora.dataset.description;
-    
-    if (title.includes(searchTerm) || description.includes(searchTerm)) {
-      pildora.style.display = '';
-    } else {
-      pildora.style.display = 'none';
-    }
-  });
-});
-</script>
-{{ end }}
+</body>
+</html>

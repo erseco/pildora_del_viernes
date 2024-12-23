@@ -1,18 +1,6 @@
 baseURL = 'https://tu-usuario.github.io/'
 languageCode = 'es-es'
 title = 'Píldoras Formativas'
-theme = 'paper'
 
 [params]
   description = 'Una colección de recursos y herramientas útiles compartidas periódicamente.'
-  
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
