@@ -1,8 +1,35 @@
+function getCurrentWeekPildora(pildoras) {
+    const today = new Date();
+    // Encontrar el viernes más reciente
+    const day = today.getDay();
+    const diff = (day <= 5) ? (day + 2) : (day - 5); // Ajusta al viernes más reciente
+    const lastFriday = new Date(today);
+    lastFriday.setDate(today.getDate() - diff);
+    
+    const formattedDate = lastFriday.toISOString().split('T')[0];
+    return pildoras.find(p => p.date === formattedDate);
+}
+
+function updateMetaTags(pildora) {
+    if (!pildora) return;
+
+    const baseUrl = window.location.origin + window.location.pathname;
+    const imageUrl = baseUrl + 'images/' + pildora.image;
+
+    document.querySelector('meta[property="og:title"]').setAttribute('content', 'Píldora Formativa del ' + pildora.date);
+    document.querySelector('meta[property="og:description"]').setAttribute('content', pildora.description.split('\n')[0]);
+    document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
+    document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.href);
+}
+
 async function loadPildoras() {
     try {
         const response = await fetch('data.yml');
         const yamlText = await response.text();
         const data = jsyaml.load(yamlText);
+
+        const currentPildora = getCurrentWeekPildora(data.pildoras);
+        updateMetaTags(currentPildora);
         
         const container = document.getElementById('pildorasContainer');
         const searchInput = document.getElementById('searchInput');
