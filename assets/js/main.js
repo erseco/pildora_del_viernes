@@ -58,6 +58,9 @@ async function loadPildoras() {
         const response = await fetch('data.yml');
         const yamlText = await response.text();
         const data = jsyaml.load(yamlText);
+        
+        // Ordenar las píldoras por fecha (más recientes primero)
+        data.pildoras.sort((a, b) => new Date(b.date) - new Date(a.date));
 
         const currentPildora = getCurrentWeekPildora(data.pildoras);
         updateMetaTags(currentPildora);
