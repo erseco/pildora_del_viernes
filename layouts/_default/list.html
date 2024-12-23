@@ -29,7 +29,7 @@
     <p>{{ .Site.Params.description }}</p>
 
     <div class="pildoras">
-        {{ $data := getJSON "pildoras.yml" }}
+        {{ $data := resources.Get "data/pildoras.json" | transform.Unmarshal }}
         {{ range $data.pildoras }}
             <div class="pildora">
                 {{ with .image }}
