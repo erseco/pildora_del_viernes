@@ -56,12 +56,18 @@ function sharePildora(date) {
     const shareText = `Píldora formativa del ${formattedDate}:\n\n${pildora.description}\n\nVer más en: ${shareUrl}`;
     
     if (navigator.share) {
+        // Compartir sin archivos, solo texto y URL
         navigator.share({
             title: `Píldora Formativa del ${formattedDate}`,
             text: shareText,
-            url: shareUrl,
-            ...(imageUrl && { files: [imageUrl] })
-        }).catch(console.error);
+            url: shareUrl
+        }).catch(error => {
+            console.error('Error al compartir:', error);
+            // Si falla, copiar al portapapeles como fallback
+            navigator.clipboard.writeText(shareText)
+                .then(() => alert('¡Contenido copiado al portapapeles!'))
+                .catch(console.error);
+        });
     } else {
         navigator.clipboard.writeText(shareText)
             .then(() => alert('¡Contenido copiado al portapapeles!'))
