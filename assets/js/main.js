@@ -1,3 +1,7 @@
+function getBasePath() {
+    return window.location.pathname.replace(/\/[^/]*$/, '/');
+}
+
 function getCurrentWeekPildora(pildoras) {
     // Verificar si hay una fecha en la URL
     const urlParams = new URLSearchParams(window.location.search);
@@ -10,6 +14,7 @@ function getCurrentWeekPildora(pildoras) {
             // Mostrar el enlace "Ver todas" y ocultar la búsqueda
             document.getElementById('searchContainer').classList.add('d-none');
             document.getElementById('viewAllContainer').classList.remove('d-none');
+            document.querySelector('#viewAllContainer a').href = getBasePath();
             // Filtrar el array para que solo contenga esta píldora
             pildoras.length = 0;
             pildoras.push(pildora);
@@ -51,7 +56,7 @@ function sharePildora(date) {
 function updateMetaTags(pildora) {
     if (!pildora) return;
 
-    const baseUrl = window.location.origin + window.location.pathname;
+    const baseUrl = window.location.origin + getBasePath();
     const imageUrl = baseUrl + 'images/' + pildora.image;
 
     document.querySelector('meta[property="og:title"]').setAttribute('content', 'Píldora Formativa del ' + pildora.date);
@@ -87,7 +92,7 @@ async function loadPildoras() {
                             <div class="text-muted small mb-2">${new Date(pildora.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
                             <div class="card-text">${marked.parse(pildora.description)}</div>
                             <div class="d-flex justify-content-between mt-3">
-                                <a href="?date=${pildora.date}" class="btn btn-primary">Ver píldora</a>
+                                <a href="${getBasePath()}?date=${pildora.date}" class="btn btn-primary">Ver píldora</a>
                                 ${pildora.url ? `<a href="${pildora.url}" class="btn btn-secondary" target="_blank">Visitar enlace</a>` : ''}
                                 <button class="btn btn-outline-secondary" onclick="sharePildora('${pildora.date}')">
                                     <i class="bi bi-share"></i> Compartir
