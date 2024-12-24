@@ -661,7 +661,7 @@ pildoras:
       🌱, es ideal para explorar la evolución de la comida. Descúbrela en foodtimeline.org.
       ¡Feliz viernes y buen provecho! 😊
 
-  - date: 2025-01-10
+  - date: '2025-01-10'
     image: "2025-01-10.jpg"
     url: https://timeywimey.co
     description: |
@@ -675,17 +675,17 @@ pildoras:
 
 
 
-  - date: 2025-01-17
+  - date: '2025-01-17'
     image: "2025-01-17.jpg"
     url: https://bgrins.github.io/browser-diff/
     description: "En la píldora formativa de hoy viernes, https://bgrins.github.io/browser-diff/ ✏️ es una herramienta que compara texto línea por línea, destacando diferencias de manera visual. Ideal para revisar cambios en código o documentos."
 
-  - date: 2025-01-24
+  - date: '2025-01-24'
     image: "2025-01-24.jpg"
     url: https://templatemaker.nl
     description: "En la píldora formativa de hoy viernes, templatemaker.nl es una web para crear plantillas personalizadas de cajas y envoltorios. Solo introduces las medidas, descargas el diseño en PDF y ¡a cortar y montar! Perfecto para proyectos DIY o embalajes únicos."
 
-  - date: 2025-01-31
+  - date: '2025-01-31'
     image: "2025-01-31.jpg"
     url: https://play.google.com/store/apps/details?id=org.rnazarevych.shaketorch
     description: "En la píldora formativa de hoy viernes, Shake Torch 🔦 es una app sencilla y práctica para Android que enciende la linterna de tu móvil con solo agitarlo. Ideal para emergencias o cuando necesitas luz rápidamente. Descárgala en Google Play: https://play.google.com/store/apps/details?id=org.rnazarevych.shaketorch"
