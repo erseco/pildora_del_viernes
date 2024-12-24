@@ -127,8 +127,15 @@ async function loadPildoras() {
         const container = document.getElementById('pildorasContainer');
         const searchInput = document.getElementById('searchInput');
         
+        function highlightText(text, searchTerm) {
+            if (!searchTerm) return text;
+            const regex = new RegExp(`(${searchTerm})`, 'gi');
+            return text.replace(regex, '<mark>$1</mark>');
+        }
+
         function renderPildoras(pildoras) {
             container.innerHTML = '';
+            const searchTerm = searchInput.value.toLowerCase();
             // Actualizar contador
             document.getElementById('pildoraCount').textContent = `${pildoras.length} de ${data.pildoras.length}`;
             pildoras.forEach(pildora => {
