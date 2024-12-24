@@ -8,7 +8,7 @@ function getCurrentWeekPildora(pildoras) {
     const dateParam = urlParams.get('date');
     
     if (dateParam) {
-        // Si hay fecha en la URL, mostrar solo esa píldora
+        // Si hay fecha en la URL, mostrar esa píldora independientemente de la fecha
         const pildora = pildoras.find(p => p.date === dateParam);
         if (pildora) {
             // Mostrar el enlace "Ver todas" y ocultar la búsqueda
