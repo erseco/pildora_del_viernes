@@ -75,12 +75,12 @@ async function loadPildoras() {
                 card.className = 'col-md-6 col-lg-4 mb-4';
                 card.innerHTML = `
                     <div class="card h-100 shadow-sm">
-                        <img src="images/${pildora.image}" class="card-img-top" alt="Píldora del ${pildora.date}">
+                        ${pildora.image ? `<img src="images/${pildora.image}" class="card-img-top" alt="Píldora del ${pildora.date}">` : ''}
                         <div class="card-body">
                             <div class="text-muted small mb-2">${new Date(pildora.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
                             <div class="card-text">${marked.parse(pildora.description)}</div>
                             <div class="d-flex justify-content-between mt-3">
-                                <a href="${pildora.url}" class="btn btn-primary" target="_blank">Visitar</a>
+                                ${pildora.url ? `<a href="${pildora.url}" class="btn btn-primary" target="_blank">Visitar</a>` : ''}
                                 <button class="btn btn-outline-secondary" onclick="sharePildora('${pildora.date}')">
                                     <i class="bi bi-share"></i> Compartir
                                 </button>
