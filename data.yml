@@ -9,10 +9,10 @@ pildoras:
       y espero que les sea útil!'
   - date: '2023-05-19'
     image: 2023-05-19.jpg
-    url: null
+    url: https://qr.ernesto.es
     description: |
       En la píldora formativa
-      de hoy viernes: En qr.ernesto.es tienen un generador de códigos QR simple, seguro
+      de hoy viernes: En [qr.ernesto.es](https://qr.ernesto.es) tienen un generador de códigos QR simple, seguro
       y _sin dinosaurios_. No recopila información personal ni utiliza cookies. Además,
       es capaz de extraer la primera URL de un bloque de texto, ideal para sacar la
       URL de un código embebido. Un saludo y espero que les sea útil!'
@@ -108,10 +108,10 @@ pildoras:
       útil!
   - date: '2023-10-27'
     image: 2023-10-27.jpg
-    url: null
+    url: https://qwertytiles.github.io
     description: |
       En la píldora formativa de
-      hoy viernes, QuertyTiles (qwertytiles.github.io) es un juego sencillo pero adictivo
+      hoy viernes, QuertyTiles ([qwertytiles.github.io](https://qwertytiles.github.io)) es un juego sencillo pero adictivo
       donde el objetivo es pulsar las letras que aparecen en pantalla antes de que lleguen
       a la parte inferior. A medida que aciertas, el juego se acelera, poniendo a prueba
       tus habilidades de mecanografía. La clave para avanzar es teclear sin mirar el
@@ -132,10 +132,10 @@ pildoras:
       resto. Un saludo y espero que les sea útil!
   - date: '2023-11-10'
     image: null
-    url: null
+    url: https://flexboxfroggy.com
     description: VID-20231110-WA0002.mp4 (archivo adjunto) En la píldora formativa de
       hoy viernes, Seguro que alguna vez se han sentido como en el GIF. Por ello, aquí
-      tienen flexboxfroggy.com, un juego para aprender CSS moviendo a una rana hacia
+      tienen [flexboxfroggy.com](https://flexboxfroggy.com), un juego para aprender CSS moviendo a una rana hacia
       su nenúfar mientras van comprendiendo cómo funciona el posicionamiento de elementos
       en CSS. Un saludo y espero que les sea útil! 12/11/23, 9:36 - Cambió tu código
       de seguridad con Jesús CEP La Laguna. Toca para obtener más información.
@@ -157,10 +157,10 @@ pildoras:
       información.
   - date: '2023-11-24'
     image: 2023-11-24.jpg
-    url: null
+    url: https://whatcms.org
     description: |
       En la píldora formativa de
-      hoy viernes, whatcms.org es una herramienta esencial para hacer *OSINT*. ¿Alguna
+      hoy viernes, [whatcms.org](https://whatcms.org) es una herramienta esencial para hacer *OSINT*. ¿Alguna
       vez te has preguntado qué sistema de gestión de contenidos (CMS) o tecnología
       utiliza un sitio web específico? WhatCMS.org le da la respuesta. Simplemente ingrese
       la URL del sitio que le interese, y esta plataforma le revelará qué CMS está detrás,
