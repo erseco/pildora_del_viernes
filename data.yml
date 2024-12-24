@@ -418,10 +418,10 @@ pildoras:
       les sea útil!
   - date: '2024-05-17'
     image: 2024-05-17.jpg
-    url: null
+    url: https://excalidraw.com
     description: |
       En la píldora formativa de
-      hoy viernes, excalidraw.com es una herramienta de pizarra colaborativa de código
+      hoy viernes, [excalidraw.com](https://excalidraw.com) es una herramienta de pizarra colaborativa de código
       abierto que permite a los usuarios dibujar diagramas y esquemas de forma sencilla,
       ideal para colaborar visualmente en tiempo real. Un punto a destacar es que no
       requiere registro. Además, integra funciones de inteligencia artificial para generar
@@ -443,7 +443,7 @@ pildoras:
       procesos más fácilmente. Un saludo y espero que les sea útil!
   - date: '2024-06-07'
     image: 2024-06-07.jpg
-    url: null
+    url: https://simplelogin.io
     description: |
       En la píldora formativa
       de hoy viernes,  [simplelogin.io](https://simplelogin.io) es una herramienta que te permite crear alias
@@ -469,7 +469,7 @@ pildoras:
       obtener más información.
   - date: '2024-06-21'
     image: 2024-06-21.jpg
-    url: null
+    url: https://whitescreen.online
     description: |
       En la píldora formativa de
       hoy  viernes y última de este curso, whitescreen.online es una herramienta simple
@@ -495,7 +495,7 @@ pildoras:
       TIC 23_24 😊" a "Asesorías TIC 24_25 😊".
   - date: '2024-09-13'
     image: 2024-09-13.jpg
-    url: null
+    url: https://merklemap.com
     description: |
       En la píldora formativa
       de hoy viernes: merklemap.com es una interesante herramienta para la búsqueda
@@ -508,7 +508,7 @@ pildoras:
       Un saludo y espero que les sea útil!'
   - date: '2024-09-20'
     image: 2024-09-20.jpg
-    url: null
+    url: https://tapedeck.org
     description: |
       En la píldora formativa
       de hoy viernes: *tapedeck.org* es una fascinante colección de cintas de casete
@@ -522,7 +522,7 @@ pildoras:
       con un boli Bic cuando se atascaba. Un saludo y espero que les sea útil!'
   - date: '2024-09-27'
     image: 2024-09-27.jpg
-    url: null
+    url: https://LearningML.org
     description: |
       En la píldora formativa
       de hoy viernes: *LearningML.org* es una plataforma educativa diseñada para enseñar
@@ -535,7 +535,7 @@ pildoras:
       ejemplos y ejercicios visuales. Un saludo y espero que les sea útil!'
   - date: '2024-10-04'
     image: 2024-10-04.jpg
-    url: null
+    url: https://Mail-tester.com
     description: |
       En la píldora formativa
       de hoy viernes: *Mail-tester.com* es una herramienta sencilla y eficaz para verificar
