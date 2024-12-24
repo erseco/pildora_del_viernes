@@ -100,18 +100,35 @@ async function loadPildoras() {
             });
         }
 
-        renderPildoras(data.pildoras);
+        function filterPildoras() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const showFuture = document.getElementById('showFutureCheck').checked;
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
 
-        searchInput.addEventListener('input', (e) => {
-            const searchTerm = e.target.value.toLowerCase();
-            const filteredPildoras = data.pildoras.filter(pildora => 
-                pildora.description.toLowerCase().includes(searchTerm) ||
-                String(pildora.date).includes(searchTerm) ||
-                pildora.url.toLowerCase().includes(searchTerm) ||
-                marked.parse(pildora.description).toLowerCase().includes(searchTerm)
-            );
+            const filteredPildoras = data.pildoras.filter(pildora => {
+                const pildoraDate = new Date(pildora.date);
+                const isInFuture = pildoraDate > today;
+                
+                if (!showFuture && isInFuture) {
+                    return false;
+                }
+
+                return pildora.description.toLowerCase().includes(searchTerm) ||
+                       String(pildora.date).includes(searchTerm) ||
+                       (pildora.url && pildora.url.toLowerCase().includes(searchTerm)) ||
+                       marked.parse(pildora.description).toLowerCase().includes(searchTerm);
+            });
+            
             renderPildoras(filteredPildoras);
-        });
+        }
+
+        // Aplicar filtros iniciales
+        filterPildoras();
+
+        // Eventos para búsqueda y checkbox
+        searchInput.addEventListener('input', filterPildoras);
+        document.getElementById('showFutureCheck').addEventListener('change', filterPildoras);
 
     } catch (error) {
         console.error('Error loading data:', error);
