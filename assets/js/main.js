@@ -100,6 +100,8 @@ async function loadPildoras() {
         
         function renderPildoras(pildoras) {
             container.innerHTML = '';
+            // Actualizar contador
+            document.getElementById('pildoraCount').textContent = `${pildoras.length} de ${data.pildoras.length}`;
             pildoras.forEach(pildora => {
                 const card = document.createElement('div');
                 card.className = 'col-md-6 col-lg-4 mb-4';
