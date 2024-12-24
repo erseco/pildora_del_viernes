@@ -56,18 +56,39 @@ function sharePildora(date) {
     const shareText = `Píldora formativa del ${formattedDate}:\n\n${pildora.description}\n\nVer más en: ${shareUrl}`;
     
     if (navigator.share) {
-        // Compartir sin archivos, solo texto y URL
-        navigator.share({
+        // Preparar objeto de compartir
+        const shareData = {
             title: `Píldora Formativa del ${formattedDate}`,
             text: shareText,
             url: shareUrl
-        }).catch(error => {
-            console.error('Error al compartir:', error);
-            // Si falla, copiar al portapapeles como fallback
-            navigator.clipboard.writeText(shareText)
-                .then(() => alert('¡Contenido copiado al portapapeles!'))
-                .catch(console.error);
-        });
+        };
+
+        // Si hay imagen, añadirla al objeto de compartir
+        if (pildora.image) {
+            fetch(imageUrl)
+                .then(response => response.blob())
+                .then(blob => {
+                    shareData.files = [
+                        new File([blob], pildora.image, { type: 'image/jpeg' })
+                    ];
+                    return navigator.share(shareData);
+                })
+                .catch(error => {
+                    console.error('Error al compartir con imagen:', error);
+                    // Intentar compartir sin imagen
+                    navigator.share(shareData);
+                });
+        } else {
+            // Compartir sin imagen
+            navigator.share(shareData)
+                .catch(error => {
+                    console.error('Error al compartir:', error);
+                    // Si falla, copiar al portapapeles como fallback
+                    navigator.clipboard.writeText(shareText)
+                        .then(() => alert('¡Contenido copiado al portapapeles!'))
+                        .catch(console.error);
+                });
+        }
     } else {
         navigator.clipboard.writeText(shareText)
             .then(() => alert('¡Contenido copiado al portapapeles!'))
