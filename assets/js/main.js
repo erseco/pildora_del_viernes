@@ -138,8 +138,8 @@ async function loadPildoras() {
                     <div class="card h-100 shadow-sm">
                         ${pildora.image ? `<img src="images/${pildora.image}" class="card-img-top" alt="Píldora del ${pildora.date}">` : ''}
                         <div class="card-body">
-                            <div class="text-muted small mb-2">${new Date(pildora.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
-                            <div class="card-text">${marked.parse(pildora.description)}</div>
+                            <div class="text-muted small mb-2">${highlightText(new Date(pildora.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }), searchTerm)}</div>
+                            <div class="card-text">${marked.parse(highlightText(pildora.description, searchTerm))}</div>
                             <div class="d-flex justify-content-between mt-3">
                                 <a href="${getBasePath()}?date=${pildora.date}" class="btn btn-primary">Ver píldora</a>
                                 ${pildora.url ? `<a href="${pildora.url}" class="btn btn-secondary" target="_blank">Visitar enlace</a>` : ''}
