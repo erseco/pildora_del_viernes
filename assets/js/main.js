@@ -38,17 +38,33 @@ function getCurrentWeekPildora(pildoras) {
 }
 
 function sharePildora(date) {
-    const shareUrl = `${window.location.origin}${window.location.pathname}?date=${date}`;
+    // Encontrar la píldora correspondiente
+    const pildora = window.pildorasData.pildoras.find(p => p.date === date);
+    if (!pildora) return;
+
+    const baseUrl = window.location.origin + getBasePath();
+    const shareUrl = `${baseUrl}?date=${date}`;
+    const imageUrl = pildora.image ? `${baseUrl}images/${pildora.image}` : '';
+    
+    // Preparar el texto a compartir
+    const formattedDate = new Date(pildora.date).toLocaleDateString('es-ES', { 
+        day: 'numeric', 
+        month: 'long', 
+        year: 'numeric' 
+    });
+    
+    const shareText = `Píldora formativa del ${formattedDate}:\n\n${pildora.description}\n\nVer más en: ${shareUrl}`;
     
     if (navigator.share) {
         navigator.share({
-            title: 'Píldora Formativa',
-            text: 'Mira esta píldora formativa',
-            url: shareUrl
+            title: `Píldora Formativa del ${formattedDate}`,
+            text: shareText,
+            url: shareUrl,
+            ...(imageUrl && { files: [imageUrl] })
         }).catch(console.error);
     } else {
-        navigator.clipboard.writeText(shareUrl)
-            .then(() => alert('¡Enlace copiado al portapapeles!'))
+        navigator.clipboard.writeText(shareText)
+            .then(() => alert('¡Contenido copiado al portapapeles!'))
             .catch(console.error);
     }
 }
@@ -70,6 +86,8 @@ async function loadPildoras() {
         const response = await fetch('data.yml');
         const yamlText = await response.text();
         const data = jsyaml.load(yamlText);
+        // Guardar los datos globalmente para acceder desde otras funciones
+        window.pildorasData = data;
         
         // Ordenar las píldoras por fecha (más recientes primero)
         data.pildoras.sort((a, b) => new Date(b.date) - new Date(a.date));
