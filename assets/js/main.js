@@ -131,9 +131,10 @@ async function loadPildoras() {
             });
         }
 
+        let showFuture = false;
+
         function filterPildoras() {
             const searchTerm = searchInput.value.toLowerCase();
-            const showFuture = document.getElementById('showFutureCheck').checked;
             const today = new Date();
             today.setHours(0, 0, 0, 0);
 
@@ -154,12 +155,26 @@ async function loadPildoras() {
             renderPildoras(filteredPildoras);
         }
 
+        // Eventos para tecla Alt
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Alt') {
+                showFuture = true;
+                filterPildoras();
+            }
+        });
+
+        document.addEventListener('keyup', function(event) {
+            if (event.key === 'Alt') {
+                showFuture = false;
+                filterPildoras();
+            }
+        });
+
         // Aplicar filtros iniciales
         filterPildoras();
 
-        // Eventos para búsqueda y checkbox
+        // Evento para búsqueda
         searchInput.addEventListener('input', filterPildoras);
-        document.getElementById('showFutureCheck').addEventListener('change', filterPildoras);
 
     } catch (error) {
         console.error('Error loading data:', error);
