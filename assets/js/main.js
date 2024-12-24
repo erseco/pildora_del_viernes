@@ -7,11 +7,18 @@ function getCurrentWeekPildora(pildoras) {
         // Si hay fecha en la URL, mostrar solo esa píldora
         const pildora = pildoras.find(p => p.date === dateParam);
         if (pildora) {
+            // Mostrar el enlace "Ver todas" y ocultar la búsqueda
+            document.getElementById('searchContainer').classList.add('d-none');
+            document.getElementById('viewAllContainer').classList.remove('d-none');
             // Filtrar el array para que solo contenga esta píldora
             pildoras.length = 0;
             pildoras.push(pildora);
             return pildora;
         }
+    } else {
+        // Si no hay fecha en la URL, mostrar la búsqueda y ocultar "Ver todas"
+        document.getElementById('searchContainer').classList.remove('d-none');
+        document.getElementById('viewAllContainer').classList.add('d-none');
     }
     
     // Si no hay fecha en la URL o no es válida, mostrar todas y resaltar la actual

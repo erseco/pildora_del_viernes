@@ -18,7 +18,7 @@
     <div class="container py-4">
         <h1 class="text-center mb-4">Píldoras Formativas</h1>
         <div class="row justify-content-center mb-4">
-            <div class="col-md-6">
+            <div class="col-md-6" id="searchContainer">
                 <div class="input-group">
                     <input type="text" id="searchInput" class="form-control" placeholder="Buscar píldoras...">
                     <div class="input-group-append ms-2">
@@ -30,6 +30,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6 text-center d-none" id="viewAllContainer">
+                <a href="/" class="btn btn-primary">Ver todas las píldoras</a>
             </div>
         </div>
         <div class="row" id="pildorasContainer">
