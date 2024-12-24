@@ -19,7 +19,17 @@
         <h1 class="text-center mb-4">Píldoras Formativas</h1>
         <div class="row justify-content-center mb-4">
             <div class="col-md-6">
-                <input type="text" id="searchInput" class="form-control" placeholder="Buscar píldoras...">
+                <div class="input-group">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Buscar píldoras...">
+                    <div class="input-group-append ms-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="showFutureCheck">
+                            <label class="form-check-label" for="showFutureCheck">
+                                Mostrar futuras
+                            </label>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row" id="pildorasContainer">
