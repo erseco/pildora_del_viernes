@@ -1,6 +1,14 @@
 pildoras:
 
-  
+  - date: '2021-06-04'
+    image: null
+    url: https://chrome.google.com/webstore/detail/google-meet-pip/ibkkdnfblcekolaagnljieekcaccfpjo
+    description: Buenos días! En la pildora formativa del viernes les presento la extensión
+      "Google Meet PiP", que sirve para mostrar al participante de una videoconferencia
+      como ventana emergente, así puedes ver la cara de participante mientras estas en
+      otra pestaña, ideal para cuando no tenéis disponible dos monitores, espero que
+      os sea útil :)
+
   - date: '2021-06-11'
     image: null
     url: null
