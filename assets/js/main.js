@@ -1,3 +1,5 @@
+console.log("Freddy, ¿que haces mirando aquí? ¯\\_(ツ)_/¯");
+
 function getBasePath() {
     return window.location.pathname.replace(/\/[^/]*$/, '/');
 }
