@@ -1,5 +1,244 @@
 pildoras:
 
+  
+  - date: '2021-06-11'
+    image: null
+    url: null
+    description: Buenos días! En la píldora formativa del viernes les informo de algo
+      que muy poca gente conoce. Desde 2013 Microsoft Word permite convertir PDFs a
+      formato editable, para ello simplemente deben abrir un PDF se hará la magia. Si
+      desean realizar lo mismo con software libre pueden usar LibreOffice Draw aunque
+      el procedimiento es algo más rudimentario, espero que les sea útil :)
+  - date: '2021-06-18'
+    image: null
+    url: https://www.photopea.com
+    description: Buenos días! En la píldora formativa del viernes les traigo un clon
+      full-featured de Photoshop completamente online y gratuito, ideal para usarlo
+      en Chromebooks https://www.photopea.com además, como píldora adicional les presento
+      el editor de video también online y gratuito https://mastershot.app espero que
+      les sean útiles :)
+  - date: '2021-06-25'
+    image: null
+    url: https://play.google.com/store/apps/details?id=it.mirko.transcriber
+    description: En la píldora formativa de hoy viernes les traigo la aplicación Transcriber
+      que permite convertir a texto esos interminables audios de WhatsApp. Simplemente
+      comparte el audio con la App y verás en un hermoso y práctico texto plano esos
+      12 minutos de divagaciones que te envían sin contemplaciones, espero que les sea
+      útil! https://play.google.com/store/apps/details?id=it.mirko.transcriber
+  - date: '2021-07-02'
+    image: null
+    url: https://visualping.io/
+    description: En la píldora formativa de hoy viernes (última de la temporada) les
+      traigo la aplicación Visualping https://visualping.io/ que permite monitorizar
+      cuando una web sufre una modificación, puede hacer la comparacion de forma visual
+      o del texto contenido. Espero que les sea útil!
+  - date: '2021-09-24'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Si necesitan  direcciones
+      de correo adicionales pueden agregar un más (+) y cualquier palabra antes de la
+      @ en su dirección de correo. Los mensajes les llegarán y tendrán una cantidad
+      infinita de correos electrónicos “virtuales” para diferentes propósitos. Por ejemplo
+      puedo usar la dirección esercol+evagd@canariaseducacion.es para recibir los correos
+      de EVAGD y poder aplicarles un filtro. Este “truco” es compatible tanto con cuentas
+      gmail.com como con las cuentas canariaseducacion.es, espero que les sea útil!'
+  - date: '2021-10-01'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Desde hace tiempo podemos
+      hacer búsquedas semánticas en Google. Su algoritmo es capaz de "entender" lo que
+      le decimos y buscar en consecuencia, aunque las palabras que introduzcamos no
+      estén en el resultado. Pueden ver un ejemplo buscando: *esa película donde no
+      nacen niños* obtendrán una película que no tiene en su título ninguna de las _keywords_
+      introducidas. Todavía falta un poquito para que al buscar *cuál es la canción
+      que ponen siempre en las verbenas* nos devuelva *marejada* pero tiempo al tiempo.
+      Espero que les sea útil!'
+  - date: '2021-10-04'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Si necesitan  direcciones
+      de correo adicionales pueden agregar un más (+) y cualquier palabra antes de la
+      @ en su dirección de correo. Los mensajes les llegarán y tendrán una cantidad
+      infinita de correos electrónicos “virtuales” para diferentes propósitos. Por ejemplo
+      puedo usar la dirección esercol+evagd@canariaseducacion.es para recibir los correos
+      de EVAGD y poder aplicarles un filtro. Este “truco” es compatible tanto con cuentas
+      gmail.com como con las cuentas canariaseducacion.es, espero que les sea útil!'
+  - date: '2021-10-08'
+    image: null
+    url: https://play.google.com/store/apps/details?id=com.alexandershtanko.androidtelegrambot
+    description: 'En la píldora formativa de hoy viernes: *RemoteBot* es un bot de Telegram
+      que les permite controlar su celular. Yo lo utilizo para redirigir a Telegram
+      los *SMS* recibidos, así copio los códigos del *2º factor de autenticación* desde
+      el PC de forma sencilla. https://play.google.com/store/apps/details?id=com.alexandershtanko.androidtelegrambot
+      Espero que les sea útil!'
+  - date: '2021-10-15'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: acuérdense de redactar un
+      *asunto descriptivo* cuando abran una incidencia al CAUCE, les ayudará a identificarla
+      en el futuro. A mí me resulta especialmente útil cuando tengo varios tickets abiertos.
+      Espero que les sea útil!'
+  - date: '2021-10-29'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden comprobar archivos
+      sospechososmediante la herramienta de Googlevirustotal.comA mi me resulta muy
+      útil para analizar archivos de _dudosa procedencia_. Espero que les sea útil!'
+  - date: '2021-11-05'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Con screenmirrorapp.com, pueden
+      *reflejar la pantalla de su celular*  y acceder a ella del navegador de cualquier
+      dispositivo de su red Wi-Fi. Espero que les sea útil!'
+  - date: '2021-11-26'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Para cuando tengan que _desdoblarse_
+      y estar en dos videoconferencias simultáneas un buen truco es silenciar una de
+      las dos con la extensión *MuteTab* y activar los subtítulos con el botón *CC*.
+      Espero que les sea útil!'
+  - date: '2021-12-03'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden crear códigos de reunión
+      personalizados en Google Meet, para ello entre en meet.google.com, introduzca
+      un texto personalizado y haga click en *_Unirme_*. Luego comparta ese mismo código
+      con quien quiera. Espero que les sea útil!'
+  - date: '2021-12-10'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: librivox.org es una colección
+      de más de *700* audiolibros en español y más de 36.000 en inglés y otros idiomas.
+      Una especie de Proyecto Gutenberg pero en audio. Las lecturas las hacen personas
+      voluntarias, pero la calidad es _razonablemente_ buena. _Las grabaciones son de
+      dominio público en EEUU, verifiquen los derechos de autor aplicables antes de
+      descargarlas!_. Espero que les sea útil!'
+  - date: '2021-12-17'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden saltarse los muros
+      de pago de algunos periódicos y sitios web abriéndolos en una ventana de incógnito,
+      pero también puede instalar (de forma manual) la extensión *bypass-paywalls-chrome*.
+      Espero que les sea útil!'
+  - date: '2022-02-11'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: El modo oscuro se ha convertido
+      en algo estándar ya para casi todo. Sin embargo, muchas páginas web no lo soportan
+      aún. Con Chrome *puedesforzar el modo oscuro incluso de las webs*que no lo tienen.
+      Para ello, haz lo siguiente: * En Chrome, escribe en la URL *chrome://flags* *
+      Busca *Auto Dark Mode* * Selecciona *Enabled* del desplegable Espero que les sea
+      útil!'
+  - date: '2022-02-18'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Poca gente lo sabe, pero*la
+      mayoría de los navegadoresimplementan un atajo de teclado* (Ctrl + Mayúsc + V)
+      (⌘+⇧+ v en Mac)que elimina el formato del texto al pegarlo. De modo que puedes
+      recurrir a este truco para realizar_copy&paste_en un documento de Google Docs
+      o en cualquier otra aplicación de edición de textos online. Espero que les sea
+      útil!'
+  - date: '2022-02-25'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden enviar un WhatsApp
+      sin necesidad de agregar el número a la agenda. Simplemente acceda a la URL *wa.me/34666000111*
+      donde 34 es el código del país (+34 de España) seguido del número de teléfono
+      al que le desean enviar el mensaje. Espero que les sea útil!'
+  - date: '2022-03-04'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden utilizar Google Meet
+      para practicar su pronunciación en cualquier idioma, simplemente activen los subtítulos
+      y elijan el idioma a practicar, si el algoritmo es capaz de entenderles es muy
+      posible que un interlocutor también lo sea. Happy training. Espero que les sea
+      útil!'
+  - date: '2022-03-18'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Tienen un útil diccionario
+      de sinónimos disponible en Google Docs, simplemente seleccionen una palabra y
+      en el menú contextual hagan clic en *“Definir”*. También está disponible en Microsoft
+      Word (*Mayúsculas + F7*), en LibreOffice (*Ctrl + F7*) y en nube_Medusa (*Extensiones
+      -> Tesauro*). Espero que les sea útil!'
+  - date: '2022-03-25'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Si utilizas la letra *eñe
+      (ñ)* como una de las letras de tus contraseñas, además de aumentar la *entropía*,
+      evitarás que la mayoría de los  programas de _crackeo_ de contraseñas que utilizan
+      la *fuerza bruta* puedan romperla. Espero que les sea útil!'
+  - date: '2022-04-08'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: existe una abreviatura muy
+      útil para quien esté todo el día comprobando palabras, consiste en teclear directamente
+      la dirección corta*dle.rae.es/palabra*en el navegador. Esto realizará la búsqueda
+      automáticamente y es mucho más fácil de recordar y teclear. Por ejemplo:*dle.rae.es/almóndiga*.
+      Espero que les sea útil!'
+  - date: '2022-04-22'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: _el 90% de la gente no sabe
+      buscar texto en la web_: simplemente leen y leen hasta dar con lo que buscan.
+      Esta técnica es probable que la conozcan. Pulsar*Ctrl+F*(Win/Linux) o*⌘+F*(Mac).
+      Aparecerá el recuadro de búsqueda donde podrán teclear el texto a buscar. Como
+      píldora adicional, con*Ctrl+G*(Win/Linux) o*⌘+G*(Mac) se puede repetir la búsqueda
+      varias veces si es necesario.  Espero que les sea útil!'
+  - date: '2022-04-29'
+    image: null
+    url: https://lookscanned.io
+    description: 'En la píldora formativa de hoy viernes: Si alguna vez lo necesitan,
+      pueden hacer que sus archivos PDF parezcan escaneados. Simplemente, súbanlo a
+      https://lookscanned.io , es una herramienta *“frontend pura”* que se ejecuta desde
+      el mismo navegador, por lo que la *privacidad está garantizada*. Ya no necesita
+      impresoras ni escáneres para ese estúpido requerimiento administrativo! Espero
+      que les sea útil!'
+  - date: '2022-05-06'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Suele ser _algo molesto_ que,
+      en mitad de una presentación, su equipo entre en modo suspensión, viéndose en
+      la obligación de mover el ratón para que se active con la consiguiente _pérdida
+      de concentración_ que ello supone. Para evitarlo pueden hacer uso de utilidades
+      como *Caffeine* paraWindowsyLinuxo*Amphetamine* paramacOS. Espero que les sea
+      útil!'
+  - date: '2022-06-10'
+    image: null
+    url: https://feed43.com/1070402418282527.xml
+    description: 'En la píldora formativa de hoy viernes: La nueva web del Gobierno
+      de Canarias no genera un feed rss con las últimas novedades, pero se puede generar
+      automáticamente con herramientas como *feed43*. Aquí tienen un feed que he generado
+      que les devolverá las últimas publicaciones: https://feed43.com/1070402418282527.xml
+      Espero que les sea útil!'
+  - date: '2022-09-02'
+    image: null
+    url: https://www.genbeta.com/desarrollo/programar-infancia-5-lenguajes-programacion-perfectos-para-ninos-que-tambien-esta-python
+    description: 'En la píldora formativa de hoy viernes: De cara a la inminente celebración
+      de "la hora del código" aquí tienen una selección de 5 lenguajes de programación
+      perfectos para iniciar a nuestro alumnado https://www.genbeta.com/desarrollo/programar-infancia-5-lenguajes-programacion-perfectos-para-ninos-que-tambien-esta-python
+      Espero que les sea útil!'
+  - date: '2022-11-04'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: ¿Recuerdan esos largos contratos
+      de software que nadie lee? hace una década, medio de cachondeo medio en serio
+      una compañía incluyó en la licencia un «premio sorpresa» de 1.000 dólares para
+      la primera persona que lo reclamara; su intención era hacer una comprobación empírica
+      del asunto. Según explican pasaron cinco meses y tuvieron que vender 3.000 paquetes
+      de software hasta que alguien reclamara el premio. La compañía se llama PC Pitstop
+      y se dedica al software de seguridad. Un saludo y espero que les sea útil!'
+  - date: '2023-02-17'
+    image: null
+    url: http://eli5.gg
+    description: 'En la píldora formativa de hoy viernes, dedicada a @34637426472 ,
+      que le va a hacer falta en breve:  La frase _«explícamelo como si tuviera 5 años»_
+      es una forma divertida para pedir a alguien que te explique algo complejo de forma
+      sencilla. Pueden usar la IA http://eli5.gg para obtener estas explicaciones. Lo
+      malo que de momento solo funciona en inglés. Un saludo y espero que les sea útil!'
+  
+
+
   - date: '2023-05-12'
     image: null
     url: https://app.colorpop.ai/
