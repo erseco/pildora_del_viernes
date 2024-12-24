@@ -80,13 +80,13 @@ pildoras:
       Espero que les sea útil!'
   - date: '2021-10-29'
     image: null
-    url: null
+    url: https://virustotal.com
     description: 'En la píldora formativa de hoy viernes: Pueden comprobar archivos
-      sospechososmediante la herramienta de Googlevirustotal.comA mi me resulta muy
+      sospechososmediante la herramienta de Google virustotal.com A mi me resulta muy
       útil para analizar archivos de _dudosa procedencia_. Espero que les sea útil!'
   - date: '2021-11-05'
     image: null
-    url: null
+    url: https://screenmirrorapp.com
     description: 'En la píldora formativa de hoy viernes: Con screenmirrorapp.com, pueden
       *reflejar la pantalla de su celular*  y acceder a ella del navegador de cualquier
       dispositivo de su red Wi-Fi. Espero que les sea útil!'
@@ -99,14 +99,14 @@ pildoras:
       Espero que les sea útil!'
   - date: '2021-12-03'
     image: null
-    url: null
+    url: https://meet.google.com
     description: 'En la píldora formativa de hoy viernes: Pueden crear códigos de reunión
       personalizados en Google Meet, para ello entre en meet.google.com, introduzca
       un texto personalizado y haga click en *_Unirme_*. Luego comparta ese mismo código
       con quien quiera. Espero que les sea útil!'
   - date: '2021-12-10'
     image: null
-    url: null
+    url: https://librivox.org
     description: 'En la píldora formativa de hoy viernes: librivox.org es una colección
       de más de *700* audiolibros en español y más de 36.000 en inglés y otros idiomas.
       Una especie de Proyecto Gutenberg pero en audio. Las lecturas las hacen personas
@@ -170,7 +170,7 @@ pildoras:
       la *fuerza bruta* puedan romperla. Espero que les sea útil!'
   - date: '2022-04-08'
     image: null
-    url: null
+    url: https://dle.rae.es/almóndiga
     description: 'En la píldora formativa de hoy viernes: existe una abreviatura muy
       útil para quien esté todo el día comprobando palabras, consiste en teclear directamente
       la dirección corta*dle.rae.es/palabra*en el navegador. Esto realizará la búsqueda
@@ -292,10 +292,10 @@ pildoras:
       Resultados curiosos con un poco de gracia y matemáticas. Un saludo y espero que
       les sea útil!
   - date: '2023-06-23'
-    image: null
+    image: 2023-06-23.gif
     url: https://www.autodraw.com
     description: |
-      VID-20230623-WA0008.mp4 (archivo adjunto) En la píldora formativa de hoy viernes, *y última del curso*: https://www.autodraw.com es una herramienta
+      En la píldora formativa de hoy viernes, *y última del curso*: https://www.autodraw.com es una herramienta
       de Google que permite dibujar objetos sencillos y *la IA adivina lo que intentas
       dibujar*, mostrando diversas opciones. Funciona tanto en ordenadores como en móviles.
       Puedes probarlo dibujando una torre Eiffel o una montaña. ¡Un saludo y disfruten
@@ -320,10 +320,10 @@ pildoras:
       contenido, y muchas otras aplicaciones. Sin duda, una herramienta práctica para
       tener a mano en diversas situaciones. Un saludo y espero que les sea útil!
   - date: '2023-10-13'
-    image: null
+    image: 2023-10-13.jpg
     url: null
     description: |
-      VID-20231013-WA0000.mp4 (archivo adjunto) En la píldora formativa de
+      En la píldora formativa de
       hoy viernes 13, les hablaré sobre el virus *"Viernes 13"*. Este es uno de los
       primeros virus informáticos que se propagó en la década de 1980. Se activaba específicamente
       el día viernes 13, dañando los discos duros de las computadoras infectadas. Aunque
@@ -366,10 +366,10 @@ pildoras:
       escribe una breve descripción de lo que deseas y ¡voilà! La IA se encargará del
       resto. Un saludo y espero que les sea útil!
   - date: '2023-11-10'
-    image: null
+    image: 2023-11-10.gif
     url: https://flexboxfroggy.com
     description: |
-      VID-20231110-WA0002.mp4 (archivo adjunto) En la píldora formativa de
+      En la píldora formativa de
       hoy viernes, Seguro que alguna vez se han sentido como en el GIF. Por ello, aquí
       tienen [flexboxfroggy.com](https://flexboxfroggy.com), un juego para aprender CSS moviendo a una rana hacia
       su nenúfar mientras van comprendiendo cómo funciona el posicionamiento de elementos
