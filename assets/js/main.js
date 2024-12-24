@@ -87,7 +87,8 @@ async function loadPildoras() {
                             <div class="text-muted small mb-2">${new Date(pildora.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</div>
                             <div class="card-text">${marked.parse(pildora.description)}</div>
                             <div class="d-flex justify-content-between mt-3">
-                                ${pildora.url ? `<a href="${pildora.url}" class="btn btn-primary" target="_blank">Visitar</a>` : ''}
+                                <a href="?date=${pildora.date}" class="btn btn-primary">Ver píldora</a>
+                                ${pildora.url ? `<a href="${pildora.url}" class="btn btn-secondary" target="_blank">Visitar enlace</a>` : ''}
                                 <button class="btn btn-outline-secondary" onclick="sharePildora('${pildora.date}')">
                                     <i class="bi bi-share"></i> Compartir
                                 </button>
