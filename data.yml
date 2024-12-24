@@ -10,7 +10,8 @@ pildoras:
   - date: '2023-05-19'
     image: 2023-05-19.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: En qr.ernesto.es tienen un generador de códigos QR simple, seguro
       y _sin dinosaurios_. No recopila información personal ni utiliza cookies. Además,
       es capaz de extraer la primera URL de un bloque de texto, ideal para sacar la
@@ -18,7 +19,8 @@ pildoras:
   - date: '2023-05-26'
     image: 2023-05-26.jpg
     url: https://riverside.fm/transcription
-    description: En la píldora _un poco tarde_
+    description: |
+      En la píldora _un poco tarde_
       formativa de hoy viernes: La herramienta https://riverside.fm/transcription convierte
       audio a texto fácilmente. Solo arrastra el archivo (MP3, WAV, MP4, MOV), indica
       el idioma y si la voz es humana o artificial. Tiene muy buen rendimiento incluso
@@ -27,7 +29,8 @@ pildoras:
   - date: '2023-06-02'
     image: 2023-06-02.jpg
     url: https://dreamInterpreter.ai
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: en https://dreamInterpreter.ai pueden encontrar una herramienta
       de IA que interpreta sueños. Escriban sobre su sueño y reciban una interpretación
       basada en simbología y contexto. Recuerden, interpretar sueños es inexacto y depende
@@ -35,7 +38,8 @@ pildoras:
   - date: '2023-06-09'
     image: 2023-06-09.jpg
     url: https://schemely.app
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: https://schemely.app es una herramienta de IA que agiliza la creación
       y organización de recursos docentes. Con la versión gratuita, obtienen 10 créditos
       de IA al mes para generar planes de lección, cuestionarios Kahoot, conjuntos de
@@ -45,7 +49,8 @@ pildoras:
   - date: '2023-06-16'
     image: 2023-06-16.jpg
     url: https://peel.fm
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: https://peel.fm es una caja de ritmos minimalista en el navegador.
       Tiene 11 sonidos de batería, 16 pasos, selector de velocidad y volumen, y puedes
       compartir y cargar patrones. Solo da clic en Reproducir y activa/desactiva casillas.
@@ -63,7 +68,8 @@ pildoras:
   - date: '2023-09-29'
     image: 2023-09-29.jpg
     url: https://scratch.mit.edu/
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: https://scratch.mit.edu/ es una plataforma diseñada para la programación
       creativa que no requiere registro del alumnado. Al concluir su proyecto en Scratch
       pueden descargarlo y, al retomar su trabajo, cargarlo nuevamente en la plataforma.
@@ -72,7 +78,8 @@ pildoras:
   - date: '2023-10-06'
     image: 2023-10-06.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, screeenly.com/try _(atención a las tres "e")_ es una herramienta
       que permite realizar capturas  en formato PNG de cualquier página web que indiquen.
       Es especialmente útil para verificar si un sitio web está activo, para documentar
@@ -91,7 +98,8 @@ pildoras:
   - date: '2023-10-20'
     image: null
     url: https://distill.io
-    description: En la píldora formativa de hoy viernes, https://distill.io es una herramienta
+    description: |
+      En la píldora formativa de hoy viernes, https://distill.io es una herramienta
       que automatiza el seguimiento de actualizaciones en sitios web. ¿Necesitas saber
       cuándo una página web cambia? Distill.io te permite seleccionar partes específicas
       de una página para monitorear y te notifica por email cuando hay cambios. Es útil
@@ -101,7 +109,8 @@ pildoras:
   - date: '2023-10-27'
     image: 2023-10-27.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, QuertyTiles (qwertytiles.github.io) es un juego sencillo pero adictivo
       donde el objetivo es pulsar las letras que aparecen en pantalla antes de que lleguen
       a la parte inferior. A medida que aciertas, el juego se acelera, poniendo a prueba
@@ -112,7 +121,8 @@ pildoras:
   - date: '2023-11-03'
     image: 2023-11-03.jpg
     url: https://emojis.sh
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, https://emojis.sh es una innovadora herramienta que utiliza inteligencia
       artificial para crear emojis personalizados a partir de descripciones textuales.
       Aunque no se pueden añadir emojis nuevos al estándar, esta web ofrece una excelente
@@ -132,7 +142,8 @@ pildoras:
   - date: '2023-11-17'
     image: 2023-11-17.jpg
     url: https://catalog.ngc.nvidia.com/orgs/nvidia/teams/ai-foundation/models/sdxl
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, StableDiffusion XL https://catalog.ngc.nvidia.com/orgs/nvidia/teams/ai-foundation/models/sdxl
       Esta herramienta de inteligencia artificial se ejecuta de manera gratuita y sin
       necesidad de registro en los servidores de NVIDIA, permitiendo generar imágenes
@@ -147,7 +158,8 @@ pildoras:
   - date: '2023-11-24'
     image: 2023-11-24.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, whatcms.org es una herramienta esencial para hacer *OSINT*. ¿Alguna
       vez te has preguntado qué sistema de gestión de contenidos (CMS) o tecnología
       utiliza un sitio web específico? WhatCMS.org le da la respuesta. Simplemente ingrese
@@ -158,7 +170,8 @@ pildoras:
   - date: '2023-12-01'
     image: 2023-12-01.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes, les traigo una herramienta muy útil para los usuarios de ChatGPT:
       chatgpt-prompt-splitter.jjdiaz.dev. Si alguna vez has tenido un texto largo que
       querías procesar con ChatGPT, pero te encontraste con la limitación de caracteres,
@@ -170,7 +183,8 @@ pildoras:
   - date: '2023-12-15'
     image: 2023-12-15.jpg
     url: https://f-droid.org/es/packages/at.bitfire.davdroid/
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes, les presento DAVx⁵, una aplicación para la sincronización de calendarios
       y contactos de la Nube Medusa para usuarios de Android. Aunque es de pago en Google
       Play, hay una buena noticia: ¡pueden obtenerla gratuitamente en F-Droid! https://f-droid.org/es/packages/at.bitfire.davdroid/
@@ -180,7 +194,8 @@ pildoras:
   - date: '2023-12-22'
     image: 2023-12-22.jpg
     url: https://chromewebstore.google.com/detail/sendhereplz-amazon-shippi/anpeeogkdbgkhakjldceemkolhggobhd
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes, les traigo una extensión de Chrome muy útil para los compradores
       en Canarias: https://chromewebstore.google.com/detail/sendhereplz-amazon-shippi/anpeeogkdbgkhakjldceemkolhggobhd
       Esta extensión es un salvavidas para evitar la frustración de elegir productos
@@ -192,7 +207,8 @@ pildoras:
   - date: '2024-01-12'
     image: 2024-01-12.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, les comparto un truco rápido para YouTube. ¿Quieren acelerar un vídeo
       a 2x en su PC o portátil? Simplemente mantengan pulsada la barra espaciadora durante
       la reproducción. También funciona manteniendo pulsado el botón izquierdo del ratón.
@@ -208,7 +224,8 @@ pildoras:
   - date: '2024-01-19'
     image: 2024-01-19.jpg
     url: https://github.com/pluja/awesome-privacy
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, les presento Awesome Privacy https://github.com/pluja/awesome-privacy
       , una lista en GitHub con alternativas respetuosas con la privacidad de servicios
       online comunes. Por ejemplo, sugiere usar NextCloud en lugar de Google Drive para
@@ -218,7 +235,8 @@ pildoras:
   - date: '2024-01-26'
     image: 2024-01-26.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, les presento EU Academy (academy.europa.eu), un portal de la Unión
       Europea que ofrece una amplia gama de cursos online gratuitos. Aquí, pueden encontrar
       formación en temas tan diversos como idiomas oficiales de la UE, energías renovables,
@@ -229,7 +247,8 @@ pildoras:
   - date: '2024-02-02'
     image: 2024-02-02.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, Tal día como hoy, _2 de febrero_, se celebra el *día de la marmota*,
       en el que la marmota Phil predecirá el final del invierno. Tradición originaria
       de Punxsutawney (Pensilvania), este día ha ganado popularidad gracias a la icónica
@@ -238,7 +257,8 @@ pildoras:
   - date: '2024-02-09'
     image: 2024-02-09.jpg
     url: https://geospy.web.app
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, https://geospy.web.app es una web que tiene la capacidad de localizar
       el origen de una fotografía basándose en elementos como la vegetación o la arquitectura.
       Al subir una imagen, GeoSpy la procesa en segundos y proporciona la ubicación
@@ -250,7 +270,8 @@ pildoras:
   - date: '2024-02-16'
     image: 2024-02-16.jpg
     url: https://github.com/z-huang/InnerTune
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, les presento  https://github.com/z-huang/InnerTune un cliente de
       YouTube Music para Android que sigue el diseño Material 3. Este proyecto de código
       abierto permite reproducir canciones de YouTube/YouTube Music sin anuncios, con
@@ -261,7 +282,8 @@ pildoras:
   - date: '2024-02-23'
     image: 2024-02-23.jpg
     url: https://mermaid.js.org/intro/
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, https://mermaid.js.org/intro/ es una herramienta que convierte texto
       en diagramas. Ideal para crear diagramas de flujo, gráficos Gantt y más, con una
       sintaxis simple. Perfecto para documentar visualmente. Pueden probarlo en mermaid.live
@@ -269,7 +291,8 @@ pildoras:
   - date: '2024-03-01'
     image: 2024-03-01.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes, un truco para escribir números y símbolos rápidamente en el teclado
       de iPhone y Android que quizás no conocías. Olvídate de cambiar constantemente
       entre teclados con la tecla ''123''. Aquí va el secreto: 1. *No pulses la tecla
@@ -284,7 +307,8 @@ pildoras:
   - date: '2024-03-08'
     image: null
     url: null
-    description: En la píldora formativa de hoy viernes, dedicada al Día Internacional
+    description: |
+      En la píldora formativa de hoy viernes, dedicada al Día Internacional
       de la Mujer, conmemoramos a *Ada Lovelace*, reconocida como la primera programadora
       de la historia. En el siglo XIX, Ada escribió lo que se considera el primer algoritmo
       destinado a ser procesado por una máquina, marcando el nacimiento de la programación
@@ -296,7 +320,8 @@ pildoras:
   - date: '2024-03-15'
     image: 2024-03-15.jpg
     url: https://www.makewordart.com/.
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, te traigo un viaje al pasado digital con https://www.makewordart.com/.
       Esta página web te permite recrear los nostálgicos estilos de WordArt del Office
       97. Perfecta para diseñar títulos retro con ese toque de los 90, MakeWordArt ofrece
@@ -307,7 +332,8 @@ pildoras:
   - date: '2024-03-22'
     image: 2024-03-22.jpg
     url: https://www.pantheon.international/almanac,
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes, destacamos una herramienta esencial para entusiastas de la IA:
       https://www.pantheon.international/almanac, conocido como Ares Almanac. Desarrollado
       por  investigadores del MIT, esta web es una base de datos  que recopila programas
@@ -319,7 +345,8 @@ pildoras:
   - date: '2024-04-05'
     image: 2024-04-05.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, te presento *eGarante*, una herramienta que certifica el contenido,
       la fecha, el emisor y los destinatarios de los correos electrónicos. Ideal para
       comunicaciones importantes como bajas, cambios de contrato y reclamaciones, eGarante
@@ -330,7 +357,8 @@ pildoras:
   - date: '2024-04-12'
     image: 2024-04-12.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, te presento suno.ai, una plataforma de inteligencia artificial diseñada
       para desatar tu creatividad musical. Con suno.ai, puedes crear hasta 5 canciones
       diarias, personalizando letras y estilo según tus preferencias. Ya sea que busques
@@ -342,7 +370,8 @@ pildoras:
   - date: '2024-04-19'
     image: 2024-04-19.jpg
     url: https://chromewebstore.google.com/detail/google-maps-quickclick-se/ippkeibgeeegemmdjhlhbdlcfjkgjann)
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, Google Maps QuickClick - Search to Maps (https://chromewebstore.google.com/detail/google-maps-quickclick-se/ippkeibgeeegemmdjhlhbdlcfjkgjann)
       es una extensión para el navegador que recupera el acceso directo a Google Maps
       desde la página de búsqueda. Esta extensión permite a los usuarios abrir Google
@@ -355,7 +384,8 @@ pildoras:
   - date: '2024-04-26'
     image: 2024-04-26.jpg
     url: https://mystery.knightlab.com
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, https://mystery.knightlab.com es una forma entretenida y educativa
       de aprender SQL. Este juego te reta a resolver un misterioso asesinato utilizando
       tus habilidades en *SQL*. A través de la investigación y consulta de bases de
@@ -368,7 +398,8 @@ pildoras:
   - date: '2024-05-03'
     image: 2024-05-03.jpg
     url: https://remaker.ai
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes, https://remaker.ai es un portal que proporciona herramientas gratuitas
       para cambiar rostros en fotos y vídeos mediante el uso de inteligencia artificial.
       Con Remaker AI, puedes insertar fácilmente la cara de una persona en la imagen
@@ -377,7 +408,8 @@ pildoras:
   - date: '2024-05-10'
     image: 2024-05-10.jpg
     url: https://t.me/MiTrackingBot
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, https://t.me/MiTrackingBot es bot *gratuito* de Telegram que te permite
       llevar el seguimiento de todos tus pedidos. Este bot destaca por su capacidad
       de auto-detectar trackings en más de 100 compañías. Solo necesitas escribir el
@@ -387,7 +419,8 @@ pildoras:
   - date: '2024-05-17'
     image: 2024-05-17.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, excalidraw.com es una herramienta de pizarra colaborativa de código
       abierto que permite a los usuarios dibujar diagramas y esquemas de forma sencilla,
       ideal para colaborar visualmente en tiempo real. Un punto a destacar es que no
@@ -398,7 +431,8 @@ pildoras:
   - date: '2024-05-24'
     image: 2024-05-24.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, les traigo un antiguo truco para el Administrador de tareas de Windows.
       Esta herramienta te permite controlar y detener procesos, además de consultar
       el consumo de CPU, RAM y la temperatura de la gráfica. Sin embargo, los procesos
@@ -410,7 +444,8 @@ pildoras:
   - date: '2024-06-07'
     image: 2024-06-07.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes,  simplelogin.io es una herramienta que te permite crear alias
       de correo electrónico para proteger tu dirección principal. Así, puedes generar
       direcciones de email temporales (o permanentes) que redirigen los correos a tu
@@ -422,7 +457,8 @@ pildoras:
   - date: '2024-06-14'
     image: 2024-06-14.jpg
     url: https://www.freepdfcompressor.com/
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes, Free PDF Compressor es una herramienta gratuita para Windows que
       reduce el tamaño de tus PDF. ¡Y sin los problemas de privacidad de los servicios
       online 😉! Es fácil de usar: selecciona un PDF y presiona *"Compress"*. Reducir
@@ -434,7 +470,8 @@ pildoras:
   - date: '2024-06-21'
     image: 2024-06-21.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy  viernes y última de este curso, whitescreen.online es una herramienta simple
       pero sorprendentemente útil. Te permite poner tu pantalla de un color específico.
       ¿Para qué sirve esto? Una pantalla completamente blanca puede ser una iluminación
@@ -446,7 +483,8 @@ pildoras:
   - date: '2024-09-06'
     image: 2024-09-06.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes (y primera del curso): Les presento spycloud.com una herramienta
       genial para proteger tu información personal. Primero, creas una cuenta en su
       plataforma. Luego, ingresas los correos electrónicos que desees monitorizar y
@@ -458,7 +496,8 @@ pildoras:
   - date: '2024-09-13'
     image: 2024-09-13.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: merklemap.com es una interesante herramienta para la búsqueda
       de subdominios. A diferencia de otros buscadores de dominios, Merklemap escanea
       servidores para identificar **todos los subdominios asociados** a un sitio web,
@@ -470,7 +509,8 @@ pildoras:
   - date: '2024-09-20'
     image: 2024-09-20.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: *tapedeck.org* es una fascinante colección de cintas de casete
       antiguas, con cientos de ellas disponibles para explorar. El sistema de visualización
       permite filtrarlas por *marca*, *duración*, *tipo* (como cromo, hierro o metal),
@@ -483,7 +523,8 @@ pildoras:
   - date: '2024-09-27'
     image: 2024-09-27.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: *LearningML.org* es una plataforma educativa diseñada para enseñar
       los conceptos básicos de la inteligencia artificial y el machine learning de forma
       accesible. A través de actividades interactivas y sencillas, permite a los usuarios
@@ -495,7 +536,8 @@ pildoras:
   - date: '2024-10-04'
     image: 2024-10-04.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: *Mail-tester.com* es una herramienta sencilla y eficaz para verificar
       la calidad de los correos electrónicos que envías. Al utilizarla, puedes analizar
       tu email en busca de errores comunes, detectar si está etiquetado como spam o
@@ -507,7 +549,8 @@ pildoras:
   - date: '2024-10-11'
     image: 2024-10-11.jpg
     url: https://h5p.org/content-types/game-map
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: *Game Map* es una funcionalidad de *H5P* que te permite crear
       juegos interactivos basados en HTML5. Consiste en un mapa de juego con diferentes
       etapas que puedes organizar sobre una imagen de fondo. Cada etapa puede contener
@@ -520,7 +563,8 @@ pildoras:
   - date: '2024-10-18'
     image: 2024-10-18.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: *YouTube-nocookie.com* es una opción muy útil para compartir vídeos
       sin necesidad de activar cookies, lo que permite evitar el molesto aviso de cookies
       en tu web. Simplemente sustituye la típica URL de YouTube por *youtube-nocookie.com*,
@@ -531,7 +575,8 @@ pildoras:
   - date: '2024-10-25'
     image: 2024-10-25.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: markdown-here.com es una extensión para el navegador que convierte
       el texto Markdown a HTML, lo que te permite mantener el formato cuando copias
       texto desde ChatGPT u otras IA, formateando fácilmente, agregar listas, títulos,
@@ -540,7 +585,8 @@ pildoras:
   - date: '2024-11-01'
     image: 2024-11-01.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: remove.bg es una herramienta online que elimina automáticamente
       el fondo de cualquier imagen en cuestión de segundos. Es perfecta para quienes
       necesitan crear imágenes transparentes rápidamente, ya sea para presentaciones,
@@ -549,7 +595,8 @@ pildoras:
   - date: '2024-11-08'
     image: 2024-11-08.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: whatfontis.com es una herramienta online que te ayuda a identificar
       fuentes tipográficas. Solo necesitas subir una imagen de un texto, y la herramienta
       hará su magia, mostrándote posibles coincidencias de fuentes, tanto gratuitas
@@ -558,7 +605,8 @@ pildoras:
   - date: '2024-11-15'
     image: 2024-11-15.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: downforeveryoneorjustme.com es una sencilla página que te permite
       verificar si un sitio web está caído para todos o solo para ti. Es especialmente
       útil cuando tienes problemas para acceder a una página y quieres confirmar si
@@ -567,7 +615,8 @@ pildoras:
   - date: '2024-11-22'
     image: 2024-11-22.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: ibroadcast.com es una plataforma ideal para organizar y disfrutar
       tu música en cualquier lugar. iBroadcast te permite *subir y almacenar tu colección
       de música* en la nube de manera gratuita, sin importar cuántas canciones tengas.
@@ -581,7 +630,8 @@ pildoras:
   - date: '2024-11-29'
     image: 2024-11-29.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, urlscan.io es una herramienta muy útil para *validar enlaces cortos
       y detectar si son maliciosos*. Cuando recibes un enlace acortado o sospechoso,
       puedes pegarlo en urlscan.io y la plataforma realizará un análisis detallado del
@@ -591,7 +641,8 @@ pildoras:
   - date: '2024-12-13'
     image: 2024-12-13.jpg
     url: null
-    description: En la píldora formativa
+    description: |
+      En la píldora formativa
       de hoy viernes: justicio.es es un asistente legal gratuito basado en inteligencia
       artificial. Un proyecto 100% colaborativo de código abierto que "_es capaz de
       ofrecer gratuitamente respuestas legales fundamentales_". Todo esto gracias a
@@ -603,7 +654,8 @@ pildoras:
   - date: '2024-12-20'
     image: 2024-12-20.jpg
     url: null
-    description: En la píldora formativa de
+    description: |
+      En la píldora formativa de
       hoy viernes, te presentamos The Food Timeline 🕰️, una web que muestra la historia
       de alimentos y recetas desde el Neolítico. Aunque no incluye el potaje de berros
       🌱, es ideal para explorar la evolución de la comida. Descúbrela en foodtimeline.org.
