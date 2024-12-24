@@ -77,7 +77,7 @@ pildoras:
       Un saludo y espero que les sea útil!'
   - date: '2023-10-06'
     image: 2023-10-06.jpg
-    url: null
+    url: https://foodtimeline.org
     description: |
       En la píldora formativa de
       hoy viernes, screeenly.com/try _(atención a las tres "e")_ es una herramienta
@@ -658,7 +658,7 @@ pildoras:
       En la píldora formativa de
       hoy viernes, te presentamos The Food Timeline 🕰️, una web que muestra la historia
       de alimentos y recetas desde el Neolítico. Aunque no incluye el potaje de berros
-      🌱, es ideal para explorar la evolución de la comida. Descúbrela en foodtimeline.org.
+      🌱, es ideal para explorar la evolución de la comida. Descúbrela en [foodtimeline.org](https://foodtimeline.org).
       ¡Feliz viernes y buen provecho! 😊
 
   - date: '2025-01-10'
