@@ -21,12 +21,12 @@ jobs:
       - name: Procesar la Issue
         id: process
         run: |
-          # Extraer los datos de la issue
-          FECHA=$(jq -r '.issue.body | scan("Fecha de la píldora:\\n\\n(.+)\\n")' <<< "${{ toJson(github.event) }}")
-          URL=$(jq -r '.issue.body | scan("Enlace relevante:\\n\\n(.+)\\n")' <<< "${{ toJson(github.event) }}")
-          DESCRIPCION=$(jq -r '.issue.body | scan("Descripción:\\n\\n((.|\\n)+)")' <<< "${{ toJson(github.event) }}")
-          
-          # Buscar la imagen adjunta
+          # Extraer datos del cuerpo de la issue
+          FECHA=$(echo "${{ github.event.issue.body }}" | grep -oP "(?<=Fecha de la píldora:\n\n).*")
+          URL=$(echo "${{ github.event.issue.body }}" | grep -oP "(?<=Enlace relevante:\n\n).*")
+          DESCRIPCION=$(echo "${{ github.event.issue.body }}" | sed -n '/Descripción:/,$p' | sed '1d')
+
+          # Verificar y renombrar la imagen
           IMAGEN=$(find . -name "*.jpg" -o -name "*.png" | head -n 1)
           if [ -z "$IMAGEN" ]; then
             IMAGEN="null"
@@ -35,13 +35,14 @@ jobs:
             mv "$IMAGEN" "images/$FECHA.$EXT"
             IMAGEN="$FECHA.$EXT"
           fi
-          
+
           # Crear entrada YAML
           echo "- date: '$FECHA'" > entry.yml
           echo "  image: $IMAGEN" >> entry.yml
           echo "  url: $URL" >> entry.yml
           echo "  description: |" >> entry.yml
           echo "$DESCRIPCION" | sed 's/^/    /' >> entry.yml
+
 
       - name: Actualizar el archivo data.yml
         run: |
