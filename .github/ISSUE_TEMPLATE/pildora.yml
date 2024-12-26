@@ -1,0 +1,30 @@
+name: Píldora del Viernes
+description: Propuesta para una nueva píldora formativa
+title: "[Píldora] Título breve"
+labels: [píldora]
+body:
+  - type: input
+    id: fecha
+    attributes:
+      label: Fecha de la píldora
+      description: Proporcione la fecha en formato AAAA-MM-DD.
+      placeholder: "2023-12-26"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Enlace relevante
+      description: Proporcione el enlace relacionado con la píldora.
+      placeholder: "https://ejemplo.com"
+    validations:
+      required: true
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: Escribe la descripción de la píldora en formato Markdown.
+      placeholder: "Escribe aquí la descripción"
+    validations:
+      required: true
+

@@ -1,0 +1,55 @@
+name: Agregar Píldora al data.yml
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  add_pildora:
+    if: github.event.label.name == 'píldora aceptada'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v3
+
+      - name: Configurar Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Procesar la Issue
+        id: process
+        run: |
+          # Extraer los datos de la issue
+          FECHA=$(jq -r '.issue.body | scan("Fecha de la píldora:\\n\\n(.+)\\n")' <<< "${{ toJson(github.event) }}")
+          URL=$(jq -r '.issue.body | scan("Enlace relevante:\\n\\n(.+)\\n")' <<< "${{ toJson(github.event) }}")
+          DESCRIPCION=$(jq -r '.issue.body | scan("Descripción:\\n\\n((.|\\n)+)")' <<< "${{ toJson(github.event) }}")
+          
+          # Buscar la imagen adjunta
+          IMAGEN=$(find . -name "*.jpg" -o -name "*.png" | head -n 1)
+          if [ -z "$IMAGEN" ]; then
+            IMAGEN="null"
+          else
+            EXT="${IMAGEN##*.}"
+            mv "$IMAGEN" "images/$FECHA.$EXT"
+            IMAGEN="$FECHA.$EXT"
+          fi
+          
+          # Crear entrada YAML
+          echo "- date: '$FECHA'" > entry.yml
+          echo "  image: $IMAGEN" >> entry.yml
+          echo "  url: $URL" >> entry.yml
+          echo "  description: |" >> entry.yml
+          echo "$DESCRIPCION" | sed 's/^/    /' >> entry.yml
+
+      - name: Actualizar el archivo data.yml
+        run: |
+          cat entry.yml >> data.yml
+
+      - name: Hacer commit y push
+        run: |
+          git add data.yml images/
+          git commit -m "Agregar píldora del $FECHA"
+          git push
+
