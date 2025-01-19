@@ -911,17 +911,24 @@ pildoras:
     description: "En la píldora formativa de hoy viernes, Shake Torch 🔦 es una app sencilla y práctica para Android que enciende la linterna de tu móvil con solo agitarlo. Ideal para emergencias o cuando necesitas luz rápidamente. Descárgala en Google Play: https://play.google.com/store/apps/details?id=org.rnazarevych.shaketorch"
 
   - date: '2025-02-07'
-    image: null
+    image: 2025-02-07.png
     url: https://zty.pe
     description: "En la píldora formativa de hoy viernes: zty.pe es un juego web que te ayuda a mejorar tu velocidad de escritura mientras te diviertes. Las palabras caen como naves espaciales y debes escribirlas correctamente antes de que lleguen abajo. Cuanto más rápido escribas, más puntos obtendrás. Es una forma entretenida de practicar mecanografía y perfeccionar tu técnica de escritura. Un saludo y espero que les sea útil!"
 
   - date: '2025-02-14'
-    image: null
+    image: 2025-02-14.png
     url: https://temp-mail.org
     description: "En la píldora formativa de hoy viernes: temp-mail.org es un servicio gratuito que genera correos electrónicos temporales que se autodestruyen después de cierto tiempo. Es perfecto para registrarse en sitios web sin compartir tu correo personal, evitando así el spam indeseado. No requiere registro y es completamente anónimo. Ideal para probar servicios o acceder a contenido que requiere verificación por email sin comprometer tu privacidad. Un saludo y espero que les sea útil!"
 
+  - date: '2025-02-21'
+    image: 2025-02-21.png
+    url: https://doompdf.pages.dev
+    description: "En la píldora formativa de hoy viernes: https://doompdf.pages.dev es un proyecto que permite jugar al clásico Doom directamente en un archivo PDF. Compatible con navegadores como Chrome, incluye controles básicos y soporte para cargar niveles personalizados. ¡Una combinación creativa de lectura y videojuegos! Un saludo y espero que les sea útil!"
 
-
+  - date: '2025-02-28'
+    image: 2025-02-28.png
+    url: https://playground.ai.cloudflare.com
+    description: "En la píldora formativa de hoy viernes: playground.ai.cloudflare.com es una web donde puedes probar modelos de IA como Llama, Zephyr y Falcon. Solo entra, elige un modelo y lanza tu pregunta. ¡Rápido, sencillo y gratuito! Un saludo y espero que les sea útil!"
 
 
 
