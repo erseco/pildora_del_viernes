@@ -931,10 +931,45 @@ pildoras:
     description: "En la píldora formativa de hoy viernes: playground.ai.cloudflare.com es una web donde puedes probar modelos de IA como Llama, Zephyr y Falcon. Solo entra, elige un modelo y lanza tu pregunta. ¡Rápido, sencillo y gratuito! Un saludo y espero que les sea útil!"
 
 
+  - date: '2025-03-07'
+    image: 2025-03-07.jpg
+    url: https://www.instagram.com/cfallaras/
+    description: "En la píldora formativa de hoy viernes: instagram.com/cfallaras es el perfil de Instagram de la periodista Cristina Fallarás, donde las mujeres pueden denunciar de forma anónima casos de acoso y abuso sexual. A través de esta plataforma, Fallarás ha recopilado y publicado numerosos testimonios, dando voz a víctimas que buscan compartir sus experiencias y visibilizar la violencia machista. Este espacio se ha convertido en un referente para aquellas que desean denunciar de manera confidencial y segura. Un saludo y feliz 8M!"
 
+  - date: '2025-03-14'
+    image: 2025-03-14.png
+    url: https://www.upsidedowntext.com
+    description: "En la píldora formativa de hoy viernes: upsidedowntext.com te permite escribir texto al revés o en espejo de forma gratuita y sencilla. Solo introduces tu texto, lo inviertes y lo copias para usarlo donde quieras: redes, mensajes o correos. ¡Sorprende a todos con este divertido efecto! Un saludo y espero que les sea útil!"
 
+  - date: '2025-03-21'
+    image: 2025-03-21.png
+    url: https://www.acronymfinder.com
+    description: "En la píldora formativa de hoy viernes: acronymfinder.com es un buscador para descubrir el significado de siglas y acrónimos en distintos idiomas y áreas, desde tecnología hasta negocios. Solo ingresas la sigla y obtienes su definición al instante. Un saludo y espero que les sea útil!"
 
+  - date: '2025-03-28'
+    image: 2025-03-28.png
+    url: https://markmap.js.org
+    description: "En la píldora formativa de hoy viernes: markmap.js.org te permite crear mapas mentales interactivos a partir de archivos Markdown. Solo escribe tu contenido estructurado y visualízalo de forma clara y dinámica. Un saludo y espero que les sea útil!"
 
+  - date: '2025-04-04'
+    image: 2025-04-04.png
+    url: https://posterizer.online
+    description: "En la píldora formativa de hoy viernes: posterizer.online es una herramienta gratuita para crear póstere que permite generar imágenes en gran tamaño mediante impresión en mosaico, ideal para hacer carteles grandes en casa. Solo sube tu imagen, indica el tamaño y descárgala lista para imprimir. Un saludo y espero que les sea útil!"
+
+  - date: '2025-04-11'
+    image: 2025-04-11.jpg
+    url: https://wokwi.com
+    description: "En la píldora formativa de hoy viernes: wokwi.com es un simulador de Arduino, ESP32 y STM32 que permite diseñar y probar circuitos sin hardware físico. Con una interfaz visual, puedes conectar placas, cables y componentes, además de ejecutar código en tiempo real. Ideal para aprender, experimentar y evitar errores costosos. Un saludo y espero que les sea útil!"
+
+  - date: '2025-04-18'
+    image: 2025-04-18.png
+    url: https://github.com/tylermenezes/FakeSSH
+    description: "En la píldora formativa de hoy viernes: FakeSSH es una herramienta que simula un servidor SSH en el puerto 22 para despistar escaneos automáticos, mientras el verdadero escucha en otro puerto. Un saludo y espero que les sea útil!"
+
+  - date: '2025-04-25'
+    image: 2025-04-25.png
+    url: https://www.printfriendly.com
+    description: "En la píldora formativa de hoy viernes: Con printfriendly.com puedes limpiar anuncios, ajustar el formato y guardar artículos sin distracciones. ¡Perfecto para leer después o archivar información útil! Un saludo y espero que les sea útil!"
 
 
 
