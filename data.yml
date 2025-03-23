@@ -4,7 +4,7 @@ pildoras:
     image: null
     url: https://chrome.google.com/webstore/detail/google-meet-pip/ibkkdnfblcekolaagnljieekcaccfpjo
     description: Buenos días! En la pildora formativa del viernes les presento la extensión
-      "Google Meet PiP", que sirve para mostrar al participante de una videoconferencia
+      Google Meet PiP, que sirve para mostrar al participante de una videoconferencia
       como ventana emergente, así puedes ver la cara de participante mientras estas en
       otra pestaña, ideal para cuando no tenéis disponible dos monitores, espero que
       os sea útil :)
@@ -971,7 +971,42 @@ pildoras:
     url: https://www.printfriendly.com
     description: "En la píldora formativa de hoy viernes: Con printfriendly.com puedes limpiar anuncios, ajustar el formato y guardar artículos sin distracciones. ¡Perfecto para leer después o archivar información útil! Un saludo y espero que les sea útil!"
 
+  - date: '2025-05-02'
+    image: 2025-05-02.png
+    url: https://deconstructor.ayush.digital/
+    description: |
+      En la 💊 formativa de hoy viernes: https://deconstructor.page/ te permite descubrir el origen y la estructura de cualquier palabra, ¡incluso en español o japonés! Usa inteligencia artificial para descomponer términos y mostrar su historia de forma clara. Tiene un pequeño límite de uso, pero tras un rato puedes seguir explorando.
 
+  - date: '2025-05-09'
+    image: 2025-05-09.jpg
+    url: https://io808.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://io808.com/ es una fiel recreación online de la legendaria caja de ritmos **Roland TR-808**, usada en grandes éxitos de los 80. Puedes programar ritmos usando su interfaz clásica con botones y pasos, y guardar tus creaciones en formato JSON. ¡Una joya retro para amantes del beat!  
+
+  - date: '2025-05-16'
+    image: 2025-05-16.png
+    url: https://support.google.com/youtube/answer/7631406?hl=es
+    description: |
+      En la 💊 formativa de hoy viernes: Algunos atajos súper útiles para YouTube 
+      - Espacio: Pausa / Reanuda  
+      - ← / → : Retrocede o avanza 5 seg  
+      - , / . : Fotograma anterior / siguiente  
+      - ↑ / ↓ : Volumen  
+      - F: Pantalla completa  
+      - C: Subtítulos  
+      - Doble clic: También activa pantalla completa
+
+  - date: '2025-05-23'
+    image: 2025-05-23.jpg
+    url: https://visualgo.net/en
+    description: |
+      En la 💊 formativa de hoy viernes: https://visualgo.net te enseña de forma interactiva cómo funcionan los algoritmos y las estructuras de datos. Con 26 módulos que abarcan desde ordenación hasta el problema del viajante, es ideal para estudiantes que quieren aprender programando visualmente. Además, cuenta con cuestionarios para poner a prueba tus conocimientos.
+
+  - date: '2025-05-30'
+    image: 2025-05-30.png
+    url: https://www.samsung.com/es/tecnologiaconproposito/accesibilidad-bienestar/themindguardian/
+    description: |
+      En la 💊 formativa de hoy viernes: The mind guardian (https://www.samsung.com/es/tecnologiaconproposito/accesibilidad-bienestar/themindguardian/) es una app gratuita para tabletas Android que ayuda a detectar posibles signos de deterioro cognitivo en mayores de 55 años. A través de minijuegos y con el apoyo de IA, evalúa distintos tipos de memoria en menos de 45 minutos, ofreciendo un informe preliminar.
 
 
 
