@@ -1008,5 +1008,20 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: The mind guardian (https://www.samsung.com/es/tecnologiaconproposito/accesibilidad-bienestar/themindguardian/) es una app gratuita para tabletas Android que ayuda a detectar posibles signos de deterioro cognitivo en mayores de 55 años. A través de minijuegos y con el apoyo de IA, evalúa distintos tipos de memoria en menos de 45 minutos, ofreciendo un informe preliminar.
 
+  - date: '2025-06-06'
+    image: 2025-06-06.png
+    url: https://podcast.adobe.com/es/enhance
+    description: |
+      En la 💊 formativa de hoy viernes: https://podcast.adobe.com/es/enhance *Mejorar la voz* de Adobe limpia tus audios de ruido, clics y eco en segundos. Solo subes el archivo (hasta 30 min y 500 MB sin registro) y la IA lo deja listo para podcast, conferencias o audios de WhatsApp. Simple, rápida y sorprendentemente efectiva.
 
+  - date: '2025-06-13'
+    image: 2025-06-13.png
+    url: https://github.com/pdfarranger/pdfarranger
+    description: |
+      En la 💊 formativa de hoy viernes: https://github.com/pdfarranger/pdfarranger es un software libre y gratuito para editar PDFs de forma local y segura. Permite dividir, combinar, reordenar, extraer o eliminar páginas sin subir tus documentos a la nube. Ideal para docentes y estudiantes que trabajan con materiales digitales.
 
+  - date: '2025-06-20'
+    image: 2025-06-20.png
+    url: https://github.com/mayankmetha/Rucky
+    description: |
+      En la 💊 formativa de hoy viernes y de final de curso: https://github.com/mayankmetha/Rucky una app para Android que convierte tu móvil en un Rubber Ducky (dispositivo USB HID para ataques de inyección de teclado). Permite lanzar scripts Ducky para automatizar tareas, pruebas de seguridad o pentesting. Soporta múltiples comandos y hasta movimientos de ratón. ¡Potente herramienta para profesionales de ciberseguridad! ¡Un saludo y hasta el próximo curso!
