@@ -1045,7 +1045,7 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: Si usas Chrome, puedes acelerar las descargas activando el modo paralelo. Solo escribe `chrome://flags` en la barra de direcciones, busca *Parallel downloading*, actívalo y reinicia. Chrome dividirá los archivos en partes y los descargará en paralelo, acelerando la bajada especialmente en archivos grandes. ¡Una opción secreta muy efectiva! Un saludo y espero que les sea útil!
 
-  - date: '2025-'09-26'
+  - date: '2025-09-26'
     image: 2025-09-26.jpg
     url: https://sequencediagram.org
     description: |
