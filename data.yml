@@ -1026,27 +1026,27 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: En https://faketravel.net puedes crear tus vacaciones falsas con IA. Sube una foto, elige el destino y la IA hace el resto. Como decía Manolo Vieira: «yo me ponía moreno en el balcón... y la gente pensaba que venía de Punta Cana». 😎 Ideal para presumir en redes sin que afecte a nuestras cuentas contables 🐀🐀. Un saludo y felices vacaciones, nos vemos en septiembre.
 
-  - date: '2025-11-05'
-    image: 2025-11-05.png
+  - date: '2025-09-05'
+    image: 2025-09-05.png
     url: https://github.com/mayankmetha/Rucky
     description: |
       En la 💊 formativa de hoy viernes: https://github.com/mayankmetha/Rucky una app para Android que convierte tu móvil en un Rubber Ducky (dispositivo USB HID para ataques de inyección de teclado). Permite lanzar scripts Ducky para automatizar tareas, pruebas de seguridad o pentesting. Soporta múltiples comandos y hasta movimientos de ratón. ¡Potente herramienta para profesionales de ciberseguridad! ¡Un saludo y feliz comienzo de curso!
 
 
-  - date: '2025-11-12'
-    image: 2025-11-12.png
+  - date: '2025-09-12'
+    image: 2025-09-12.png
     url: https://github.com/google-ai-edge/gallery
     description: |
       En la 💊 formativa de hoy viernes: https://github.com/google-ai-edge/gallery es un experimento de Google que permite ejecutar modelos de IA generativa directamente en tu móvil Android, sin conexión a internet. Puedes hacer preguntas a imágenes, probar modelos de Hugging Face, chatear, generar código o experimentar con prompts. Todo el procesamiento se hace localmente gracias a LiteRT. ¡Ideal para probar IA incluso en el avión! Un saludo y espero que les sea útil!
 
-  - date: '2025-11-19'
-    image: 2025-11-19.jpg
+  - date: '2025-09-19'
+    image: 2025-09-19.jpg
     url: chrome://flags
     description: |
       En la 💊 formativa de hoy viernes: Si usas Chrome, puedes acelerar las descargas activando el modo paralelo. Solo escribe `chrome://flags` en la barra de direcciones, busca *Parallel downloading*, actívalo y reinicia. Chrome dividirá los archivos en partes y los descargará en paralelo, acelerando la bajada especialmente en archivos grandes. ¡Una opción secreta muy efectiva! Un saludo y espero que les sea útil!
 
-  - date: '2025-11-26'
-    image: 2025-11-26.jpg
+  - date: '2025-'09-26'
+    image: 2025-09-26.jpg
     url: https://sequencediagram.org
     description: |
       En la 💊 formativa de hoy viernes: https://sequencediagram.org permite crear diagramas de secuencia fácilmente con texto plano. Usas símbolos como `-->` para flechas o `**` para negritas, y puedes exportar el resultado en PNG o SVG. Muy útil para explicar procesos, protocolos o experimentos de forma visual. Un saludo y espero que les sea útil!
