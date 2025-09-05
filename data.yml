@@ -1056,3 +1056,9 @@ pildoras:
     url: null
     description: |
       En la 💊 formativa de hoy viernes: https://chromewebstore.google.com/detail/google-accounts-autopilot/hbbpkfgfbdknonpdehbbapiomepacjbp Google Accounts Autopilot gestiona tus múltiples cuentas de Google automáticamente. Programa horarios y servicios (Gmail, YouTube, Drive…) para que cambie al perfil correcto sin que lo notes. Ahorra tiempo, evita errores y olvídate de hacer clic en “Cambiar cuenta”.
+
+  - date: '2025-10-10'
+    image: 2025-10-10.html
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meter
+    description: |
+      En la 💊 formativa de hoy viernes: el elemento de HTML <meter> sirve para mostrar valores dentro de un rango conocido, como el nivel de batería, la nota de un examen o el progreso de una tarea. Permite definir mínimos, máximos, zonas “bajas” y “altas”, e incluso un valor óptimo. Los navegadores lo representan como una barra visual, ideal para dar contexto numérico de forma clara e intuitiva.
