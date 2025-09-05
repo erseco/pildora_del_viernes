@@ -3,6 +3,11 @@ description: Propuesta para una nueva píldora formativa
 title: "[Píldora] Título breve"
 labels: [píldora]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Arrastra y suelta una imagen en la descripción; la acción la descargará y
+        la renombrará automáticamente usando la fecha proporcionada.
   - type: input
     id: fecha
     attributes:
@@ -14,16 +19,18 @@ body:
   - type: input
     id: url
     attributes:
-      label: Enlace relevante
-      description: Proporcione el enlace relacionado con la píldora.
+      label: Enlace relevante (opcional)
+      description: Proporcione el enlace relacionado con la píldora. Si se omite, se intentará extraer el primero de la descripción.
       placeholder: "https://ejemplo.com"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: descripcion
     attributes:
       label: Descripción
-      description: Escribe la descripción de la píldora en formato Markdown.
+      description: |
+        Escribe la descripción de la píldora en formato Markdown. Puedes
+        arrastrar una imagen aquí para adjuntarla.
       placeholder: "Escribe aquí la descripción"
     validations:
       required: true
