@@ -1096,3 +1096,10 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://matomo.org/
        es una alternativa de código abierto a Google Analytics que prioriza la privacidad. Permite analizar el tráfico web sin vender datos ni rastrear a los usuarios de forma invasiva. Ofrece métricas detalladas, mapas de calor, embudos de conversión y puede instalarse en tu propio servidor para tener control total.
+
+  - date: '2025-11-21'
+    image: 2025-11-21.html
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://archive.today/
+       (también accesible como archive.is) permite guardar una copia permanente de cualquier página web. Almacena texto, imágenes y contenido cargado por JavaScript, incluso si luego la página original desaparece o cambia. Cada captura genera una URL única y corta que sirve como referencia estable en el tiempo. Ideal para investigación, verificación de noticias o conservar información importante.
