@@ -3,3 +3,5 @@
 public/
 .DS_Store
 **/.DS_Store
+# Generated per-date pages
+20??-??-??/
