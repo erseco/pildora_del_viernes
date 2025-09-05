@@ -1,5 +1,16 @@
 console.log("Freddy, ¿que haces mirando aquí? ¯\\_(ツ)_/¯");
 
+function escapeHtml(text) {
+    const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+    };
+    return text.replace(/[&<>"']/g, m => map[m]);
+}
+
 function getBasePath() {
     return window.location.pathname.replace(/\/[^/]*$/, '/');
 }
@@ -105,7 +116,7 @@ function updateMetaTags(pildora) {
     const imageUrl = baseUrl + 'images/' + pildora.image;
 
     document.querySelector('meta[property="og:title"]').setAttribute('content', 'Píldora Formativa del ' + pildora.date);
-    document.querySelector('meta[property="og:description"]').setAttribute('content', pildora.description.split('\n')[0]);
+    document.querySelector('meta[property="og:description"]').setAttribute('content', escapeHtml(pildora.description.split('\n')[0]));
     document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
     document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.href);
 }
@@ -146,7 +157,7 @@ async function loadPildoras() {
                         ${pildora.image ? `<img src="images/${pildora.image}" class="card-img-top" alt="Píldora del ${pildora.date}">` : ''}
                         <div class="card-body">
                             <div class="text-muted small mb-2">${highlightText(new Date(pildora.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }), searchTerm)}</div>
-                            <div class="card-text">${marked.parse(highlightText(pildora.description, searchTerm))}</div>
+                            <div class="card-text">${marked.parse(highlightText(escapeHtml(pildora.description), searchTerm))}</div>
                             <div class="d-flex justify-content-between mt-3">
                                 <a href="${getBasePath()}?date=${pildora.date}" class="btn btn-primary">Ver píldora</a>
                                 ${pildora.url ? `<a href="${pildora.url}" class="btn btn-secondary" target="_blank">Visitar enlace</a>` : ''}
@@ -179,7 +190,7 @@ async function loadPildoras() {
                 return pildora.description.toLowerCase().includes(searchTerm) ||
                        String(pildora.date).includes(searchTerm) ||
                        (pildora.url && pildora.url.toLowerCase().includes(searchTerm)) ||
-                       marked.parse(pildora.description).toLowerCase().includes(searchTerm);
+                       marked.parse(escapeHtml(pildora.description)).toLowerCase().includes(searchTerm);
             });
             
             renderPildoras(filteredPildoras);
