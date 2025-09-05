@@ -1062,3 +1062,10 @@ pildoras:
     url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meter
     description: |
       En la 💊 formativa de hoy viernes: el elemento de HTML <meter> sirve para mostrar valores dentro de un rango conocido, como el nivel de batería, la nota de un examen o el progreso de una tarea. Permite definir mínimos, máximos, zonas “bajas” y “altas”, e incluso un valor óptimo. Los navegadores lo representan como una barra visual, ideal para dar contexto numérico de forma clara e intuitiva.
+
+  - date: '2025-10-17'
+    image: 2025-10-17.html
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://it-tools.tech/
+       es una auténtica navaja suiza con 60+ herramientas gratis y de código abierto, sin anuncios. Incluye utilidades para dev y uso general: generar QR, convertir JSON/YAML/CSV, probar regex, calcular hashes, formatear texto, redes, imágenes y más. Todo rápido, en el navegador y sin subir tus datos.
