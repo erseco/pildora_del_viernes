@@ -27,8 +27,14 @@ jobs:
           # Extraer datos del cuerpo de la issue
           FECHA=$(echo "$BODY" | awk '/Fecha de la píldora/{getline; print}')
           URL=$(echo "$BODY" | awk '/Enlace relevante/{getline; print}')
-          DESCRIPCION=$(echo "$BODY" | awk '/Descripción/{getline; flag=1; next} flag{print}' | grep -v '!\[')
-          IMAGE_URL=$(echo "$BODY" | grep -oP '!?\[[^\]]*\]\(\Khttps?[^) ]+')
+          DESCRIPCION=$(echo "$BODY" | awk '/Descripción/{getline; flag=1; next} flag{print}' | grep -v '!\\[')
+
+          if [ -z "$URL" ]; then
+            URL=$(echo "$DESCRIPCION" | grep -oP 'https?://\\S+' | head -n1)
+          fi
+          [ -z "$URL" ] && URL="null"
+
+          IMAGE_URL=$(echo "$BODY" | grep -oP '!?\\[[^\\]]*\\]\\(\\Khttps?[^) ]+')
 
           if [ -n "$IMAGE_URL" ]; then
             EXT="${IMAGE_URL##*.}"
@@ -63,4 +69,3 @@ jobs:
           fi
           git commit -m "Agregar píldora del $FECHA"
           git push
-

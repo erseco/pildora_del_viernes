@@ -19,11 +19,11 @@ body:
   - type: input
     id: url
     attributes:
-      label: Enlace relevante
-      description: Proporcione el enlace relacionado con la píldora.
+      label: Enlace relevante (opcional)
+      description: Proporcione el enlace relacionado con la píldora. Si se omite, se intentará extraer el primero de la descripción.
       placeholder: "https://ejemplo.com"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: descripcion
     attributes:
