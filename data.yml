@@ -1089,3 +1089,10 @@ pildoras:
     url: null
     description: |
       En la 💊 formativa de hoy viernes: investigadores han descubierto la vulnerabilidad BadCam (CVE-2025-4371) que afecta a webcams Lenovo 510 FHD y Performance FHD. Permite reprogramarlas como dispositivos BadUSB, capaces de inyectar comandos, instalar malware persistente e incluso reinfectar equipos tras un formateo. Lenovo ya publicó un parche de firmware (4.8.0) que debe aplicarse cuanto antes. Más info: https://enigmasecurity.cl/ataques-497/
+
+  - date: '2025-11-14'
+    image: 2025-11-14.html
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://matomo.org/
+       es una alternativa de código abierto a Google Analytics que prioriza la privacidad. Permite analizar el tráfico web sin vender datos ni rastrear a los usuarios de forma invasiva. Ofrece métricas detalladas, mapas de calor, embudos de conversión y puede instalarse en tu propio servidor para tener control total.
