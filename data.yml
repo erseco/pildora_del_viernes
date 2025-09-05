@@ -1069,3 +1069,10 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://it-tools.tech/
        es una auténtica navaja suiza con 60+ herramientas gratis y de código abierto, sin anuncios. Incluye utilidades para dev y uso general: generar QR, convertir JSON/YAML/CSV, probar regex, calcular hashes, formatear texto, redes, imágenes y más. Todo rápido, en el navegador y sin subir tus datos.
+
+  - date: '2025-10-24'
+    image: 2025-10-24.html
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://smry.ai/
+       es una herramienta de código abierto que usa IA para resumir artículos y, además, permite superar ciertos muros de pago utilizando servicios como Archive.org. Funciona con la API de ChatGPT y el SDK de Vercel, ofreciendo respuestas rápidas y en streaming. Ideal para ir al grano sin perder tiempo.
