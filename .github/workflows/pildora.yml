@@ -25,19 +25,24 @@ jobs:
         run: |
           set -e
           # Extraer datos del cuerpo de la issue
-          FECHA=$(echo "$BODY" | awk '/Fecha de la píldora/{getline; print}')
-          URL=$(echo "$BODY" | awk '/Enlace relevante/{getline; print}')
-          DESCRIPCION=$(echo "$BODY" | awk '/Descripción/{getline; flag=1; next} flag{print}' | grep -v '!\\[')
+          FECHA=$(echo "$BODY" | awk '/Fecha de la/{getline; while($0==""){getline}; print}')
+
+          URL=$(echo "$BODY" | awk '/Enlace relevante/{getline; while($0==""){getline}; print}')
+          [ "$URL" = "_No response_" ] && URL=""
+
+          DESCRIPCION=$(echo "$BODY" | awk '/Descripción/{flag=1; next} flag{print}' | grep -Ev '^$|!\\[|<img')
 
           if [ -z "$URL" ]; then
             URL=$(echo "$DESCRIPCION" | grep -oP 'https?://\\S+' | head -n1)
           fi
           [ -z "$URL" ] && URL="null"
 
-          IMAGE_URL=$(echo "$BODY" | grep -oP '!?\\[[^\\]]*\\]\\(\\Khttps?[^) ]+')
+          IMAGE_URL=$(echo "$BODY" | grep -oP '!?\\[[^\\]]*\\]\\(\\Khttps?[^) ]+|<img[^>]+src="\\Khttps?[^" >]+')
 
           if [ -n "$IMAGE_URL" ]; then
-            EXT="${IMAGE_URL##*.}"
+            MIME=$(curl -sI "$IMAGE_URL" | grep -i '^content-type:' | tr -d '\r' | awk '{print $2}')
+            EXT=${MIME##*/}
+            [ "$EXT" = "jpeg" ] && EXT=jpg
             curl -L "$IMAGE_URL" -o "images/$FECHA.$EXT"
             IMAGEN="$FECHA.$EXT"
           else
