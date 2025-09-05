@@ -20,60 +20,37 @@ jobs:
 
       - name: Procesar la Issue
         id: process
-        env:
-          BODY: ${{ github.event.issue.body }}
         run: |
-          set -e
           # Extraer datos del cuerpo de la issue
-          FECHA=$(echo "$BODY" | awk '/Fecha de la/{getline; while($0==""){getline}; print}')
+          FECHA=$(echo "${{ github.event.issue.body }}" | grep -oP "(?<=Fecha de la píldora:\n\n).*")
+          URL=$(echo "${{ github.event.issue.body }}" | grep -oP "(?<=Enlace relevante:\n\n).*")
+          DESCRIPCION=$(echo "${{ github.event.issue.body }}" | sed -n '/Descripción:/,$p' | sed '1d')
 
-          URL=$(echo "$BODY" | awk '/Enlace relevante/{getline; while($0==""){getline}; print}')
-          [ "$URL" = "_No response_" ] && URL=""
-
-          DESCRIPCION=$(echo "$BODY" | awk '/Descripción/{flag=1; next} flag{print}' | grep -v '^$' | grep -vF '![' | grep -v '<img')
-
-          if [ -z "$URL" ]; then
-            URL=$(echo "$DESCRIPCION" | grep -oP 'https?://\\S+' | head -n1)
-          fi
-          [ -z "$URL" ] && URL="null"
-
-          IMAGE_URL=$(echo "$BODY" | sed -nE 's/.*!?\\[[^]]*\\]\\((https?:[^) ]+)\\).*/\1/p' | head -n1)
-          if [ -z "$IMAGE_URL" ]; then
-            IMAGE_URL=$(echo "$BODY" | sed -nE 's/.*<img[^>]+src="([^" >]+)".*/\1/p' | head -n1)
-          fi
-
-          if [ -n "$IMAGE_URL" ]; then
-            MIME=$(curl -sI "$IMAGE_URL" | grep -i '^content-type:' | tr -d '\r' | awk '{print $2}' | cut -d';' -f1)
-            EXT=${MIME##*/}
-            [ "$EXT" = "jpeg" ] && EXT=jpg
-            curl -L "$IMAGE_URL" -o "images/$FECHA.$EXT"
-            IMAGEN="$FECHA.$EXT"
-          else
+          # Verificar y renombrar la imagen
+          IMAGEN=$(find . -name "*.jpg" -o -name "*.png" | head -n 1)
+          if [ -z "$IMAGEN" ]; then
             IMAGEN="null"
+          else
+            EXT="${IMAGEN##*.}"
+            mv "$IMAGEN" "images/$FECHA.$EXT"
+            IMAGEN="$FECHA.$EXT"
           fi
 
+          # Crear entrada YAML
           echo "- date: '$FECHA'" > entry.yml
           echo "  image: $IMAGEN" >> entry.yml
           echo "  url: $URL" >> entry.yml
           echo "  description: |" >> entry.yml
           echo "$DESCRIPCION" | sed 's/^/    /' >> entry.yml
 
-          echo "FECHA=$FECHA" >> $GITHUB_OUTPUT
-          echo "IMAGEN=$IMAGEN" >> $GITHUB_OUTPUT
 
       - name: Actualizar el archivo data.yml
         run: |
-          printf '\n' >> data.yml
           cat entry.yml >> data.yml
 
       - name: Hacer commit y push
-        env:
-          FECHA: ${{ steps.process.outputs.FECHA }}
-          IMAGEN: ${{ steps.process.outputs.IMAGEN }}
         run: |
-          git add data.yml
-          if [ "$IMAGEN" != "null" ]; then
-            git add "images/$IMAGEN"
-          fi
+          git add data.yml images/
           git commit -m "Agregar píldora del $FECHA"
           git push
+
