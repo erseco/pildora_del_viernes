@@ -1076,3 +1076,10 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://smry.ai/
        es una herramienta de código abierto que usa IA para resumir artículos y, además, permite superar ciertos muros de pago utilizando servicios como Archive.org. Funciona con la API de ChatGPT y el SDK de Vercel, ofreciendo respuestas rápidas y en streaming. Ideal para ir al grano sin perder tiempo.
+
+  - date: '2025-10-31'
+    image: 2025-10-31.html
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://mixplorer.com/
+       MiXplorer es un explorador de archivos para Android rápido, sin anuncios y muy completo. Ofrece pestañas ilimitadas, panel doble con arrastrar y soltar, compresión y descompresión de decenas de formatos, acceso a la nube y servidores, lector de libros y visor multimedia. Incluso soporta acceso root y cifrado de archivos. ¡Un todo en uno para gestionar tu dispositivo!
