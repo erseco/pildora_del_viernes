@@ -122,7 +122,10 @@ function updateMetaTags(pildora) {
     const imageUrl = baseUrl + 'images/' + pildora.image;
 
     document.querySelector('meta[property="og:title"]').setAttribute('content', 'Píldora Formativa del ' + pildora.date);
-    document.querySelector('meta[property="og:description"]').setAttribute('content', escapeHtml(pildora.description.split('\n')[0]));
+    document.querySelector('meta[property="og:description"]').setAttribute(
+        'content',
+        escapeHtml(pildora.description.replace(/\n/g, ' '))
+    );
     document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
     document.querySelector('meta[property="og:url"]').setAttribute('content', baseUrl + pildora.date + '/');
 }
