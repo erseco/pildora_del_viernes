@@ -1083,3 +1083,9 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://mixplorer.com/
        MiXplorer es un explorador de archivos para Android rápido, sin anuncios y muy completo. Ofrece pestañas ilimitadas, panel doble con arrastrar y soltar, compresión y descompresión de decenas de formatos, acceso a la nube y servidores, lector de libros y visor multimedia. Incluso soporta acceso root y cifrado de archivos. ¡Un todo en uno para gestionar tu dispositivo!
+
+  - date: '2025-11-07'
+    image: 2025-11-07.html
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: investigadores han descubierto la vulnerabilidad BadCam (CVE-2025-4371) que afecta a webcams Lenovo 510 FHD y Performance FHD. Permite reprogramarlas como dispositivos BadUSB, capaces de inyectar comandos, instalar malware persistente e incluso reinfectar equipos tras un formateo. Lenovo ya publicó un parche de firmware (4.8.0) que debe aplicarse cuanto antes. Más info: https://enigmasecurity.cl/ataques-497/
