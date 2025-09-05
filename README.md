@@ -17,11 +17,17 @@ Cada viernes comparto una "píldora formativa": un recurso digital interesante, 
 ## 🚀 Uso
 
 1. Clona este repositorio
-2. Ejecuta el servidor local:
+2. Genera las páginas estáticas (se guardarán en `public/`):
+   ```bash
+   make build
+   ```
+3. Ejecuta el servidor local:
    ```bash
    make serve
    ```
-3. Abre http://localhost:8000 en tu navegador
+4. Abre http://localhost:8000 en tu navegador
+
+Las páginas per-fecha se generan durante el despliegue mediante GitHub Actions, por lo que no se almacenan en el repositorio.
 
 ## 🔍 Búsqueda
 

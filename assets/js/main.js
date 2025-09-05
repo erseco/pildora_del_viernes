@@ -12,13 +12,19 @@ function escapeHtml(text) {
 }
 
 function getBasePath() {
-    return window.location.pathname.replace(/\/[^/]*$/, '/');
+    const base = document.querySelector('base');
+    return base ? base.getAttribute('href') : '/';
+}
+
+function getDateFromPath() {
+    const match = window.location.pathname.match(/\/(\d{4}-\d{2}-\d{2})\/?$/);
+    return match ? match[1] : null;
 }
 
 function getCurrentWeekPildora(pildoras) {
-    // Verificar si hay una fecha en la URL
+    // Verificar si hay una fecha en la URL o en la ruta
     const urlParams = new URLSearchParams(window.location.search);
-    const dateParam = urlParams.get('date');
+    const dateParam = urlParams.get('date') || getDateFromPath();
     
     if (dateParam) {
         // Si hay fecha en la URL, mostrar esa píldora independientemente de la fecha
@@ -56,7 +62,7 @@ function sharePildora(date) {
     if (!pildora) return;
 
     const baseUrl = window.location.origin + getBasePath();
-    const shareUrl = `${baseUrl}?date=${date}`;
+    const shareUrl = `${baseUrl}${date}/`;
     const imageUrl = pildora.image ? `${baseUrl}images/${pildora.image}` : '';
     
     // Preparar el texto a compartir
@@ -118,12 +124,12 @@ function updateMetaTags(pildora) {
     document.querySelector('meta[property="og:title"]').setAttribute('content', 'Píldora Formativa del ' + pildora.date);
     document.querySelector('meta[property="og:description"]').setAttribute('content', escapeHtml(pildora.description.split('\n')[0]));
     document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
-    document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.href);
+    document.querySelector('meta[property="og:url"]').setAttribute('content', baseUrl + pildora.date + '/');
 }
 
 async function loadPildoras() {
     try {
-        const response = await fetch('data.yml');
+        const response = await fetch('/data.yml');
         const yamlText = await response.text();
         const data = jsyaml.load(yamlText);
         // Guardar los datos globalmente para acceder desde otras funciones
@@ -159,7 +165,7 @@ async function loadPildoras() {
                             <div class="text-muted small mb-2">${highlightText(new Date(pildora.date).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }), searchTerm)}</div>
                             <div class="card-text">${marked.parse(highlightText(escapeHtml(pildora.description), searchTerm))}</div>
                             <div class="d-flex justify-content-between mt-3">
-                                <a href="${getBasePath()}?date=${pildora.date}" class="btn btn-primary">Ver píldora</a>
+                                <a href="${getBasePath()}${pildora.date}/" class="btn btn-primary">Ver píldora</a>
                                 ${pildora.url ? `<a href="${pildora.url}" class="btn btn-secondary" target="_blank">Visitar enlace</a>` : ''}
                                 <button class="btn btn-outline-secondary" onclick="sharePildora('${pildora.date}')">
                                     <i class="bi bi-share"></i> Compartir
