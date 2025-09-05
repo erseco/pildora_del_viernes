@@ -72,14 +72,13 @@ function sharePildora(date) {
         year: 'numeric' 
     });
     
-    const shareText = `Píldora formativa del ${formattedDate}:\n\n${pildora.description}\n\nVer más en: ${shareUrl}`;
-    
+    const shareText = `${pildora.description}\n\nVer más en: ${shareUrl}`;
+
     if (navigator.share) {
         // Preparar objeto de compartir
         const shareData = {
-            title: `Píldora Formativa del ${formattedDate}`,
-            text: shareText,
-            url: shareUrl
+            title: pildora.description,
+            text: shareText
         };
 
         // Si hay imagen, añadirla al objeto de compartir
@@ -121,8 +120,7 @@ function updateMetaTags(pildora) {
     const baseUrl = window.location.origin + getBasePath();
     const imageUrl = baseUrl + 'images/' + pildora.image;
 
-    document.querySelector('meta[property="og:title"]').setAttribute('content', 'Píldora Formativa del ' + pildora.date);
-    document.querySelector('meta[property="og:description"]').setAttribute(
+    document.querySelector('meta[property="og:title"]').setAttribute(
         'content',
         escapeHtml(pildora.description.replace(/\n/g, ' '))
     );
