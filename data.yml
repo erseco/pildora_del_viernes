@@ -1051,8 +1051,8 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://sequencediagram.org permite crear diagramas de secuencia fácilmente con texto plano. Usas símbolos como `-->` para flechas o `**` para negritas, y puedes exportar el resultado en PNG o SVG. Muy útil para explicar procesos, protocolos o experimentos de forma visual. Un saludo y espero que les sea útil!
 
-- date: '2025-10-03'
-  image: 2025-10-03.html
-  url: null
-  description: |
-    En la 💊 formativa de hoy viernes: https://chromewebstore.google.com/detail/google-accounts-autopilot/hbbpkfgfbdknonpdehbbapiomepacjbp Google Accounts Autopilot gestiona tus múltiples cuentas de Google automáticamente. Programa horarios y servicios (Gmail, YouTube, Drive…) para que cambie al perfil correcto sin que lo notes. Ahorra tiempo, evita errores y olvídate de hacer clic en “Cambiar cuenta”.
+  - date: '2025-10-03'
+    image: 2025-10-03.html
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://chromewebstore.google.com/detail/google-accounts-autopilot/hbbpkfgfbdknonpdehbbapiomepacjbp Google Accounts Autopilot gestiona tus múltiples cuentas de Google automáticamente. Programa horarios y servicios (Gmail, YouTube, Drive…) para que cambie al perfil correcto sin que lo notes. Ahorra tiempo, evita errores y olvídate de hacer clic en “Cambiar cuenta”.
