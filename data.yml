@@ -1103,3 +1103,9 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://archive.today/
        (también accesible como archive.is) permite guardar una copia permanente de cualquier página web. Almacena texto, imágenes y contenido cargado por JavaScript, incluso si luego la página original desaparece o cambia. Cada captura genera una URL única y corta que sirve como referencia estable en el tiempo. Ideal para investigación, verificación de noticias o conservar información importante.
+
+  - date: '2025-11-28'
+    image: 2025-11-28.html
+    url: https://regex101.com
+    description: |
+      En la 💊 formativa de hoy viernes: regex101.com permite probar y depurar **expresiones regulares** en vivo. Explica cada parte del patrón, muestra coincidencias y cuenta con referencias rápidas por motor (PCRE2, ECMAScript, Python). Muy útil para validar patrones de correos, logs o datos.
