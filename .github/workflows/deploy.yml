@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Agregar Píldora al data.yml"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -16,9 +19,17 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout (from workflow_run)
+        if: github.event_name == 'workflow_run'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+      - name: Checkout (default)
+        if: github.event_name != 'workflow_run'
+        uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
@@ -40,4 +51,3 @@ jobs:
     steps:
       - id: deploy
         uses: actions/deploy-pages@v4
-
