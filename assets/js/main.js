@@ -188,9 +188,13 @@ async function loadPildoras() {
 
             const filteredPildoras = data.pildoras.filter(pildora => {
                 const pildoraDate = new Date(pildora.date);
-                const isInFuture = pildoraDate > today;
-                
-                if (!showFuture && isInFuture) {
+                pildoraDate.setHours(0, 0, 0, 0);
+
+                const nextWeek = new Date(today);
+                nextWeek.setDate(today.getDate() + 6);
+                const isBeyondNextWeek = pildoraDate > nextWeek;
+
+                if (!showFuture && isBeyondNextWeek) {
                     return false;
                 }
 
@@ -199,7 +203,7 @@ async function loadPildoras() {
                        (pildora.url && pildora.url.toLowerCase().includes(searchTerm)) ||
                        marked.parse(escapeHtml(pildora.description)).toLowerCase().includes(searchTerm);
             });
-            
+
             renderPildoras(filteredPildoras);
         }
 
