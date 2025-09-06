@@ -40,7 +40,8 @@ template = """<!DOCTYPE html>
     <meta charset=\"UTF-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <base href=\"/\">
-    <meta property=\"og:title\" content=\"{description}\">
+    <meta property=\"og:title\" content=\"Píldora Formativa del {date}\">
+    <meta property=\"og:description\" content=\"{description}\">
     <meta property=\"og:image\" content=\"{image_url}\">
     <meta property=\"og:url\" content=\"{base_url}{date}/\">
     <meta name=\"twitter:card\" content=\"summary_large_image\">
