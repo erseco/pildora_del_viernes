@@ -56,7 +56,7 @@ function getCurrentWeekPildora(pildoras) {
     return pildoras.find(p => p.date === formattedDate);
 }
 
-function sharePildora(date) {
+async function sharePildora(date) {
     // Encontrar la píldora correspondiente
     const pildora = window.pildorasData.pildoras.find(p => p.date === date);
     if (!pildora) return;
@@ -72,45 +72,32 @@ function sharePildora(date) {
         year: 'numeric' 
     });
     
-    const shareText = `${pildora.description}\n\nVer más en: ${shareUrl}`;
+    // Colocar primero el enlace para forzar preview OG en WhatsApp
+    const shareText = `${shareUrl}\n\n${pildora.description}`;
 
-    if (navigator.share) {
-        // Preparar objeto de compartir
-        const shareData = {
-            title: pildora.description,
-            text: shareText
-        };
-
-        // Si hay imagen, añadirla al objeto de compartir
-        if (pildora.image) {
-            fetch(imageUrl)
-                .then(response => response.blob())
-                .then(blob => {
-                    shareData.files = [
-                        new File([blob], pildora.image, { type: 'image/jpeg' })
-                    ];
-                    return navigator.share(shareData);
-                })
-                .catch(error => {
-                    console.error('Error al compartir con imagen:', error);
-                    // Intentar compartir sin imagen
-                    navigator.share(shareData);
-                });
-        } else {
-            // Compartir sin imagen
-            navigator.share(shareData)
-                .catch(error => {
-                    console.error('Error al compartir:', error);
-                    // Si falla, copiar al portapapeles como fallback
-                    navigator.clipboard.writeText(shareText)
-                        .then(() => alert('¡Contenido copiado al portapapeles!'))
-                        .catch(console.error);
-                });
+    if (!navigator.share) {
+        try {
+            await navigator.clipboard.writeText(shareText);
+            alert('¡Contenido copiado al portapapeles!');
+        } catch (err) {
+            console.error('Error al copiar al portapapeles:', err);
         }
-    } else {
-        navigator.clipboard.writeText(shareText)
-            .then(() => alert('¡Contenido copiado al portapapeles!'))
-            .catch(console.error);
+        return;
+    }
+
+    const shareData = { title: pildora.description, text: shareText };
+
+    try {
+        // Compartir solo texto + enlace (sin archivo) para que WhatsApp conserve el texto
+        await navigator.share(shareData);
+    } catch (error) {
+        console.error('Error al compartir:', error);
+        try {
+            await navigator.clipboard.writeText(shareText);
+            alert('¡Contenido copiado al portapapeles!');
+        } catch (err3) {
+            console.error('Error al copiar al portapapeles:', err3);
+        }
     }
 }
 
@@ -120,12 +107,22 @@ function updateMetaTags(pildora) {
     const baseUrl = window.location.origin + getBasePath();
     const imageUrl = baseUrl + 'images/' + pildora.image;
 
+    const desc = escapeHtml(pildora.description.replace(/\n/g, ' '));
     document.querySelector('meta[property="og:title"]').setAttribute(
         'content',
-        escapeHtml(pildora.description.replace(/\n/g, ' '))
+        desc
     );
+    // Opcional: mantener og:description estático si no existe, o actualizar si está presente
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', desc);
     document.querySelector('meta[property="og:image"]').setAttribute('content', imageUrl);
     document.querySelector('meta[property="og:url"]').setAttribute('content', baseUrl + pildora.date + '/');
+
+    // Descriptions para SEO/Twitter
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', desc);
+    const twDesc = document.querySelector('meta[name="twitter:description"]');
+    if (twDesc) twDesc.setAttribute('content', desc);
 }
 
 async function loadPildoras() {

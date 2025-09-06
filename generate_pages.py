@@ -166,7 +166,7 @@ def generate():
         image_url = f"{BASE_URL}images/{image}" if image else ''
         desc_og = html.escape(p.get('description', '').replace('\n', ' '))
         og = f"""
-        <meta property=\"og:title\" content=\"Píldora Formativa del {html.escape(date)}\">\n        <meta property=\"og:description\" content=\"{desc_og}\">\n        <meta property=\"og:image\" content=\"{image_url}\">\n        <meta property=\"og:url\" content=\"{BASE_URL}{date}/\">\n        """
+        <meta property=\"og:title\" content=\"Píldora Formativa del {html.escape(date)}\">\n        <meta property=\"og:description\" content=\"{desc_og}\">\n        <meta property=\"og:image\" content=\"{image_url}\">\n        <meta property=\"og:url\" content=\"{BASE_URL}{date}/\">\n        <meta name=\"description\" content=\"{desc_og}\">\n        <meta name=\"twitter:description\" content=\"{desc_og}\">\n        """
         header = f'💊 Píldoras del Viernes <small class="text-muted fs-6 d-block d-sm-inline">({html.escape(date)})</small>'
         single_card = render_card(p, single=True)
         body_controls = """

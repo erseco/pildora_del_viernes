@@ -17,24 +17,22 @@ function setupShareButtons() {
       const shareUrl = `${baseUrl}${date ? date + '/' : ''}`;
       const imageUrl = image ? `${baseUrl}images/${image}` : '';
 
-      const shareText = `${description}\n\nVer más en: ${shareUrl}`;
+      // Colocar primero el enlace para forzar preview OG en WhatsApp
+      const shareText = `${shareUrl}\n\n${description}`;
 
-      if (navigator.share) {
-        const shareData = { title: description, text: shareText };
+      if (!navigator.share) {
         try {
-          if (image) {
-            const resp = await fetch(imageUrl);
-            const blob = await resp.blob();
-            shareData.files = [new File([blob], image, { type: blob.type || 'image/jpeg' })];
-          }
-          await navigator.share(shareData);
-        } catch (err) {
-          try {
-            await navigator.clipboard.writeText(shareText);
-            alert('¡Contenido copiado al portapapeles!');
-          } catch (_) {}
-        }
-      } else {
+          await navigator.clipboard.writeText(shareText);
+          alert('¡Contenido copiado al portapapeles!');
+        } catch (_) {}
+        return;
+      }
+
+      const shareData = { title: description, text: shareText };
+      try {
+        // Compartir solo texto + enlace (sin archivo) para que WhatsApp conserve el texto
+        await navigator.share(shareData);
+      } catch (err) {
         try {
           await navigator.clipboard.writeText(shareText);
           alert('¡Contenido copiado al portapapeles!');
