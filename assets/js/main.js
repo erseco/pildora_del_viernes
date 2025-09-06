@@ -158,7 +158,9 @@ async function loadPildoras() {
             document.getElementById('pildoraCount').textContent = `${pildoras.length} de ${data.pildoras.length}`;
             pildoras.forEach(pildora => {
                 const card = document.createElement('div');
-                card.className = 'col-md-6 col-lg-4 mb-4';
+                card.className = (pildoras.length === 1)
+                    ? 'col-12 mb-4'
+                    : 'col-md-6 col-lg-4 mb-4';
                 card.innerHTML = `
                     <div class="card h-100 shadow-sm">
                         ${pildora.image ? `<img src="images/${pildora.image}" class="card-img-top" alt="Píldora del ${pildora.date}">` : ''}
