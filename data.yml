@@ -1109,3 +1109,9 @@ pildoras:
     url: https://regex101.com
     description: |
       En la 💊 formativa de hoy viernes: regex101.com permite probar y depurar **expresiones regulares** en vivo. Explica cada parte del patrón, muestra coincidencias y cuenta con referencias rápidas por motor (PCRE2, ECMAScript, Python). Muy útil para validar patrones de correos, logs o datos.
+
+  - date: '2025-12-05'
+    image: 2025-12-05.html
+    url: https://squoosh.app
+    description: |
+      En la 💊 formativa de hoy viernes: [squoosh.app permite **comprimir y convertir imágenes** directamente en el navegador, sin subirlas a servidores externos. Soporta WebP, AVIF, PNG y JPEG, con vista comparativa antes/después.
