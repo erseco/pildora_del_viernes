@@ -1115,3 +1115,10 @@ pildoras:
     url: https://squoosh.app
     description: |
       En la 💊 formativa de hoy viernes: [squoosh.app permite **comprimir y convertir imágenes** directamente en el navegador, sin subirlas a servidores externos. Soporta WebP, AVIF, PNG y JPEG, con vista comparativa antes/después.
+
+  - date: '2025-12-05'
+    image: 2025-12-05.jpg
+    url: https://radar.cloudflare.com
+    description: |
+      En la 💊 formativa de hoy viernes: https://radar.cloudflare.com es un panel que muestra **qué está pasando en Internet en tiempo real** usando datos del DNS 1.1.1.1 y otros servicios de Cloudflare. Recientemente han añadido métricas para más de **1.400 dominios de nivel superior (TLD)**, permitiendo ver qué extensiones (.com, .es, .net, .ai…) generan más tráfico y cómo evoluciona su uso.
+      El panel también muestra los **servicios más consultados**, las **aplicaciones más utilizadas**, estadísticas de **navegadores**, información sobre **tráfico malicioso**, ataques, conectividad y bots. Entre estos bots destacan GoogleBot, GPTBot, Meta-ExternalAds y BingBot, que exploran la red de forma continua.
