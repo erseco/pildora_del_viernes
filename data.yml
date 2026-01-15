@@ -1156,3 +1156,9 @@ pildoras:
     url: https://snapdrop.net
     description: |
       En la 💊 formativa de hoy viernes: snapdrop.net permite **pasar archivos entre dispositivos** conectados a la misma red Wi-Fi usando WebRTC. Solo abres la web en ambos dispositivos y arrastras el archivo.
+
+  - date: '2026-01-30'
+    image: 2026-01-30.html
+    url: https://mkcert.dev
+    description: |
+      En la 💊 formativa de hoy viernes: mkcert.dev genera **certificados HTTPS locales de confianza**. Instala una autoridad certificadora en tu máquina y crea certificados válidos para dominios locales como `localhost`.
