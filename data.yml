@@ -1150,3 +1150,9 @@ pildoras:
       sudo apt install fd-find
       # y usarlo como 'fdfind' (o crear alias: alias fd=fdfind)
       ```
+
+  - date: '2026-01-16'
+    image: 2026-01-16.html
+    url: https://snapdrop.net
+    description: |
+      En la 💊 formativa de hoy viernes: snapdrop.net permite **pasar archivos entre dispositivos** conectados a la misma red Wi-Fi usando WebRTC. Solo abres la web en ambos dispositivos y arrastras el archivo.
