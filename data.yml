@@ -1162,3 +1162,9 @@ pildoras:
     url: https://mkcert.dev
     description: |
       En la 💊 formativa de hoy viernes: mkcert.dev genera **certificados HTTPS locales de confianza**. Instala una autoridad certificadora en tu máquina y crea certificados válidos para dominios locales como `localhost`.
+
+  - date: '2026-02-13'
+    image: 2026-02-13.html
+    url: https://ray.so
+    description: |
+      En la 💊 formativa de hoy viernes: ray.so genera **imágenes estilizadas de fragmentos de código**. Permite elegir tema, lenguaje y padding, ideal para presentaciones o redes sociales.
