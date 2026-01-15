@@ -1168,3 +1168,10 @@ pildoras:
     url: https://ray.so
     description: |
       En la 💊 formativa de hoy viernes: ray.so genera **imágenes estilizadas de fragmentos de código**. Permite elegir tema, lenguaje y padding, ideal para presentaciones o redes sociales.
+
+  - date: '2026-01-23'
+    image: 2026-01-23.html
+    url: https://asciinema.org
+    description: |
+      En la 💊 formativa de hoy viernes: asciinema.org graba sesiones de **terminal como texto**, no como vídeo. Los archivos resultantes son ligeros y se pueden reproducir, pausar y copiar/pegar.
+        
