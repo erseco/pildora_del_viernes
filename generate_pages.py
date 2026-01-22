@@ -70,22 +70,72 @@ page_template = """<!DOCTYPE html>
 """
 
 def simple_markdown_to_html(text: str) -> str:
-    """Very small markdown-to-HTML: escape, linkify, bold/italic, linebreaks."""
+    """Very small markdown-to-HTML: escape, linkify, bold/italic, code blocks, linebreaks."""
     if not text:
         return ''
-    # Escape HTML first
+
+    # Extract code blocks first (```lang\ncode\n```) to protect them
+    code_blocks = []
+    def save_code_block(match):
+        lang = match.group(1) or ''
+        code = match.group(2)
+        code_blocks.append((lang, code))
+        return f'\x00CODEBLOCK{len(code_blocks)-1}\x00'
+    text = re.sub(r'```(\w*)\n(.*?)```', save_code_block, text, flags=re.DOTALL)
+
+    # Extract inline code (`code`) to protect it
+    inline_codes = []
+    def save_inline_code(match):
+        inline_codes.append(match.group(1))
+        return f'\x00INLINECODE{len(inline_codes)-1}\x00'
+    text = re.sub(r'`([^`]+)`', save_inline_code, text)
+
+    # Extract markdown links [text](url) before escaping
+    md_links = []
+    def save_md_link(match):
+        md_links.append((match.group(1), match.group(2)))
+        return f'\x00MDLINK{len(md_links)-1}\x00'
+    text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', save_md_link, text)
+
+    # Escape HTML
     text = html.escape(text)
-    # Convert URLs to links
+
+    # Convert URLs to links (but not placeholders)
     url_pattern = re.compile(r'(https?://[\w\-._~:/?#\[\]@!$&\'()*+,;=%]+)')
     text = url_pattern.sub(r'<a href="\1" target="_blank">\1</a>', text)
+
     # Bold **text**
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     # Italic *text* (but not **)
     text = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', text)
     # Italic _text_
     text = re.sub(r'_(.+?)_', r'<em>\1</em>', text)
-    # Line breaks to <br>
-    text = text.replace('\n', '<br>')
+
+    # Restore markdown links
+    for i, (link_text, url) in enumerate(md_links):
+        text = text.replace(f'\x00MDLINK{i}\x00', f'<a href="{html.escape(url)}" target="_blank">{html.escape(link_text)}</a>')
+
+    # Restore inline code
+    for i, code in enumerate(inline_codes):
+        text = text.replace(f'\x00INLINECODE{i}\x00', f'<code>{html.escape(code)}</code>')
+
+    # Restore code blocks
+    for i, (lang, code) in enumerate(code_blocks):
+        escaped_code = html.escape(code.strip())
+        lang_class = f' class="language-{html.escape(lang)}"' if lang else ''
+        text = text.replace(f'\x00CODEBLOCK{i}\x00', f'<pre><code{lang_class}>{escaped_code}</code></pre>')
+
+    # Line breaks to <br> (but not inside <pre>)
+    parts = re.split(r'(<pre>.*?</pre>)', text, flags=re.DOTALL)
+    for j, part in enumerate(parts):
+        if not part.startswith('<pre>'):
+            parts[j] = part.replace('\n', '<br>')
+    text = ''.join(parts)
+
+    # Clean up <br> around <pre> blocks
+    text = re.sub(r'<br>\s*<pre>', '<pre>', text)
+    text = re.sub(r'</pre>\s*<br>', '</pre>', text)
+
     return text
 
 def format_date_es(date_str: str) -> str:
