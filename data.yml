@@ -1111,7 +1111,7 @@ pildoras:
       En la 💊 formativa de hoy viernes: regex101.com permite probar y depurar **expresiones regulares** en vivo. Explica cada parte del patrón, muestra coincidencias y cuenta con referencias rápidas por motor (PCRE2, ECMAScript, Python). Muy útil para validar patrones de correos, logs o datos.
 
   - date: '2025-12-05'
-    image: 2025-12-05.html
+    image: 2025-12-05.png
     url: https://squoosh.app
     description: |
       En la 💊 formativa de hoy viernes: [squoosh.app permite **comprimir y convertir imágenes** directamente en el navegador, sin subirlas a servidores externos. Soporta WebP, AVIF, PNG y JPEG, con vista comparativa antes/después.
@@ -1131,31 +1131,31 @@ pildoras:
       El panel también muestra los **servicios más consultados**, las **aplicaciones más utilizadas**, estadísticas de **navegadores**, información sobre **tráfico malicioso**, ataques, conectividad y bots. Entre estos bots destacan GoogleBot, GPTBot, Meta-ExternalAds y BingBot, que exploran la red de forma continua.
 
   - date: '2026-01-16'
-    image: 2026-01-16.html
+    image: 2026-01-16.png
     url: https://snapdrop.net
     description: |
       En la 💊 formativa de hoy viernes: snapdrop.net permite **pasar archivos entre dispositivos** conectados a la misma red Wi-Fi usando WebRTC. Solo abres la web en ambos dispositivos y arrastras el archivo.
 
   - date: '2026-01-23'
-    image: 2026-01-23.html
+    image: 2026-01-23.png
     url: https://asciinema.org
     description: |
       En la 💊 formativa de hoy viernes: asciinema.org graba sesiones de **terminal como texto**, no como vídeo. Los archivos resultantes son ligeros y se pueden reproducir, pausar y copiar/pegar.
 
   - date: '2026-01-30'
-    image: 2026-01-30.html
+    image: 2026-01-30.png
     url: https://mkcert.dev
     description: |
       En la 💊 formativa de hoy viernes: mkcert.dev genera **certificados HTTPS locales de confianza**. Instala una autoridad certificadora en tu máquina y crea certificados válidos para dominios locales como `localhost`.
 
   - date: '2026-02-13'
-    image: 2026-02-13.html
+    image: 2026-02-13.png
     url: https://ray.so
     description: |
       En la 💊 formativa de hoy viernes: ray.so genera **imágenes estilizadas de fragmentos de código**. Permite elegir tema, lenguaje y padding, ideal para presentaciones o redes sociales.
 
   - date: '2026-02-20'
-    image: 2026-02-20.html
+    image: 2026-02-20.svg
     url: https://github.com/sharkdp/fd
     description: |
       En la 💊 formativa de hoy viernes: [fd](https://github.com/sharkdp/fd) es un reemplazo sencillo y rápido para el comando `find`.  
