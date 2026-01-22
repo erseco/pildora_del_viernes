@@ -43,9 +43,20 @@ jobs:
           fi
 
           if [ -n "$IMAGE_URL" ]; then
-            MIME=$(curl -sI "$IMAGE_URL" | grep -i '^content-type:' | tr -d '\r' | awk '{print $2}' | cut -d';' -f1)
-            EXT=${MIME##*/}
-            [ "$EXT" = "jpeg" ] && EXT=jpg
+            MIME=$(curl -sIL "$IMAGE_URL" | grep -i '^content-type:' | tail -1 | tr -d '\r' | awk '{print $2}' | cut -d';' -f1)
+            # Validar que sea una imagen
+            if echo "$MIME" | grep -qE '^image/'; then
+              EXT=${MIME##*/}
+              [ "$EXT" = "jpeg" ] && EXT=jpg
+            else
+              # Fallback: extraer extensión de la URL
+              EXT=$(echo "$IMAGE_URL" | sed -nE 's/.*\.([a-zA-Z0-9]+)(\?.*)?$/\1/p' | tr '[:upper:]' '[:lower:]')
+              [ "$EXT" = "jpeg" ] && EXT=jpg
+              # Si no hay extensión válida, usar jpg por defecto
+              if ! echo "$EXT" | grep -qE '^(jpg|jpeg|png|gif|webp|svg)$'; then
+                EXT=jpg
+              fi
+            fi
             curl -L "$IMAGE_URL" -o "images/$FECHA.$EXT"
             IMAGEN="$FECHA.$EXT"
           else

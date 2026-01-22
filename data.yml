@@ -1052,60 +1052,60 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://sequencediagram.org permite crear diagramas de secuencia fácilmente con texto plano. Usas símbolos como `-->` para flechas o `**` para negritas, y puedes exportar el resultado en PNG o SVG. Muy útil para explicar procesos, protocolos o experimentos de forma visual. Un saludo y espero que les sea útil!
 
   - date: '2025-10-03'
-    image: 2025-10-03.html
+    image: 2025-10-03.png
     url: null
     description: |
       En la 💊 formativa de hoy viernes: https://chromewebstore.google.com/detail/google-accounts-autopilot/hbbpkfgfbdknonpdehbbapiomepacjbp Google Accounts Autopilot gestiona tus múltiples cuentas de Google automáticamente. Programa horarios y servicios (Gmail, YouTube, Drive…) para que cambie al perfil correcto sin que lo notes. Ahorra tiempo, evita errores y olvídate de hacer clic en “Cambiar cuenta”.
 
   - date: '2025-10-10'
-    image: 2025-10-10.html
+    image: 2025-10-10.png
     url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meter
     description: |
       En la 💊 formativa de hoy viernes: el elemento de HTML <meter> sirve para mostrar valores dentro de un rango conocido, como el nivel de batería, la nota de un examen o el progreso de una tarea. Permite definir mínimos, máximos, zonas “bajas” y “altas”, e incluso un valor óptimo. Los navegadores lo representan como una barra visual, ideal para dar contexto numérico de forma clara e intuitiva.
 
   - date: '2025-10-17'
-    image: 2025-10-17.html
+    image: 2025-10-17.png
     url: null
     description: |
       En la 💊 formativa de hoy viernes: https://it-tools.tech/
        es una auténtica navaja suiza con 60+ herramientas gratis y de código abierto, sin anuncios. Incluye utilidades para dev y uso general: generar QR, convertir JSON/YAML/CSV, probar regex, calcular hashes, formatear texto, redes, imágenes y más. Todo rápido, en el navegador y sin subir tus datos.
 
   - date: '2025-10-24'
-    image: 2025-10-24.html
+    image: 2025-10-24.png
     url: null
     description: |
       En la 💊 formativa de hoy viernes: https://smry.ai/
        es una herramienta de código abierto que usa IA para resumir artículos y, además, permite superar ciertos muros de pago utilizando servicios como Archive.org. Funciona con la API de ChatGPT y el SDK de Vercel, ofreciendo respuestas rápidas y en streaming. Ideal para ir al grano sin perder tiempo.
 
   - date: '2025-10-31'
-    image: 2025-10-31.html
+    image: 2025-10-31.png
     url: null
     description: |
       En la 💊 formativa de hoy viernes: https://mixplorer.com/
        MiXplorer es un explorador de archivos para Android rápido, sin anuncios y muy completo. Ofrece pestañas ilimitadas, panel doble con arrastrar y soltar, compresión y descompresión de decenas de formatos, acceso a la nube y servidores, lector de libros y visor multimedia. Incluso soporta acceso root y cifrado de archivos. ¡Un todo en uno para gestionar tu dispositivo!
 
   - date: '2025-11-07'
-    image: 2025-11-07.html
+    image: 2025-11-07.png
     url: null
     description: |
       En la 💊 formativa de hoy viernes: investigadores han descubierto la vulnerabilidad BadCam (CVE-2025-4371) que afecta a webcams Lenovo 510 FHD y Performance FHD. Permite reprogramarlas como dispositivos BadUSB, capaces de inyectar comandos, instalar malware persistente e incluso reinfectar equipos tras un formateo. Lenovo ya publicó un parche de firmware (4.8.0) que debe aplicarse cuanto antes. Más info: https://enigmasecurity.cl/ataques-497/
 
   - date: '2025-11-14'
-    image: 2025-11-14.html
+    image: 2025-11-14.png
     url: null
     description: |
       En la 💊 formativa de hoy viernes: https://matomo.org/
        es una alternativa de código abierto a Google Analytics que prioriza la privacidad. Permite analizar el tráfico web sin vender datos ni rastrear a los usuarios de forma invasiva. Ofrece métricas detalladas, mapas de calor, embudos de conversión y puede instalarse en tu propio servidor para tener control total.
 
   - date: '2025-11-21'
-    image: 2025-11-21.html
+    image: 2025-11-21.png
     url: null
     description: |
       En la 💊 formativa de hoy viernes: https://archive.today/
        (también accesible como archive.is) permite guardar una copia permanente de cualquier página web. Almacena texto, imágenes y contenido cargado por JavaScript, incluso si luego la página original desaparece o cambia. Cada captura genera una URL única y corta que sirve como referencia estable en el tiempo. Ideal para investigación, verificación de noticias o conservar información importante.
 
   - date: '2025-11-28'
-    image: 2025-11-28.html
+    image: 2025-11-28.png
     url: https://regex101.com
     description: |
       En la 💊 formativa de hoy viernes: regex101.com permite probar y depurar **expresiones regulares** en vivo. Explica cada parte del patrón, muestra coincidencias y cuenta con referencias rápidas por motor (PCRE2, ECMAScript, Python). Muy útil para validar patrones de correos, logs o datos.
