@@ -48,9 +48,9 @@ function setupShareButtons() {
         }
       }
 
-      // Fallback: compartir solo texto
+      // Fallback: compartir solo texto (sin title para evitar duplicación)
       try {
-        await navigator.share({ title: description, text: shareText });
+        await navigator.share({ text: shareText });
       } catch (err) {
         try {
           await navigator.clipboard.writeText(shareText);
