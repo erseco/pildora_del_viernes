@@ -160,8 +160,8 @@ def render_card(p, single=False):
     classes = 'col-12 mb-4' if single else 'col-md-6 col-lg-4 mb-4'
     view_btn = '' if single else f"<a href=\"{date}/\" class=\"btn btn-primary\">Ver píldora</a>"
     visit_btn = f"<a href=\"{html.escape(url)}\" class=\"btn btn-secondary\" target=\"_blank\">Visitar enlace</a>" if url else ''
-    # Data attributes for share action
-    description_attr = html.escape(description_md).replace('\n', ' ')
+    # Data attributes for share action (preservar saltos de línea para WhatsApp)
+    description_attr = html.escape(description_md).replace('\n', '&#10;')
     image_attr = html.escape(image) if image else ''
     data_attrs = f"data-date=\"{html.escape(date)}\" data-description=\"{description_attr}\" data-image=\"{image_attr}\""
     share_btn = f"<button class=\"btn btn-outline-secondary share-btn\" {data_attrs}><i class=\"bi bi-share\"></i> Compartir</button>"

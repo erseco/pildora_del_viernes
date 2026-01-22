@@ -17,7 +17,7 @@ function setupShareButtons() {
       const shareUrl = `${baseUrl}${date ? date + '/' : ''}`;
       const imageUrl = image ? `${baseUrl}images/${image}` : '';
 
-      // Colocar primero el enlace para forzar preview OG en WhatsApp
+      // Texto: primero el enlace para preview OG, luego descripción
       const shareText = `${shareUrl}\n\n${description}`;
 
       if (!navigator.share) {
@@ -28,10 +28,29 @@ function setupShareButtons() {
         return;
       }
 
-      const shareData = { title: description, text: shareText };
+      // Intentar compartir con imagen si está disponible
+      if (imageUrl && navigator.canShare) {
+        try {
+          const response = await fetch(imageUrl);
+          const blob = await response.blob();
+          const ext = image.split('.').pop().toLowerCase();
+          const mimeTypes = { jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', gif: 'image/gif', svg: 'image/svg+xml', webp: 'image/webp' };
+          const mimeType = mimeTypes[ext] || 'image/png';
+          const file = new File([blob], image, { type: mimeType });
+
+          const shareDataWithFile = { text: shareText, files: [file] };
+          if (navigator.canShare(shareDataWithFile)) {
+            await navigator.share(shareDataWithFile);
+            return;
+          }
+        } catch (_) {
+          // Si falla, continuar con compartir solo texto
+        }
+      }
+
+      // Fallback: compartir solo texto
       try {
-        // Compartir solo texto + enlace (sin archivo) para que WhatsApp conserve el texto
-        await navigator.share(shareData);
+        await navigator.share({ title: description, text: shareText });
       } catch (err) {
         try {
           await navigator.clipboard.writeText(shareText);
