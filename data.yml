@@ -1130,6 +1130,29 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://radar.cloudflare.com es un panel que muestra **qué está pasando en Internet en tiempo real** usando datos del DNS 1.1.1.1 y otros servicios de Cloudflare. Recientemente han añadido métricas para más de **1.400 dominios de nivel superior (TLD)**, permitiendo ver qué extensiones (.com, .es, .net, .ai…) generan más tráfico y cómo evoluciona su uso.
       El panel también muestra los **servicios más consultados**, las **aplicaciones más utilizadas**, estadísticas de **navegadores**, información sobre **tráfico malicioso**, ataques, conectividad y bots. Entre estos bots destacan GoogleBot, GPTBot, Meta-ExternalAds y BingBot, que exploran la red de forma continua.
 
+  - date: '2026-01-16'
+    image: 2026-01-16.html
+    url: https://snapdrop.net
+    description: |
+      En la 💊 formativa de hoy viernes: snapdrop.net permite **pasar archivos entre dispositivos** conectados a la misma red Wi-Fi usando WebRTC. Solo abres la web en ambos dispositivos y arrastras el archivo.
+
+  - date: '2026-01-23'
+    image: 2026-01-23.html
+    url: https://asciinema.org
+    description: |
+      En la 💊 formativa de hoy viernes: asciinema.org graba sesiones de **terminal como texto**, no como vídeo. Los archivos resultantes son ligeros y se pueden reproducir, pausar y copiar/pegar.
+
+  - date: '2026-01-30'
+    image: 2026-01-30.html
+    url: https://mkcert.dev
+    description: |
+      En la 💊 formativa de hoy viernes: mkcert.dev genera **certificados HTTPS locales de confianza**. Instala una autoridad certificadora en tu máquina y crea certificados válidos para dominios locales como `localhost`.
+
+  - date: '2026-02-13'
+    image: 2026-02-13.html
+    url: https://ray.so
+    description: |
+      En la 💊 formativa de hoy viernes: ray.so genera **imágenes estilizadas de fragmentos de código**. Permite elegir tema, lenguaje y padding, ideal para presentaciones o redes sociales.
 
   - date: '2026-02-20'
     image: 2026-02-20.html
@@ -1150,28 +1173,3 @@ pildoras:
       sudo apt install fd-find
       # y usarlo como 'fdfind' (o crear alias: alias fd=fdfind)
       ```
-
-  - date: '2026-01-16'
-    image: 2026-01-16.html
-    url: https://snapdrop.net
-    description: |
-      En la 💊 formativa de hoy viernes: snapdrop.net permite **pasar archivos entre dispositivos** conectados a la misma red Wi-Fi usando WebRTC. Solo abres la web en ambos dispositivos y arrastras el archivo.
-
-  - date: '2026-01-30'
-    image: 2026-01-30.html
-    url: https://mkcert.dev
-    description: |
-      En la 💊 formativa de hoy viernes: mkcert.dev genera **certificados HTTPS locales de confianza**. Instala una autoridad certificadora en tu máquina y crea certificados válidos para dominios locales como `localhost`.
-
-  - date: '2026-02-13'
-    image: 2026-02-13.html
-    url: https://ray.so
-    description: |
-      En la 💊 formativa de hoy viernes: ray.so genera **imágenes estilizadas de fragmentos de código**. Permite elegir tema, lenguaje y padding, ideal para presentaciones o redes sociales.
-
-  - date: '2026-01-23'
-    image: 2026-01-23.html
-    url: https://asciinema.org
-    description: |
-      En la 💊 formativa de hoy viernes: asciinema.org graba sesiones de **terminal como texto**, no como vídeo. Los archivos resultantes son ligeros y se pueden reproducir, pausar y copiar/pegar.
-        
