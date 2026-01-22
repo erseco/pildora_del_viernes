@@ -1109,3 +1109,67 @@ pildoras:
     url: https://regex101.com
     description: |
       En la 💊 formativa de hoy viernes: regex101.com permite probar y depurar **expresiones regulares** en vivo. Explica cada parte del patrón, muestra coincidencias y cuenta con referencias rápidas por motor (PCRE2, ECMAScript, Python). Muy útil para validar patrones de correos, logs o datos.
+
+  - date: '2025-12-05'
+    image: 2025-12-05.html
+    url: https://squoosh.app
+    description: |
+      En la 💊 formativa de hoy viernes: [squoosh.app permite **comprimir y convertir imágenes** directamente en el navegador, sin subirlas a servidores externos. Soporta WebP, AVIF, PNG y JPEG, con vista comparativa antes/después.
+
+  - date: '2025-12-12'
+    image: 2025-12-12.jpg
+    url: https://puzzlezilla.com
+    description: |
+      En la 💊 formativa de hoy viernes: https://puzzlezilla.com es una web para **crear y jugar rompecabezas online**. Tiene puzles clásicos de piezas y rompecabezas deslizantes al estilo del Juego del 15. Puedes elegir la dificultad (de 3×2 a 12×12) o subir tus propias fotos para convertirlas en rompecabezas personalizados.
+      PuzzleZilla permite **guardar tu progreso**, continuar en otros dispositivos y ganar puntos para subir de nivel conforme completas retos. Ideal para desconectar un rato con algo entretenido.
+
+  - date: '2025-12-19'
+    image: 2025-12-19.jpg
+    url: https://radar.cloudflare.com
+    description: |
+      En la 💊 formativa de hoy viernes: https://radar.cloudflare.com es un panel que muestra **qué está pasando en Internet en tiempo real** usando datos del DNS 1.1.1.1 y otros servicios de Cloudflare. Recientemente han añadido métricas para más de **1.400 dominios de nivel superior (TLD)**, permitiendo ver qué extensiones (.com, .es, .net, .ai…) generan más tráfico y cómo evoluciona su uso.
+      El panel también muestra los **servicios más consultados**, las **aplicaciones más utilizadas**, estadísticas de **navegadores**, información sobre **tráfico malicioso**, ataques, conectividad y bots. Entre estos bots destacan GoogleBot, GPTBot, Meta-ExternalAds y BingBot, que exploran la red de forma continua.
+
+  - date: '2026-01-16'
+    image: 2026-01-16.html
+    url: https://snapdrop.net
+    description: |
+      En la 💊 formativa de hoy viernes: snapdrop.net permite **pasar archivos entre dispositivos** conectados a la misma red Wi-Fi usando WebRTC. Solo abres la web en ambos dispositivos y arrastras el archivo.
+
+  - date: '2026-01-23'
+    image: 2026-01-23.html
+    url: https://asciinema.org
+    description: |
+      En la 💊 formativa de hoy viernes: asciinema.org graba sesiones de **terminal como texto**, no como vídeo. Los archivos resultantes son ligeros y se pueden reproducir, pausar y copiar/pegar.
+
+  - date: '2026-01-30'
+    image: 2026-01-30.html
+    url: https://mkcert.dev
+    description: |
+      En la 💊 formativa de hoy viernes: mkcert.dev genera **certificados HTTPS locales de confianza**. Instala una autoridad certificadora en tu máquina y crea certificados válidos para dominios locales como `localhost`.
+
+  - date: '2026-02-13'
+    image: 2026-02-13.html
+    url: https://ray.so
+    description: |
+      En la 💊 formativa de hoy viernes: ray.so genera **imágenes estilizadas de fragmentos de código**. Permite elegir tema, lenguaje y padding, ideal para presentaciones o redes sociales.
+
+  - date: '2026-02-20'
+    image: 2026-02-20.html
+    url: https://github.com/sharkdp/fd
+    description: |
+      En la 💊 formativa de hoy viernes: [fd](https://github.com/sharkdp/fd) es un reemplazo sencillo y rápido para el comando `find`.  
+      Destaca por su **velocidad**, su sintaxis intuitiva y su soporte integrado para expresiones regulares y resaltado de colores. Ignora automáticamente directorios listados en `.gitignore`, lo que lo hace ideal para proyectos de desarrollo.
+      Ejemplo básico: buscar todos los archivos `.php` en el proyecto:
+      ```bash
+      fd -e php
+      ```
+      Ejemplo con patrón de búsqueda en nombre:
+      ```bash
+      fd config /etc
+      ```
+      Para instalar en Ubuntu:
+      ```bash
+      sudo apt install fd-find
+      # y usarlo como 'fdfind' (o crear alias: alias fd=fdfind)
+      ```
