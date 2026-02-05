@@ -1174,8 +1174,8 @@ pildoras:
       # y usarlo como 'fdfind' (o crear alias: alias fd=fdfind)
       ```
 
-  - date: '2026-02-13'
-    image: 2026-02-13.png
+  - date: '2026-02-06'
+    image: 2026-02-06.png
     url: https://imapsync.lamiral.info/
     description: |
       En la 💊 formativa de hoy viernes: [imapsync](https://imapsync.lamiral.info/) es una herramienta de línea de comandos para **sincronizar buzones de correo entre dos servidores IMAP**. Muy útil para migraciones de correo (por ejemplo, cambiar de proveedor o de servidor sin perder mensajes ni carpetas).  
