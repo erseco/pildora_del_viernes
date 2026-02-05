@@ -1173,3 +1173,14 @@ pildoras:
       sudo apt install fd-find
       # y usarlo como 'fdfind' (o crear alias: alias fd=fdfind)
       ```
+
+  - date: '2026-02-13'
+    image: 2026-02-13.png
+    url: https://imapsync.lamiral.info/
+    description: |
+      En la 💊 formativa de hoy viernes: [imapsync](https://imapsync.lamiral.info/) es una herramienta de línea de comandos para **sincronizar buzones de correo entre dos servidores IMAP**. Muy útil para migraciones de correo (por ejemplo, cambiar de proveedor o de servidor sin perder mensajes ni carpetas).  
+      Permite ejecutar migraciones incrementales, filtrar carpetas, limitar por fecha y mantener banderas como `Seen` o `Flagged`.
+      Ejemplo básico para migrar un buzón completo:
+      ```bash
+      imapsync   --host1 imap.origen.com --user1 usuario@origen.com --password1 'clave1'   --host2 imap.destino.com --user2 usuario@destino.com --password2 'clave2'
+      ```
