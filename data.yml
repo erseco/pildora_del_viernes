@@ -1216,3 +1216,10 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: RunSQL es un entorno para probar SQL desde el navegador sin montar una base de datos local. Te deja crear estructura, cargar datos y ejecutar consultas para validar ideas rápido.
       Viene bien para formación, entrevistas técnicas o para depurar una query antes de tocar un entorno real.
+
+  - date: '2026-03-27'
+    image: 2026-03-27.jpg
+    url: https://chatjimmy.ai/
+    description: |
+      En la 💊 formativa de hoy viernes: jimmy chatbot basado en un modelo tipo LLaMA (aunque no sea lo último) sirve para una demo muy clara: ver hasta qué punto la velocidad de inferencia cambia la percepción de “inteligencia”.
+      Con hardware especializado, cuantización y buen serving, puedes conseguir respuestas casi instantáneas. Ideal para comentar trade-offs: calidad vs latencia, batch vs streaming, y por qué el tiempo de respuesta suele ganar.
