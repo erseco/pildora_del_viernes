@@ -1190,3 +1190,9 @@ pildoras:
     url: https://file.pizza
     description: |
       En la 💊 formativa de hoy viernes: htttps://file.pizza permite **enviar archivos directamente P2P** desde el navegador usando WebTorrent. No almacena nada en servidores intermedios.
+
+  - date: '2026-03-06'
+    image: null
+    url: https://exifcleaner.com
+    description: |
+      En la 💊 formativa de hoy viernes: exifcleaner.com elimina **metadatos EXIF** de imágenes (ubicación, modelo de cámara, fecha, etc.) con solo arrastrar y soltar. Muy útil para proteger la privacidad antes de publicar fotos.
