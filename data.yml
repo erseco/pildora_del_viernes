@@ -1209,3 +1209,10 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: Z-Image-Turbo es un generador de imágenes muy rápido disponible como Space en Hugging Face. La gracia está en ver cómo cambia la experiencia cuando el modelo está optimizado para latencia y se apoya en GPU potente.
       Útil para hablar de inferencia, optimizaciones y por qué a veces un modelo “menos perfecto” se usa más si responde en tiempo real.
+
+  - date: '2026-04-10'
+    image: 2026-04-10.png
+    url: https://runsql.com/
+    description: |
+      En la 💊 formativa de hoy viernes: RunSQL es un entorno para probar SQL desde el navegador sin montar una base de datos local. Te deja crear estructura, cargar datos y ejecutar consultas para validar ideas rápido.
+      Viene bien para formación, entrevistas técnicas o para depurar una query antes de tocar un entorno real.
