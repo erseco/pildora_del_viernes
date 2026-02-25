@@ -1184,3 +1184,9 @@ pildoras:
       ```bash
       imapsync   --host1 imap.origen.com --user1 usuario@origen.com --password1 'clave1'   --host2 imap.destino.com --user2 usuario@destino.com --password2 'clave2'
       ```
+
+  - date: '2026-02-27'
+    image: 2026-02-27.jpg
+    url: https://file.pizza
+    description: |
+      En la 💊 formativa de hoy viernes: htttps://file.pizza permite **enviar archivos directamente P2P** desde el navegador usando WebTorrent. No almacena nada en servidores intermedios.
