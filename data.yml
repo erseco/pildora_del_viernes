@@ -1196,3 +1196,9 @@ pildoras:
     url: https://exifcleaner.com
     description: |
       En la 💊 formativa de hoy viernes: exifcleaner.com elimina **metadatos EXIF** de imágenes (ubicación, modelo de cámara, fecha, etc.) con solo arrastrar y soltar. Muy útil para proteger la privacidad antes de publicar fotos.
+
+  - date: '2026-03-13'
+    image: 2026-03-13.jpg
+    url: https://ai.studio/apps/bundled/paint_a_place
+    description: |
+      En la 💊 formativa de hoy viernes: [Paint A Place](https://ai.studio/apps/bundled/paint_a_place) permite escribir la **dirección de tu lugar favorito**, tomar la imagen satelital y transformarla en una **acuarela generada por IA**. Ideal para convertir sitios especiales en pósters o regalos personalizados. Solo pones la dirección, eliges el estilo y descargas la imagen resultante.
