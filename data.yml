@@ -1223,3 +1223,10 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: jimmy chatbot basado en un modelo tipo LLaMA (aunque no sea lo último) sirve para una demo muy clara: ver hasta qué punto la velocidad de inferencia cambia la percepción de “inteligencia”.
       Con hardware especializado, cuantización y buen serving, puedes conseguir respuestas casi instantáneas. Ideal para comentar trade-offs: calidad vs latencia, batch vs streaming, y por qué el tiempo de respuesta suele ganar.
+
+  - date: '2026-04-17'
+    image: 2026-04-17.svg+xml
+    url: https://wasm-test.libreoffice.org/
+    description: |
+      En la 💊 formativa de hoy viernes: esta demo permite ejecutar LibreOffice en el navegador gracias a WebAssembly. Sin instalación, solo abrir y probar.
+      Buen punto de partida para comentar WebAssembly, rendimiento, limitaciones (memoria, carga inicial) y casos de uso donde tiene sentido llevar apps “de escritorio” al navegador.
