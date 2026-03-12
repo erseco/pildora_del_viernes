@@ -1201,7 +1201,7 @@ pildoras:
     image: 2026-03-20.png
     url: https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo
     description: |
-      En la 💊 formativa de hoy viernes: Z-Image-Turbo es un generador de imágenes muy rápido disponible como Space en Hugging Face. La gracia está en ver cómo cambia la experiencia cuando el modelo está optimizado para latencia y se apoya en GPU potente.
+      En la 💊 formativa de hoy viernes: https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo es un generador de imágenes muy rápido disponible como Space en Hugging Face. La gracia está en ver cómo cambia la experiencia cuando el modelo está optimizado para latencia y se apoya en GPU potente.
       Útil para hablar de inferencia, optimizaciones y por qué a veces un modelo “menos perfecto” se usa más si responde en tiempo real.
 
   - date: '2026-03-20'
