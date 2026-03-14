@@ -1231,3 +1231,13 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: esta demo permite ejecutar LibreOffice en el navegador gracias a WebAssembly. Sin instalación, solo abrir y probar.
       Buen punto de partida para comentar WebAssembly, rendimiento, limitaciones (memoria, carga inicial) y casos de uso donde tiene sentido llevar apps “de escritorio” al navegador.
+
+  - date: '2026-04-24'
+    image: 2026-04-24.webp
+    url: https://slop-or-not.space/
+    description: |
+      En la 💊 formativa de hoy viernes: https://slop-or-not.space/ es un juego online para comprobar si realmente sabemos distinguir textos escritos por personas de textos generados por inteligencia artificial.
+      La dinámica es sencilla: se muestran dos comentarios y hay que elegir cuál es el generado por IA (lo que se conoce como *slop*, un término que se usa para referirse al contenido basura producido por modelos generativos).
+      El experimento utiliza preguntas y comentarios reales extraídos de sitios como Reddit, Hacker News o reseñas de Yelp. En total se generaron unos **13.000 pares de textos humano+IA** a partir de un conjunto enorme de más de **126 millones de comentarios**.
+      Los textos artificiales fueron generados con distintos modelos de Anthropic y OpenAI y organizados en varios niveles de dificultad. El juego empieza en modo fácil y sube de nivel cuando aciertas tres veces seguidas. La partida termina cuando fallas tres veces.
+      Además de ser un juego curioso, sirve para reflexionar sobre lo difícil que empieza a ser diferenciar entre contenido humano y contenido generado por modelos de lenguaje.
