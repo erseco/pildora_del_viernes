@@ -1,0 +1,53 @@
+name: Reordenar Píldora
+
+on:
+  workflow_dispatch:
+    inputs:
+      pildora:
+        description: Fecha actual de la píldora a mover (AAAA-MM-DD)
+        required: true
+        type: string
+      fecha:
+        description: Nueva fecha destino, debe ser viernes (AAAA-MM-DD)
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  reorder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Instalar dependencias
+        run: pip install pyyaml
+
+      - name: Configurar Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Reordenar la píldora
+        run: |
+          python3 reorder_pildora.py \
+            --pildora "${{ github.event.inputs.pildora }}" \
+            --fecha "${{ github.event.inputs.fecha }}"
+
+      - name: Hacer commit y push
+        run: |
+          git add data.yml images
+          if git diff --cached --quiet; then
+            echo "No hay cambios que guardar"
+            exit 0
+          fi
+          git commit -m "Reordenar píldora ${{ github.event.inputs.pildora }} a ${{ github.event.inputs.fecha }}"
+          git push

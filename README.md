@@ -13,6 +13,7 @@ Cada viernes comparto una "píldora formativa": un recurso digital interesante, 
 - Descripción concisa del recurso
 - Enlace directo al recurso
 - Interfaz de búsqueda para encontrar píldoras anteriores
+- Acción manual para reubicar una píldora por fecha y desplazar las siguientes si hay conflicto
 
 ## 🚀 Uso
 
@@ -38,3 +39,12 @@ Puedes buscar píldoras anteriores usando el buscador en la parte superior de la
 - `data.yml`: Contiene todas las píldoras formativas
 - `images/`: Capturas de pantalla de los recursos
 - `assets/`: Archivos CSS y JavaScript
+
+## 🔁 Reordenar píldoras manualmente
+
+Existe un workflow manual llamado **Reordenar Píldora** en GitHub Actions.
+
+- `pildora`: fecha actual de la píldora que quieres mover (`AAAA-MM-DD`)
+- `fecha`: nueva fecha destino (`AAAA-MM-DD`) y debe ser viernes
+
+La acción actualiza `data.yml` y, si la imagen de la píldora usa la fecha como nombre de archivo, también renombra la imagen correspondiente. Si la nueva fecha entra en conflicto con otras píldoras posteriores, las va desplazando al siguiente viernes disponible.
