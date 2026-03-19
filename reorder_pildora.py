@@ -53,10 +53,11 @@ def build_entry(entry, new_date):
     image = entry.get("image")
     new_date_str = new_date.isoformat()
     new_image = image
+    normalized_old_date = parse_date(old_date).isoformat() if old_date else None
 
-    if image and image != "null" and old_date:
+    if image and image != "null" and normalized_old_date:
         stem, ext = os.path.splitext(image)
-        if stem == old_date:
+        if stem == normalized_old_date:
             new_image = f"{new_date_str}{ext}"
 
     rebuilt = {
@@ -151,7 +152,8 @@ def rename_images(images_dir, rename_pairs):
         if not os.path.exists(old_path):
             raise FileNotFoundError(f"No existe la imagen '{old_name}' en '{images_dir}'.")
 
-        temp_path = f"{old_path}{TEMP_RENAME_SUFFIX}{uuid.uuid4().hex}"
+        temp_name = f"{TEMP_RENAME_SUFFIX}{uuid.uuid4().hex}-{old_name}"
+        temp_path = os.path.join(images_dir, temp_name)
         os.replace(old_path, temp_path)
         temp_moves.append((temp_path, os.path.join(images_dir, new_name)))
 
