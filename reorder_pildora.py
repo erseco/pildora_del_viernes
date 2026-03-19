@@ -19,7 +19,7 @@ def parse_date(value: str):
         raise ValueError(f"Fecha inválida '{value}'. Usa el formato AAAA-MM-DD.") from exc
 
 
-def next_friday(value):
+def next_available_friday(value):
     days_until_friday = (4 - value.weekday()) % 7
     if days_until_friday == 0:
         days_until_friday = 7
@@ -84,7 +84,11 @@ def reorder_pildoras(pildoras, current_date_str, target_date_str):
 
     ordered = []
     for index, item in enumerate(pildoras):
-        item_date = parse_date(item.get("date", ""))
+        raw_date = item.get("date")
+        if not raw_date:
+            raise ValueError(f"La píldora en la posición {index + 1} no tiene fecha.")
+
+        item_date = parse_date(raw_date)
         ordered.append(
             {
                 "index": index,
@@ -94,7 +98,9 @@ def reorder_pildoras(pildoras, current_date_str, target_date_str):
             }
         )
 
-    moving_item = next(item for item in ordered if item["is_moving"])
+    moving_item = next((item for item in ordered if item["is_moving"]), None)
+    if moving_item is None:
+        raise ValueError(f"No se pudo localizar la píldora '{current_date_str}' para reordenarla.")
     remaining = [item for item in ordered if not item["is_moving"]]
     remaining.sort(key=lambda item: (item["date"], item["index"]))
 
@@ -120,7 +126,7 @@ def reorder_pildoras(pildoras, current_date_str, target_date_str):
 
         assigned_date = item["date"]
         if assigned_date <= previous_date:
-            assigned_date = next_friday(previous_date)
+            assigned_date = next_available_friday(previous_date)
 
         rebuilt, old_image, new_image = build_entry(item["entry"], assigned_date)
         updated.append((assigned_date, item["index"], rebuilt))
@@ -143,7 +149,7 @@ def rename_images(images_dir, rename_pairs):
         if not os.path.exists(old_path):
             raise FileNotFoundError(f"No existe la imagen '{old_name}' en '{images_dir}'.")
 
-        temp_path = f"{old_path}.tmp-{uuid.uuid4().hex}"
+        temp_path = f"{old_path}.reorder-pildora-tmp-{uuid.uuid4().hex}"
         os.replace(old_path, temp_path)
         temp_moves.append((temp_path, os.path.join(images_dir, new_name)))
 
