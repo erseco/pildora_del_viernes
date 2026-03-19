@@ -10,6 +10,8 @@ import yaml
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_DATA_FILE = os.path.join(ROOT, "data.yml")
 DEFAULT_IMAGES_DIR = os.path.join(ROOT, "images")
+TEMP_RENAME_SUFFIX = ".reorder-pildora-tmp-"
+YAML_LINE_WIDTH = 1000
 
 
 def parse_date(value: str):
@@ -52,7 +54,7 @@ def build_entry(entry, new_date):
     new_date_str = new_date.isoformat()
     new_image = image
 
-    if image and image != "null":
+    if image and image != "null" and old_date:
         stem, ext = os.path.splitext(image)
         if stem == old_date:
             new_image = f"{new_date_str}{ext}"
@@ -149,7 +151,7 @@ def rename_images(images_dir, rename_pairs):
         if not os.path.exists(old_path):
             raise FileNotFoundError(f"No existe la imagen '{old_name}' en '{images_dir}'.")
 
-        temp_path = f"{old_path}.reorder-pildora-tmp-{uuid.uuid4().hex}"
+        temp_path = f"{old_path}{TEMP_RENAME_SUFFIX}{uuid.uuid4().hex}"
         os.replace(old_path, temp_path)
         temp_moves.append((temp_path, os.path.join(images_dir, new_name)))
 
@@ -168,7 +170,7 @@ def write_data(path, data, pildoras):
             allow_unicode=True,
             sort_keys=False,
             default_flow_style=False,
-            width=1000,
+            width=YAML_LINE_WIDTH,
         )
 
 
