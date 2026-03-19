@@ -1241,3 +1241,13 @@ pildoras:
       El experimento utiliza preguntas y comentarios reales extraídos de sitios como Reddit, Hacker News o reseñas de Yelp. En total se generaron unos **13.000 pares de textos humano+IA** a partir de un conjunto enorme de más de **126 millones de comentarios**.
       Los textos artificiales fueron generados con distintos modelos de Anthropic y OpenAI y organizados en varios niveles de dificultad. El juego empieza en modo fácil y sube de nivel cuando aciertas tres veces seguidas. La partida termina cuando fallas tres veces.
       Además de ser un juego curioso, sirve para reflexionar sobre lo difícil que empieza a ser diferenciar entre contenido humano y contenido generado por modelos de lenguaje.
+
+  - date: '2026-03-19'
+    image: 2026-03-19.png
+    url: https://www.ratingraph.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://www.ratingraph.com/ es una web que permite visualizar cómo evolucionan las valoraciones de series y películas a lo largo del tiempo.
+      La herramienta genera gráficos a partir de millones de valoraciones de usuarios, mostrando cómo cambia la puntuación episodio a episodio o temporada a temporada. :contentReference[oaicite:0]{index=0}
+      Esto permite detectar fácilmente cuándo una serie mejora, cuándo empieza a decaer o qué capítulos destacan especialmente. Es muy útil para decidir si merece la pena seguir viendo una serie o incluso para ver en qué momento “se rompe”.
+      También incluye rankings, tendencias y estadísticas sobre miles de series, películas, directores y franquicias.
+      Perfecto para descubrir contenido o analizar de forma rápida la evolución de cualquier serie.
