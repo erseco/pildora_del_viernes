@@ -1209,9 +1209,8 @@ pildoras:
     url: https://www.ratingraph.com/
     description: |
       En la 💊 formativa de hoy viernes: https://www.ratingraph.com/ es una web que permite visualizar cómo evolucionan las valoraciones de series y películas a lo largo del tiempo.
-      La herramienta genera gráficos a partir de millones de valoraciones de usuarios, mostrando cómo cambia la puntuación episodio a episodio o temporada a temporada. :contentReference[oaicite:0]{index=0}
+      La herramienta genera gráficos a partir de millones de valoraciones de usuarios, mostrando cómo cambia la puntuación episodio a episodio o temporada a temporada.
       Esto permite detectar fácilmente cuándo una serie mejora, cuándo empieza a decaer o qué capítulos destacan especialmente. Es muy útil para decidir si merece la pena seguir viendo una serie o incluso para ver en qué momento “se rompe”.
-      También incluye rankings, tendencias y estadísticas sobre miles de series, películas, directores y franquicias.
       Perfecto para descubrir contenido o analizar de forma rápida la evolución de cualquier serie.
 
   - date: '2026-04-10'
