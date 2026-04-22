@@ -1244,9 +1244,3 @@ pildoras:
       Los textos artificiales fueron generados con distintos modelos de Anthropic y OpenAI y organizados en varios niveles de dificultad. El juego empieza en modo fácil y sube de nivel cuando aciertas tres veces seguidas. La partida termina cuando fallas tres veces.
       Además de ser un juego curioso, sirve para reflexionar sobre lo difícil que empieza a ser diferenciar entre contenido humano y contenido generado por modelos de lenguaje.
 
-  - date: '2026-04-31'
-    image: 2026-03-13.jpg
-    url: https://ai.studio/apps/bundled/paint_a_place
-    description: |
-      En la 💊 formativa de hoy viernes: [Paint A Place](https://ai.studio/apps/bundled/paint_a_place) permite escribir la **dirección de tu lugar favorito**, tomar la imagen satelital y transformarla en una **acuarela generada por IA**. Ideal para convertir sitios especiales en pósters o regalos personalizados. Solo pones la dirección, eliges el estilo y descargas la imagen resultante.
-
