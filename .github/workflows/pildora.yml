@@ -48,6 +48,7 @@ jobs:
             if echo "$MIME" | grep -qE '^image/'; then
               EXT=${MIME##*/}
               [ "$EXT" = "jpeg" ] && EXT=jpg
+              [ "$EXT" = "svg+xml" ] && EXT=svg
             else
               # Fallback: extraer extensión de la URL
               EXT=$(echo "$IMAGE_URL" | sed -nE 's/.*\.([a-zA-Z0-9]+)(\?.*)?$/\1/p' | tr '[:upper:]' '[:lower:]')

@@ -6,3 +6,4 @@ public/
 # Generated per-date pages
 20??-??-??/
 env/
+.omc/
