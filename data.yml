@@ -1,3 +1,1294 @@
+pildoras:
+
+  - date: '2021-06-04'
+    image: null
+    url: https://chrome.google.com/webstore/detail/google-meet-pip/ibkkdnfblcekolaagnljieekcaccfpjo
+    description: Buenos días! En la pildora formativa del viernes les presento la extensión
+      Google Meet PiP, que sirve para mostrar al participante de una videoconferencia
+      como ventana emergente, así puedes ver la cara de participante mientras estas en
+      otra pestaña, ideal para cuando no tenéis disponible dos monitores, espero que
+      os sea útil :)
+
+  - date: '2021-06-11'
+    image: null
+    url: null
+    description: Buenos días! En la píldora formativa del viernes les informo de algo
+      que muy poca gente conoce. Desde 2013 Microsoft Word permite convertir PDFs a
+      formato editable, para ello simplemente deben abrir un PDF se hará la magia. Si
+      desean realizar lo mismo con software libre pueden usar LibreOffice Draw aunque
+      el procedimiento es algo más rudimentario, espero que les sea útil :)
+  - date: '2021-06-18'
+    image: null
+    url: https://www.photopea.com
+    description: Buenos días! En la píldora formativa del viernes les traigo un clon
+      full-featured de Photoshop completamente online y gratuito, ideal para usarlo
+      en Chromebooks https://www.photopea.com además, como píldora adicional les presento
+      el editor de video también online y gratuito https://mastershot.app espero que
+      les sean útiles :)
+  - date: '2021-06-25'
+    image: null
+    url: https://play.google.com/store/apps/details?id=it.mirko.transcriber
+    description: En la píldora formativa de hoy viernes les traigo la aplicación Transcriber
+      que permite convertir a texto esos interminables audios de WhatsApp. Simplemente
+      comparte el audio con la App y verás en un hermoso y práctico texto plano esos
+      12 minutos de divagaciones que te envían sin contemplaciones, espero que les sea
+      útil! https://play.google.com/store/apps/details?id=it.mirko.transcriber
+  - date: '2021-07-02'
+    image: null
+    url: https://visualping.io/
+    description: En la píldora formativa de hoy viernes (última de la temporada) les
+      traigo la aplicación Visualping https://visualping.io/ que permite monitorizar
+      cuando una web sufre una modificación, puede hacer la comparacion de forma visual
+      o del texto contenido. Espero que les sea útil!
+  - date: '2021-09-24'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Si necesitan  direcciones
+      de correo adicionales pueden agregar un más (+) y cualquier palabra antes de la
+      @ en su dirección de correo. Los mensajes les llegarán y tendrán una cantidad
+      infinita de correos electrónicos “virtuales” para diferentes propósitos. Por ejemplo
+      puedo usar la dirección esercol+evagd@canariaseducacion.es para recibir los correos
+      de EVAGD y poder aplicarles un filtro. Este “truco” es compatible tanto con cuentas
+      gmail.com como con las cuentas canariaseducacion.es, espero que les sea útil!'
+  - date: '2021-10-01'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Desde hace tiempo podemos
+      hacer búsquedas semánticas en Google. Su algoritmo es capaz de "entender" lo que
+      le decimos y buscar en consecuencia, aunque las palabras que introduzcamos no
+      estén en el resultado. Pueden ver un ejemplo buscando: *esa película donde no
+      nacen niños* obtendrán una película que no tiene en su título ninguna de las _keywords_
+      introducidas. Todavía falta un poquito para que al buscar *cuál es la canción
+      que ponen siempre en las verbenas* nos devuelva *marejada* pero tiempo al tiempo.
+      Espero que les sea útil!'
+  - date: '2021-10-04'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Si necesitan  direcciones
+      de correo adicionales pueden agregar un más (+) y cualquier palabra antes de la
+      @ en su dirección de correo. Los mensajes les llegarán y tendrán una cantidad
+      infinita de correos electrónicos “virtuales” para diferentes propósitos. Por ejemplo
+      puedo usar la dirección esercol+evagd@canariaseducacion.es para recibir los correos
+      de EVAGD y poder aplicarles un filtro. Este “truco” es compatible tanto con cuentas
+      gmail.com como con las cuentas canariaseducacion.es, espero que les sea útil!'
+  - date: '2021-10-08'
+    image: null
+    url: https://play.google.com/store/apps/details?id=com.alexandershtanko.androidtelegrambot
+    description: 'En la píldora formativa de hoy viernes: *RemoteBot* es un bot de Telegram
+      que les permite controlar su celular. Yo lo utilizo para redirigir a Telegram
+      los *SMS* recibidos, así copio los códigos del *2º factor de autenticación* desde
+      el PC de forma sencilla. https://play.google.com/store/apps/details?id=com.alexandershtanko.androidtelegrambot
+      Espero que les sea útil!'
+  - date: '2021-10-15'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: acuérdense de redactar un
+      *asunto descriptivo* cuando abran una incidencia al CAUCE, les ayudará a identificarla
+      en el futuro. A mí me resulta especialmente útil cuando tengo varios tickets abiertos.
+      Espero que les sea útil!'
+  - date: '2021-10-29'
+    image: null
+    url: https://virustotal.com
+    description: 'En la píldora formativa de hoy viernes: Pueden comprobar archivos
+      sospechososmediante la herramienta de Google virustotal.com A mi me resulta muy
+      útil para analizar archivos de _dudosa procedencia_. Espero que les sea útil!'
+  - date: '2021-11-05'
+    image: null
+    url: https://screenmirrorapp.com
+    description: 'En la píldora formativa de hoy viernes: Con screenmirrorapp.com, pueden
+      *reflejar la pantalla de su celular*  y acceder a ella del navegador de cualquier
+      dispositivo de su red Wi-Fi. Espero que les sea útil!'
+  - date: '2021-11-26'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Para cuando tengan que _desdoblarse_
+      y estar en dos videoconferencias simultáneas un buen truco es silenciar una de
+      las dos con la extensión *MuteTab* y activar los subtítulos con el botón *CC*.
+      Espero que les sea útil!'
+  - date: '2021-12-03'
+    image: null
+    url: https://meet.google.com
+    description: 'En la píldora formativa de hoy viernes: Pueden crear códigos de reunión
+      personalizados en Google Meet, para ello entre en meet.google.com, introduzca
+      un texto personalizado y haga click en *_Unirme_*. Luego comparta ese mismo código
+      con quien quiera. Espero que les sea útil!'
+  - date: '2021-12-10'
+    image: null
+    url: https://librivox.org
+    description: 'En la píldora formativa de hoy viernes: librivox.org es una colección
+      de más de *700* audiolibros en español y más de 36.000 en inglés y otros idiomas.
+      Una especie de Proyecto Gutenberg pero en audio. Las lecturas las hacen personas
+      voluntarias, pero la calidad es _razonablemente_ buena. _Las grabaciones son de
+      dominio público en EEUU, verifiquen los derechos de autor aplicables antes de
+      descargarlas!_. Espero que les sea útil!'
+  - date: '2021-12-17'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden saltarse los muros
+      de pago de algunos periódicos y sitios web abriéndolos en una ventana de incógnito,
+      pero también puede instalar (de forma manual) la extensión *bypass-paywalls-chrome*.
+      Espero que les sea útil!'
+  - date: '2022-02-11'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: El modo oscuro se ha convertido
+      en algo estándar ya para casi todo. Sin embargo, muchas páginas web no lo soportan
+      aún. Con Chrome *puedesforzar el modo oscuro incluso de las webs*que no lo tienen.
+      Para ello, haz lo siguiente: * En Chrome, escribe en la URL *chrome://flags* *
+      Busca *Auto Dark Mode* * Selecciona *Enabled* del desplegable Espero que les sea
+      útil!'
+  - date: '2022-02-18'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Poca gente lo sabe, pero*la
+      mayoría de los navegadoresimplementan un atajo de teclado* (Ctrl + Mayúsc + V)
+      (⌘+⇧+ v en Mac)que elimina el formato del texto al pegarlo. De modo que puedes
+      recurrir a este truco para realizar_copy&paste_en un documento de Google Docs
+      o en cualquier otra aplicación de edición de textos online. Espero que les sea
+      útil!'
+  - date: '2022-02-25'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden enviar un WhatsApp
+      sin necesidad de agregar el número a la agenda. Simplemente acceda a la URL *wa.me/34666000111*
+      donde 34 es el código del país (+34 de España) seguido del número de teléfono
+      al que le desean enviar el mensaje. Espero que les sea útil!'
+  - date: '2022-03-04'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Pueden utilizar Google Meet
+      para practicar su pronunciación en cualquier idioma, simplemente activen los subtítulos
+      y elijan el idioma a practicar, si el algoritmo es capaz de entenderles es muy
+      posible que un interlocutor también lo sea. Happy training. Espero que les sea
+      útil!'
+  - date: '2022-03-18'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Tienen un útil diccionario
+      de sinónimos disponible en Google Docs, simplemente seleccionen una palabra y
+      en el menú contextual hagan clic en *“Definir”*. También está disponible en Microsoft
+      Word (*Mayúsculas + F7*), en LibreOffice (*Ctrl + F7*) y en nube_Medusa (*Extensiones
+      -> Tesauro*). Espero que les sea útil!'
+  - date: '2022-03-25'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Si utilizas la letra *eñe
+      (ñ)* como una de las letras de tus contraseñas, además de aumentar la *entropía*,
+      evitarás que la mayoría de los  programas de _crackeo_ de contraseñas que utilizan
+      la *fuerza bruta* puedan romperla. Espero que les sea útil!'
+  - date: '2022-04-08'
+    image: null
+    url: https://dle.rae.es/almóndiga
+    description: 'En la píldora formativa de hoy viernes: existe una abreviatura muy
+      útil para quien esté todo el día comprobando palabras, consiste en teclear directamente
+      la dirección corta*dle.rae.es/palabra*en el navegador. Esto realizará la búsqueda
+      automáticamente y es mucho más fácil de recordar y teclear. Por ejemplo:*dle.rae.es/almóndiga*.
+      Espero que les sea útil!'
+  - date: '2022-04-22'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: _el 90% de la gente no sabe
+      buscar texto en la web_: simplemente leen y leen hasta dar con lo que buscan.
+      Esta técnica es probable que la conozcan. Pulsar*Ctrl+F*(Win/Linux) o*⌘+F*(Mac).
+      Aparecerá el recuadro de búsqueda donde podrán teclear el texto a buscar. Como
+      píldora adicional, con*Ctrl+G*(Win/Linux) o*⌘+G*(Mac) se puede repetir la búsqueda
+      varias veces si es necesario.  Espero que les sea útil!'
+  - date: '2022-04-29'
+    image: null
+    url: https://lookscanned.io
+    description: 'En la píldora formativa de hoy viernes: Si alguna vez lo necesitan,
+      pueden hacer que sus archivos PDF parezcan escaneados. Simplemente, súbanlo a
+      https://lookscanned.io , es una herramienta *“frontend pura”* que se ejecuta desde
+      el mismo navegador, por lo que la *privacidad está garantizada*. Ya no necesita
+      impresoras ni escáneres para ese estúpido requerimiento administrativo! Espero
+      que les sea útil!'
+  - date: '2022-05-06'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: Suele ser _algo molesto_ que,
+      en mitad de una presentación, su equipo entre en modo suspensión, viéndose en
+      la obligación de mover el ratón para que se active con la consiguiente _pérdida
+      de concentración_ que ello supone. Para evitarlo pueden hacer uso de utilidades
+      como *Caffeine* paraWindowsyLinuxo*Amphetamine* paramacOS. Espero que les sea
+      útil!'
+  - date: '2022-06-10'
+    image: null
+    url: https://feed43.com/1070402418282527.xml
+    description: 'En la píldora formativa de hoy viernes: La nueva web del Gobierno
+      de Canarias no genera un feed rss con las últimas novedades, pero se puede generar
+      automáticamente con herramientas como *feed43*. Aquí tienen un feed que he generado
+      que les devolverá las últimas publicaciones: https://feed43.com/1070402418282527.xml
+      Espero que les sea útil!'
+  - date: '2022-09-02'
+    image: null
+    url: https://www.genbeta.com/desarrollo/programar-infancia-5-lenguajes-programacion-perfectos-para-ninos-que-tambien-esta-python
+    description: 'En la píldora formativa de hoy viernes: De cara a la inminente celebración
+      de "la hora del código" aquí tienen una selección de 5 lenguajes de programación
+      perfectos para iniciar a nuestro alumnado https://www.genbeta.com/desarrollo/programar-infancia-5-lenguajes-programacion-perfectos-para-ninos-que-tambien-esta-python
+      Espero que les sea útil!'
+  - date: '2022-11-04'
+    image: null
+    url: null
+    description: 'En la píldora formativa de hoy viernes: ¿Recuerdan esos largos contratos
+      de software que nadie lee? hace una década, medio de cachondeo medio en serio
+      una compañía incluyó en la licencia un «premio sorpresa» de 1.000 dólares para
+      la primera persona que lo reclamara; su intención era hacer una comprobación empírica
+      del asunto. Según explican pasaron cinco meses y tuvieron que vender 3.000 paquetes
+      de software hasta que alguien reclamara el premio. La compañía se llama PC Pitstop
+      y se dedica al software de seguridad. Un saludo y espero que les sea útil!'
+  - date: '2023-02-10'
+    image: null
+    url: null
+    description: 'En la pildora formativa de hoy viernes: Esta estupenda _chuleta_ sobre
+      *ChatGPT* es una recopilación con más de 30 funciones de ChatGPT a las que se
+      accede haciendo las preguntas de la forma correcta. Incluye diversas categorías
+      (textos, programación, tareas…) y cómo activarlas con los _prompts_, que vienen
+      a ser los planteamientos, ideas o preguntas adecuadas que se hacen a la IA de
+      ChatGPT. Un saludo y espero que les sea útil!'
+
+  - date: '2023-02-17'
+    image: null
+    url: http://eli5.gg
+    description: 'En la píldora formativa de hoy viernes, dedicada a @34637426472 ,
+      que le va a hacer falta en breve:  La frase _«explícamelo como si tuviera 5 años»_
+      es una forma divertida para pedir a alguien que te explique algo complejo de forma
+      sencilla. Pueden usar la IA http://eli5.gg para obtener estas explicaciones. Lo
+      malo que de momento solo funciona en inglés. Un saludo y espero que les sea útil!'
+  
+
+
+  - date: '2023-05-12'
+    image: null
+    url: https://app.colorpop.ai/
+    description: |
+      En la píldora formativa de hoy viernes: 🌈✨ https://app.colorpop.ai/
+      es una IA que permite *generar dibujos para colorear* listos para imprimir. Desata
+      tu creatividad y explora un mundo lleno de arte con esta innovadora IA. Un saludo
+      y espero que les sea útil!
+  - date: '2023-05-19'
+    image: 2023-05-19.jpg
+    url: https://qr.ernesto.es
+    description: |
+      En la píldora formativa de hoy viernes: En [qr.ernesto.es](https://qr.ernesto.es) tienen un generador de códigos QR simple, seguro
+      y _sin dinosaurios_. No recopila información personal ni utiliza cookies. Además,
+      es capaz de extraer la primera URL de un bloque de texto, ideal para sacar la
+      URL de un código embebido. Un saludo y espero que les sea útil!
+  - date: '2023-05-26'
+    image: 2023-05-26.jpg
+    url: https://riverside.fm/transcription
+    description: |
+      En la píldora _un poco tarde_ formativa de hoy viernes: La herramienta https://riverside.fm/transcription convierte
+      audio a texto fácilmente. Solo arrastra el archivo (MP3, WAV, MP4, MOV), indica
+      el idioma y si la voz es humana o artificial. Tiene muy buen rendimiento incluso
+      en audios con varias voces. Y ofrece transcripciones ilimitadas y gratuitas sin
+      registro. Un saludo y espero que les sea util!
+  - date: '2023-06-02'
+    image: 2023-06-02.jpg
+    url: https://dreamInterpreter.ai
+    description: |
+      En la píldora formativa de hoy viernes: en https://dreamInterpreter.ai pueden encontrar una herramienta
+      de IA que interpreta sueños. Escriban sobre su sueño y reciban una interpretación
+      basada en simbología y contexto. Recuerden, interpretar sueños es inexacto y depende
+      de sus propias experiencias personales. Un saludo y espero que les sea útil!
+  - date: '2023-06-09'
+    image: 2023-06-09.jpg
+    url: https://schemely.app
+    description: |
+      En la píldora formativa de hoy viernes: https://schemely.app es una herramienta de IA que agiliza la creación
+      y organización de recursos docentes. Con la versión gratuita, obtienen 10 créditos
+      de IA al mes para generar planes de lección, cuestionarios Kahoot, conjuntos de
+      estudio Quizlet, enlaces de YouTube y más. Pronto, también podrán crear presentaciones
+      de diapositivas. Un saludo y espero que les sea útil! _PD: Píldora auspiciada
+      por Elena Rodríguez Zurita (CEP Santa Cruz)_'
+  - date: '2023-06-16'
+    image: 2023-06-16.jpg
+    url: https://peel.fm
+    description: |
+      En la píldora formativa de hoy viernes: https://peel.fm es una caja de ritmos minimalista en el navegador.
+      Tiene 11 sonidos de batería, 16 pasos, selector de velocidad y volumen, y puedes
+      compartir y cargar patrones. Solo da clic en Reproducir y activa/desactiva casillas.
+      Resultados curiosos con un poco de gracia y matemáticas. Un saludo y espero que
+      les sea útil!
+  - date: '2023-06-23'
+    image: 2023-06-23.gif
+    url: https://www.autodraw.com
+    description: |
+      En la píldora formativa de hoy viernes, *y última del curso*: https://www.autodraw.com es una herramienta
+      de Google que permite dibujar objetos sencillos y *la IA adivina lo que intentas
+      dibujar*, mostrando diversas opciones. Funciona tanto en ordenadores como en móviles.
+      Puedes probarlo dibujando una torre Eiffel o una montaña. ¡Un saludo y disfruten
+      del verano!
+  - date: '2023-09-29'
+    image: 2023-09-29.jpg
+    url: https://scratch.mit.edu/
+    description: |
+      En la píldora formativa de hoy viernes: https://scratch.mit.edu/ es una plataforma diseñada para la programación
+      creativa que no requiere registro del alumnado. Al concluir su proyecto en Scratch
+      pueden descargarlo y, al retomar su trabajo, cargarlo nuevamente en la plataforma.
+      De esta manera, se garantiza la privacidad y se evita compartir datos personales.
+      Un saludo y espero que les sea útil!
+  - date: '2023-10-06'
+    image: 2023-10-06.jpg
+    url: https://foodtimeline.org
+    description: |
+      En la píldora formativa de
+      hoy viernes, screeenly.com/try _(atención a las tres "e")_ es una herramienta
+      que permite realizar capturas  en formato PNG de cualquier página web que indiquen.
+      Es especialmente útil para verificar si un sitio web está activo, para documentar
+      contenido, y muchas otras aplicaciones. Sin duda, una herramienta práctica para
+      tener a mano en diversas situaciones. Un saludo y espero que les sea útil!
+  - date: '2023-10-13'
+    image: 2023-10-13.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes 13, les hablaré sobre el virus *"Viernes 13"*. Este es uno de los
+      primeros virus informáticos que se propagó en la década de 1980. Se activaba específicamente
+      el día viernes 13, dañando los discos duros de las computadoras infectadas. Aunque
+      hoy en día está prácticamente extinto, nos recuerda la importancia de mantener
+      nuestros dispositivos protegidos y actualizados para evitar amenazas cibernéticas.
+      Un saludo y espero que les sea útil!
+  - date: '2023-10-20'
+    image: null
+    url: https://distill.io
+    description: |
+      En la píldora formativa de hoy viernes, https://distill.io es una herramienta
+      que automatiza el seguimiento de actualizaciones en sitios web. ¿Necesitas saber
+      cuándo una página web cambia? Distill.io te permite seleccionar partes específicas
+      de una página para monitorear y te notifica por email cuando hay cambios. Es útil
+      para mantenerse al día con la información, rastrear novedades o incluso encontrar
+      productos agotados que vuelven a estar en stock. Un saludo y espero que les sea
+      útil!
+  - date: '2023-10-27'
+    image: 2023-10-27.jpg
+    url: https://qwertytiles.github.io
+    description: |
+      En la píldora formativa de
+      hoy viernes, QuertyTiles ([qwertytiles.github.io](https://qwertytiles.github.io)) es un juego sencillo pero adictivo
+      donde el objetivo es pulsar las letras que aparecen en pantalla antes de que lleguen
+      a la parte inferior. A medida que aciertas, el juego se acelera, poniendo a prueba
+      tus habilidades de mecanografía. La clave para avanzar es teclear sin mirar el
+      teclado, un desafío en la era digital. Al final, se muestra una puntuación basada
+      en el total de teclas acertadas y un porcentaje de precisión que refleja tu habilidad
+      para pulsar correctamente. Un saludo y espero que les sea útil!
+  - date: '2023-11-03'
+    image: 2023-11-03.jpg
+    url: https://emojis.sh
+    description: |
+      En la píldora formativa de
+      hoy viernes, https://emojis.sh es una innovadora herramienta que utiliza inteligencia
+      artificial para crear emojis personalizados a partir de descripciones textuales.
+      Aunque no se pueden añadir emojis nuevos al estándar, esta web ofrece una excelente
+      alternativa, generando imágenes con forma y tamaño de emoji que puedes usar como
+      stickers. Para crear tu emoji personalizado, simplemente ingresa a la página,
+      escribe una breve descripción de lo que deseas y ¡voilà! La IA se encargará del
+      resto. Un saludo y espero que les sea útil!
+  - date: '2023-11-10'
+    image: 2023-11-10.gif
+    url: https://flexboxfroggy.com
+    description: |
+      En la píldora formativa de
+      hoy viernes, Seguro que alguna vez se han sentido como en el GIF. Por ello, aquí
+      tienen [flexboxfroggy.com](https://flexboxfroggy.com), un juego para aprender CSS moviendo a una rana hacia
+      su nenúfar mientras van comprendiendo cómo funciona el posicionamiento de elementos
+      en CSS. Un saludo y espero que les sea útil!
+  - date: '2023-11-17'
+    image: 2023-11-17.jpg
+    url: https://catalog.ngc.nvidia.com/orgs/nvidia/teams/ai-foundation/models/sdxl
+    description: |
+      En la píldora formativa de
+      hoy viernes, StableDiffusion XL https://catalog.ngc.nvidia.com/orgs/nvidia/teams/ai-foundation/models/sdxl
+      Esta herramienta de inteligencia artificial se ejecuta de manera gratuita y sin
+      necesidad de registro en los servidores de NVIDIA, permitiendo generar imágenes
+      de alta calidad. Aunque el modelo no maneja muy bien el español, es una excelente
+      opción para enriquecer el material visual en clase. Eso sí, es importante utilizarlo
+      siempre bajo la supervisión del profesorado para guiar adecuadamente su uso educativo.
+      Un saludo y espero que les sea útil!
+  - date: '2023-11-24'
+    image: 2023-11-24.jpg
+    url: https://whatcms.org
+    description: |
+      En la píldora formativa de
+      hoy viernes, [whatcms.org](https://whatcms.org) es una herramienta esencial para hacer *OSINT*. ¿Alguna
+      vez te has preguntado qué sistema de gestión de contenidos (CMS) o tecnología
+      utiliza un sitio web específico? WhatCMS.org le da la respuesta. Simplemente ingrese
+      la URL del sitio que le interese, y esta plataforma le revelará qué CMS está detrás,
+      ya sea WordPress, Joomla, Drupal, o cualquier otro. Es una herramienta fantástica
+      para investigadores, desarrolladores y cualquiera interesado en la tecnología
+      web. Un saludo y espero que les sea útil!
+  - date: '2023-12-01'
+    image: 2023-12-01.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes, les traigo una herramienta muy útil para los usuarios de ChatGPT:
+      chatgpt-prompt-splitter.jjdiaz.dev. Si alguna vez has tenido un texto largo que
+      querías procesar con ChatGPT, pero te encontraste con la limitación de caracteres,
+      esta web es la solución. Simplemente pega tu texto extenso en la aplicación, y
+      automáticamente te generará segmentos de 15,000 caracteres. Luego, puedes introducir
+      estos trozos uno a uno en ChatGPT para un análisis o procesamiento detallado.
+      ¡Una herramienta sencilla pero increíblemente práctica! Un saludo y espero que
+      les sea útil!
+  - date: '2023-12-15'
+    image: 2023-12-15.jpg
+    url: https://f-droid.org/es/packages/at.bitfire.davdroid/
+    description: |
+      En la píldora formativa de hoy viernes, les presento DAVx⁵, una aplicación para la sincronización de calendarios
+      y contactos de la Nube Medusa para usuarios de Android. Aunque es de pago en Google
+      Play, hay una buena noticia: ¡pueden obtenerla gratuitamente en F-Droid! https://f-droid.org/es/packages/at.bitfire.davdroid/
+      DAVx⁵ ofrece una solución eficiente y segura para mantener sus datos personales
+      sincronizados entre dispositivos, facilitando la organización de su agenda y contactos.
+      Un saludo y espero que les sea útil!
+  - date: '2023-12-22'
+    image: 2023-12-22.jpg
+    url: https://chromewebstore.google.com/detail/sendhereplz-amazon-shippi/anpeeogkdbgkhakjldceemkolhggobhd
+    description: |
+      En la píldora formativa de hoy viernes, les traigo una extensión de Chrome muy útil para los compradores
+      en Canarias: https://chromewebstore.google.com/detail/sendhereplz-amazon-shippi/anpeeogkdbgkhakjldceemkolhggobhd
+      Esta extensión es un salvavidas para evitar la frustración de elegir productos
+      en Amazon que luego resultan no ser enviados a Canarias. Una vez instalada, SendHerePlz
+      marca con un color gris y el símbolo de un camión tachado aquellos productos que
+      Amazon no envía a Canarias. Así, podrás saber de un vistazo si un artículo está
+      disponible para tu ubicación, ahorrando tiempo y evitando decepciones. Un saludo
+      y espero que les sea útil!
+  - date: '2024-01-12'
+    image: 2024-01-12.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, les comparto un truco rápido para YouTube. ¿Quieren acelerar un vídeo
+      a 2x en su PC o portátil? Simplemente mantengan pulsada la barra espaciadora durante
+      la reproducción. También funciona manteniendo pulsado el botón izquierdo del ratón.
+      Y en el móvil, ¡es igual de fácil! Mantengan el dedo sobre la pantalla y el vídeo
+      se reproducirá más rápido. Además, en dispositivos móviles, pueden avanzar o retroceder
+      en franjas de 10, 20, 30 segundos con toques en la mitad derecha o izquierda del
+      reproductor. ¡Una forma sencilla de ahorrar tiempo! Un saludo y espero que les
+      sea útil!
+  - date: '2024-01-19'
+    image: 2024-01-19.jpg
+    url: https://github.com/pluja/awesome-privacy
+    description: |
+      En la píldora formativa de
+      hoy viernes, les presento Awesome Privacy https://github.com/pluja/awesome-privacy
+      , una lista en GitHub con alternativas respetuosas con la privacidad de servicios
+      online comunes. Por ejemplo, sugiere usar NextCloud en lugar de Google Drive para
+      almacenamiento en la nube, y OpenStreetMap como alternativa a Google Maps. Es
+      ideal para quienes buscan opciones gratuitas, de código abierto y respetuosas
+      con la privacidad. Un saludo y espero que les sea útil!
+  - date: '2024-01-26'
+    image: 2024-01-26.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, les presento EU Academy (academy.europa.eu), un portal de la Unión
+      Europea que ofrece una amplia gama de cursos online gratuitos. Aquí, pueden encontrar
+      formación en temas tan diversos como idiomas oficiales de la UE, energías renovables,
+      medio ambiente, tecnología, inmigración, y más. Los contenidos son de alta calidad,
+      creados por instituciones de la UE. Para acceder, simplemente visiten la web,
+      regístrense y, una vez dentro, exploren los cursos por tema o idioma y comiencen
+      a aprender y a mejorar sus habilidades. Un saludo y espero que les sea útil!
+  - date: '2024-02-02'
+    image: 2024-02-02.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, Tal día como hoy, _2 de febrero_, se celebra el *día de la marmota*,
+      en el que la marmota Phil predecirá el final del invierno. Tradición originaria
+      de Punxsutawney (Pensilvania), este día ha ganado popularidad gracias a la icónica
+      película protagonizada por Bill Murray. Un saludo y que pasen un feliz día de
+      la marmota!
+  - date: '2024-02-09'
+    image: 2024-02-09.jpg
+    url: https://geospy.web.app
+    description: |
+      En la píldora formativa de
+      hoy viernes, https://geospy.web.app es una web que tiene la capacidad de localizar
+      el origen de una fotografía basándose en elementos como la vegetación o la arquitectura.
+      Al subir una imagen, GeoSpy la procesa en segundos y proporciona la ubicación
+      aproximada con coordenadas. Aunque es bastante precisa al identificar el país
+      y la ciudad, la exactitud en las coordenadas puede variar con un margen de error
+      de algunos kilómetros. Además, ofrece un mapa interactivo para visualizar la posible
+      localización y la opción de verla en Google Maps. ¡Una herramienta ideal para
+      los curiosos y amantes de la geolocalización! Un saludo y espero que les sea útil!
+  - date: '2024-02-16'
+    image: 2024-02-16.jpg
+    url: https://github.com/z-huang/InnerTune
+    description: |
+      En la píldora formativa de
+      hoy viernes, les presento  https://github.com/z-huang/InnerTune un cliente de
+      YouTube Music para Android que sigue el diseño Material 3. Este proyecto de código
+      abierto permite reproducir canciones de YouTube/YouTube Music sin anuncios, con
+      reproducción en segundo plano, búsqueda de canciones, videos, álbumes y listas
+      de reproducción de YouTube Music. Además, ofrece gestión de biblioteca, descarga
+      de canciones para reproducción sin conexión, letras sincronizadas, y más. Un saludo
+      y espero que les sea útil!
+  - date: '2024-02-23'
+    image: 2024-02-23.jpg
+    url: https://mermaid.js.org/intro/
+    description: |
+      En la píldora formativa de
+      hoy viernes, https://mermaid.js.org/intro/ es una herramienta que convierte texto
+      en diagramas. Ideal para crear diagramas de flujo, gráficos Gantt y más, con una
+      sintaxis simple. Perfecto para documentar visualmente. Pueden probarlo en mermaid.live
+      Un saludo y espero que les sea útil!
+  - date: '2024-03-01'
+    image: 2024-03-01.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes, un truco para escribir números y símbolos rápidamente en el teclado
+      de iPhone y Android que quizás no conocías. Olvídate de cambiar constantemente
+      entre teclados con la tecla ''123''. Aquí va el secreto: 1. *No pulses la tecla
+      ''123'', mantenla pulsada.* Esta tecla te permite acceder al teclado de cifras
+      y símbolos en iOS. 2. *Escribe los números con otro dedo* mientras mantienes pulsada
+      la tecla ''123''. 3. *Suelta la tecla ''123''* para volver al teclado estándar
+      automáticamente. Además, puedes *arrastrar el dedo desde la tecla ''123'' hasta
+      el número o símbolo deseado* sin levantar el dedo de la pantalla, permitiéndote
+      seleccionar y escribir el número de forma instantánea. Este método te ahorra tiempo
+      y aumenta tu eficiencia al escribir en tu _celular_. Un saludo y espero que les
+      sea útil!
+  - date: '2024-03-08'
+    image: null
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes, dedicada al Día Internacional
+      de la Mujer, conmemoramos a *Ada Lovelace*, reconocida como la primera programadora
+      de la historia. En el siglo XIX, Ada escribió lo que se considera el primer algoritmo
+      destinado a ser procesado por una máquina, marcando el nacimiento de la programación
+      como la conocemos. Su visión pionera del potencial de las computadoras fue revolucionaria.
+      En su honor, se creó el lenguaje de programación "Ada", utilizado en sistemas
+      críticos donde la seguridad y la precisión son esenciales. Ada Lovelace no solo
+      es un símbolo de innovación, sino también un modelo a seguir para mujeres en ciencia
+      y tecnología. Un saludo y espero que les sea útil!
+  - date: '2024-03-15'
+    image: 2024-03-15.jpg
+    url: https://www.makewordart.com/.
+    description: |
+      En la píldora formativa de
+      hoy viernes, te traigo un viaje al pasado digital con https://www.makewordart.com/.
+      Esta página web te permite recrear los nostálgicos estilos de WordArt del Office
+      97. Perfecta para diseñar títulos retro con ese toque de los 90, MakeWordArt ofrece
+      una variedad de estilos y efectos para personalizar tus textos. Es una herramienta
+      divertida y fácil de usar para añadir un toque vintage a tus proyectos o simplemente
+      para revivir aquellos días de la infancia frente al ordenador. Un saludo y espero
+      que les sea útil!
+  - date: '2024-03-22'
+    image: 2024-03-22.jpg
+    url: https://www.pantheon.international/almanac,
+    description: |
+      En la píldora formativa de hoy viernes, destacamos una herramienta esencial para entusiastas de la IA:
+      https://www.pantheon.international/almanac, conocido como Ares Almanac. Desarrollado
+      por  investigadores del MIT, esta web es una base de datos  que recopila programas
+      de IA disponibles para el público. Ofrece detalles detallados sobre cada herramienta,
+      facilitando la búsqueda de soluciones de IA para usuarios con intereses específicos.
+      A medida que la tecnología avanza rápidamente, herramientas como esta se convierten
+      en un recurso imprescindible para mantenerse al día con las últimas innovaciones
+      en IA. Un saludo y espero que les sea útil!
+  - date: '2024-04-05'
+    image: 2024-04-05.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, te presento *eGarante*, una herramienta que certifica el contenido,
+      la fecha, el emisor y los destinatarios de los correos electrónicos. Ideal para
+      comunicaciones importantes como bajas, cambios de contrato y reclamaciones, eGarante
+      añade una capa de seguridad y verificación a tus emails. Simplemente añade mailsigned@egarante.com
+      en el campo cc de tu correo y recibirás una certificación de tu envío. La versión
+      gratuita permite un unico destinatario y hasta 2MB por correo. Un saludo y espero
+      que les sea útil!
+  - date: '2024-04-12'
+    image: 2024-04-12.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, te presento suno.ai, una plataforma de inteligencia artificial diseñada
+      para desatar tu creatividad musical. Con suno.ai, puedes crear hasta 5 canciones
+      diarias, personalizando letras y estilo según tus preferencias. Ya sea que busques
+      explorar nuevos géneros o dar vida a las melodías que resuenan en tu cabeza, suno.ai
+      ofrece una herramienta intuitiva y poderosa para transformar tus ideas en música.
+      Perfecta para músicos, compositores y cualquier persona con pasión por la música,
+      esta IA es tu estudio virtual para experimentar y producir tus propias canciones
+      sin límites. Un saludo y espero que les sea útil!
+  - date: '2024-04-19'
+    image: 2024-04-19.jpg
+    url: https://chromewebstore.google.com/detail/google-maps-quickclick-se/ippkeibgeeegemmdjhlhbdlcfjkgjann)
+    description: |
+      En la píldora formativa de
+      hoy viernes, Google Maps QuickClick - Search to Maps (https://chromewebstore.google.com/detail/google-maps-quickclick-se/ippkeibgeeegemmdjhlhbdlcfjkgjann)
+      es una extensión para el navegador que recupera el acceso directo a Google Maps
+      desde la página de búsqueda. Esta extensión permite a los usuarios abrir Google
+      Maps instantáneamente al hacer clic en imágenes de mapas o en la pestaña de Maps
+      situada debajo de la barra de búsqueda en los resultados de Google. Estos enlaces
+      a Google Maps han sido eliminados debido a las nuevas leyes DMA en Europa, que
+      prohíben a grandes empresas tecnológicas como Google facilitar botones que permitan
+      saltar entre sus servicios para evitar favorecer sus propios productos. Un saludo
+      y espero que les sea útil!
+  - date: '2024-04-26'
+    image: 2024-04-26.jpg
+    url: https://mystery.knightlab.com
+    description: |
+      En la píldora formativa de
+      hoy viernes, https://mystery.knightlab.com es una forma entretenida y educativa
+      de aprender SQL. Este juego te reta a resolver un misterioso asesinato utilizando
+      tus habilidades en *SQL*. A través de la investigación y consulta de bases de
+      datos, podrás descifrar pistas y acercarte cada vez más a la solución del crimen.
+      Es una herramienta perfecta tanto para principiantes que quieren entender los
+      fundamentos de SQL como para expertos que buscan poner a prueba sus conocimientos.
+      Sumérgete en este desafío y conviértete en detective por un día, todo mientras
+      perfeccionas tus habilidades en bases de datos. Un saludo y espero que les sea
+      útil!
+  - date: '2024-05-03'
+    image: 2024-05-03.jpg
+    url: https://remaker.ai
+    description: |
+      En la píldora formativa de hoy viernes, https://remaker.ai es un portal que proporciona herramientas gratuitas
+      para cambiar rostros en fotos y vídeos mediante el uso de inteligencia artificial.
+      Con Remaker AI, puedes insertar fácilmente la cara de una persona en la imagen
+      de otra. Este proceso es simple: solo necesitas la foto del rostro que deseas
+      añadir y la imagen original. Un saludo y espero que les sea útil!
+  - date: '2024-05-10'
+    image: 2024-05-10.jpg
+    url: https://t.me/MiTrackingBot
+    description: |
+      En la píldora formativa de
+      hoy viernes, https://t.me/MiTrackingBot es bot *gratuito* de Telegram que te permite
+      llevar el seguimiento de todos tus pedidos. Este bot destaca por su capacidad
+      de auto-detectar trackings en más de 100 compañías. Solo necesitas escribir el
+      número de seguimiento y el bot se encargará del resto enviando notificaciones
+      en tiempo real cada vez que tu pedido cambie de estado. Un saludo y espero que
+      les sea útil!
+  - date: '2024-05-17'
+    image: 2024-05-17.jpg
+    url: https://excalidraw.com
+    description: |
+      En la píldora formativa de
+      hoy viernes, [excalidraw.com](https://excalidraw.com) es una herramienta de pizarra colaborativa de código
+      abierto que permite a los usuarios dibujar diagramas y esquemas de forma sencilla,
+      ideal para colaborar visualmente en tiempo real. Un punto a destacar es que no
+      requiere registro. Además, integra funciones de inteligencia artificial para generar
+      diagrama e incluso código. Excalidraw es una opción excelente para la educación
+      a distancia, el trabajo remoto o cualquier actividad que se beneficie de la colaboración
+      visual. Un saludo y espero que les sea util!
+  - date: '2024-05-24'
+    image: 2024-05-24.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, les traigo un antiguo truco para el Administrador de tareas de Windows.
+      Esta herramienta te permite controlar y detener procesos, además de consultar
+      el consumo de CPU, RAM y la temperatura de la gráfica. Sin embargo, los procesos
+      a veces se mueven constantemente, lo que puede ser molesto. Para solucionarlo,
+      puedes congelar la lista de procesos simplemente pulsando la tecla "Control" mientras
+      estás en el Administrador de tareas. Este truco, implementado por el desarrollador
+      de Microsoft Dave W. Plummer en 1994, te permitirá seleccionar y gestionar los
+      procesos más fácilmente. Un saludo y espero que les sea útil!
+  - date: '2024-06-07'
+    image: 2024-06-07.jpg
+    url: https://simplelogin.io
+    description: |
+      En la píldora formativa de hoy viernes,  [simplelogin.io](https://simplelogin.io) es una herramienta que te permite crear alias
+      de correo electrónico para proteger tu dirección principal. Así, puedes generar
+      direcciones de email temporales (o permanentes) que redirigen los correos a tu
+      bandeja de entrada real, manteniendo tu privacidad y evitando el spam. Usar SimpleLogin
+      es sencillo: te registras, creas un alias y lo usas para registrarte en sitios
+      web o suscribirte a boletines. Si un alias empieza a recibir spam, simplemente
+      lo desactivas sin afectar tu correo principal. Un saludo y espero que les sea
+      útil!
+  - date: '2024-06-14'
+    image: 2024-06-14.jpg
+    url: https://www.freepdfcompressor.com/
+    description: |
+      En la píldora formativa de hoy viernes, Free PDF Compressor es una herramienta gratuita para Windows que
+      reduce el tamaño de tus PDF. ¡Y sin los problemas de privacidad de los servicios
+      online 😉! Es fácil de usar: selecciona un PDF y presiona *"Compress"*. Reducir
+      un PDF facilita compartir archivos PDF así como la lectura en dispositivos móviles.
+      https://www.freepdfcompressor.com/ Un saludo y espero que les sea útil! PD: Para
+      Linux pueden mirar esto: https://www.digitalocean.com/community/tutorials/reduce-pdf-file-size-in-linux
+  - date: '2024-06-21'
+    image: 2024-06-21.jpg
+    url: https://whitescreen.online
+    description: |
+      En la píldora formativa de
+      hoy  viernes y última de este curso, whitescreen.online es una herramienta simple
+      pero sorprendentemente útil. Te permite poner tu pantalla de un color específico.
+      ¿Para qué sirve esto? Una pantalla completamente blanca puede ser una iluminación
+      extra en videollamadas, útil para calcar dibujos o detectar manchas y píxeles
+      muertos en la pantalla. Además, whitescreen.online ofrece funciones divertidas
+      y prácticas como simular pantallas rotas, hackeos falsos, o actualizaciones de
+      sistemas operativos, perfectas para bromas. Un saludo y espero que estas píldoras
+      les hayan sido útiles. ¡Nos vemos el próximo curso!
+  - date: '2024-09-06'
+    image: 2024-09-06.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes (y primera del curso): Les presento spycloud.com una herramienta
+      genial para proteger tu información personal. Primero, creas una cuenta en su
+      plataforma. Luego, ingresas los correos electrónicos que desees monitorizar y
+      SpyCloud se encarga de comprobar periódicamente si tus datos han sido filtrados
+      en la *dark web*. Si encuentra alguna amenaza, te alerta para que puedas cambiar
+      contraseñas comprometidas de inmediato y evitar accesos no autorizados. Un saludo
+      y espero que les sea útil! 6/9/24, 7:32 - Cambiaste el nombre del grupo de "Asesorías
+      TIC 23_24 😊" a "Asesorías TIC 24_25 😊".
+  - date: '2024-09-13'
+    image: 2024-09-13.jpg
+    url: https://merklemap.com
+    description: |
+      En la píldora formativa de hoy viernes: merklemap.com es una interesante herramienta para la búsqueda
+      de subdominios. A diferencia de otros buscadores de dominios, Merklemap escanea
+      servidores para identificar **todos los subdominios asociados** a un sitio web,
+      incluso aquellos no públicos. Esto resulta útil para evaluaciones de seguridad,
+      validación de huellas digitales o pruebas de penetración. Un plus es que permite
+      el uso de **caracteres comodín**, como el asterisco (*) y el igual (=), para afinar
+      búsquedas, algo esencial cuando un dominio, como renfe.com, tiene muchos resultados.
+      Un saludo y espero que les sea útil!
+  - date: '2024-09-20'
+    image: 2024-09-20.jpg
+    url: https://tapedeck.org
+    description: |
+      En la píldora formativa de hoy viernes: *tapedeck.org* es una fascinante colección de cintas de casete
+      antiguas, con cientos de ellas disponibles para explorar. El sistema de visualización
+      permite filtrarlas por *marca*, *duración*, *tipo* (como cromo, hierro o metal),
+      e incluso *color*. Lo más destacable es la calidad superior de las imágenes, con
+      cada cinta mostrada a 800 píxeles de ancho, perfectamente encuadrada, limpia y
+      nítida. Para los nostálgicos, como yo, las cintas BASF naranjas eran un clásico,
+      aunque también tenía debilidad por las TDK, Grundig y esas marcas baratas para
+      grabar música o programas de radio. Y claro, quién no recuerda rebobinar una cinta
+      con un boli Bic cuando se atascaba. Un saludo y espero que les sea útil!
+  - date: '2024-09-27'
+    image: 2024-09-27.jpg
+    url: https://LearningML.org
+    description: |
+      En la píldora formativa de hoy viernes: *LearningML.org* es una plataforma educativa diseñada para enseñar
+      los conceptos básicos de la inteligencia artificial y el machine learning de forma
+      accesible. A través de actividades interactivas y sencillas, permite a los usuarios
+      aprender cómo funcionan los modelos de aprendizaje automático sin necesidad de
+      conocimientos previos en programación. Es una herramienta perfecta para estudiantes,
+      educadores o cualquier persona curiosa por explorar cómo la IA puede resolver
+      problemas del mundo real. Lo mejor es que fomenta el aprendizaje práctico mediante
+      ejemplos y ejercicios visuales. Un saludo y espero que les sea útil!
+  - date: '2024-10-04'
+    image: 2024-10-04.jpg
+    url: https://Mail-tester.com
+    description: |
+      En la píldora formativa de hoy viernes: *Mail-tester.com* es una herramienta sencilla y eficaz para verificar
+      la calidad de los correos electrónicos que envías. Al utilizarla, puedes analizar
+      tu email en busca de errores comunes, detectar si está etiquetado como spam o
+      si presenta problemas de configuración (como DKIM o SPF). Solo necesitas enviar
+      un correo a la dirección generada, y en segundos recibes un informe detallado
+      con una puntuación. Es ideal para docentes y profesionales que quieran asegurarse
+      de que sus correos importantes lleguen correctamente a los estudiantes o colegas
+      sin caer en bandejas de spam. Un saludo y espero que les sea útil!
+  - date: '2024-10-11'
+    image: 2024-10-11.jpg
+    url: https://h5p.org/content-types/game-map
+    description: |
+      En la píldora formativa de hoy viernes: *Game Map* es una funcionalidad de *H5P* que te permite crear
+      juegos interactivos basados en HTML5. Consiste en un mapa de juego con diferentes
+      etapas que puedes organizar sobre una imagen de fondo. Cada etapa puede contener
+      un tipo de contenido de H5P, como cuestionarios o actividades, que los usuarios
+      deben completar para avanzar. Lo más interesante es que puedes definir reglas
+      para controlar el avance del jugador, creando una experiencia personalizada. Además,
+      es compatible con plataformas como WordPress y Moodle, lo que facilita su integración
+      en entornos educativos. Mas info: https://h5p.org/content-types/game-map Un saludo
+      y espero que les sea útil!
+  - date: '2024-10-18'
+    image: 2024-10-18.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes: *YouTube-nocookie.com* es una opción muy útil para compartir vídeos
+      sin necesidad de activar cookies, lo que permite evitar el molesto aviso de cookies
+      en tu web. Simplemente sustituye la típica URL de YouTube por *youtube-nocookie.com*,
+      activando el modo de privacidad mejorada. Por ejemplo, si la URL original es `youtube.com/watch?v=loquesea`,
+      solo tienes que cambiarla a `youtube-nocookie.com/watch?v=loquesea`. Esto te permite
+      compartir el vídeo sin problemas de privacidad y sin que YouTube rastree la actividad
+      del usuario. Un saludo y espero que les sea útil!
+  - date: '2024-10-25'
+    image: 2024-10-25.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes: markdown-here.com es una extensión para el navegador que convierte
+      el texto Markdown a HTML, lo que te permite mantener el formato cuando copias
+      texto desde ChatGPT u otras IA, formateando fácilmente, agregar listas, títulos,
+      enlaces o negritas. Esto hace que tu texto sea más amigable para correos electrónicos,
+      blogs o documentos. Un saludo y espero que les sea útil!
+  - date: '2024-11-01'
+    image: 2024-11-01.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes: remove.bg es una herramienta online que elimina automáticamente
+      el fondo de cualquier imagen en cuestión de segundos. Es perfecta para quienes
+      necesitan crear imágenes transparentes rápidamente, ya sea para presentaciones,
+      tiendas online o cualquier tipo de diseño. Solo subes tu imagen y en segundos
+      obtienes una versión sin fondo. Un saludo y espero que les sea útil!
+  - date: '2024-11-08'
+    image: 2024-11-08.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes: whatfontis.com es una herramienta online que te ayuda a identificar
+      fuentes tipográficas. Solo necesitas subir una imagen de un texto, y la herramienta
+      hará su magia, mostrándote posibles coincidencias de fuentes, tanto gratuitas
+      como de pago. Es ideal para diseñadores y creativos que deseen encontrar la tipografía
+      exacta que vieron en una imagen o logo. Un saludo y espero que les sea útil!
+  - date: '2024-11-15'
+    image: 2024-11-15.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes: downforeveryoneorjustme.com es una sencilla página que te permite
+      verificar si un sitio web está caído para todos o solo para ti. Es especialmente
+      útil cuando tienes problemas para acceder a una página y quieres confirmar si
+      el problema es de tu red o del servidor del sitio. Un saludo y espero que les
+      sea útil!
+  - date: '2024-11-22'
+    image: 2024-11-22.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes: ibroadcast.com es una plataforma ideal para organizar y disfrutar
+      tu música en cualquier lugar. iBroadcast te permite *subir y almacenar tu colección
+      de música* en la nube de manera gratuita, sin importar cuántas canciones tengas.
+      Además, puedes acceder a tu música desde cualquier dispositivo: móvil, tableta
+      o PC. Lo mejor es que iBroadcast está libre de anuncios, lo que te permite disfrutar
+      de tu música sin interrupciones. Es una excelente opción si quieres *tener control
+      total sobre tu biblioteca musical*, sin depender de servicios de streaming que
+      limitan lo que puedes escuchar. Un saludo y espero que les sea útil!
+  - date: '2024-11-29'
+    image: 2024-11-29.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, urlscan.io es una herramienta muy útil para *validar enlaces cortos
+      y detectar si son maliciosos*. Cuando recibes un enlace acortado o sospechoso,
+      puedes pegarlo en urlscan.io y la plataforma realizará un análisis detallado del
+      sitio web al que apunta. Te muestra información clave como la dirección IP, el
+      contenido del sitio y posibles riesgos de seguridad, todo sin que tengas que abrir
+      el enlace directamente. Un saludo y espero que les sea útil!
+  - date: '2024-12-13'
+    image: 2024-12-13.jpg
+    url: null
+    description: |
+      En la píldora formativa de hoy viernes: justicio.es es un asistente legal gratuito basado en inteligencia
+      artificial. Un proyecto 100% colaborativo de código abierto que "_es capaz de
+      ofrecer gratuitamente respuestas legales fundamentales_". Todo esto gracias a
+      que cuenta en su base de datos con la normativa estatal, autonómica, local y comunitaria,
+      con la jurisprudencia tanto española como europea. Además puede usar términos
+      simples para adultos o jerga técnica para juristas. Por ejemplo, te explica desde
+      cómo reclamar una fianza hasta referencias legales específicas, todo según tu
+      necesidad.
+  - date: '2024-12-20'
+    image: 2024-12-20.jpg
+    url: null
+    description: |
+      En la píldora formativa de
+      hoy viernes, te presentamos The Food Timeline 🕰️, una web que muestra la historia
+      de alimentos y recetas desde el Neolítico. Aunque no incluye el potaje de berros
+      🌱, es ideal para explorar la evolución de la comida. Descúbrela en [foodtimeline.org](https://foodtimeline.org).
+      ¡Feliz viernes y buen provecho! 😊
+
+  - date: '2025-01-10'
+    image: "2025-01-10.jpg"
+    url: https://timeywimey.co
+    description: |
+      En la píldora formativa de hoy viernes: **timeywimey.co** 🕒
+
+      Es una web que muestra en qué momento del día están varias ciudades a la vez, destacando sus:
+      - Horas doradas
+      - Horas azules
+
+      Perfecta para planificar reuniones internacionales, ¡y puedes [enlazar directamente con Google Calendar](https://calendar.google.com)!
+
+
+
+  - date: '2025-01-17'
+    image: "2025-01-17.jpg"
+    url: https://bgrins.github.io/browser-diff/
+    description: "En la píldora formativa de hoy viernes, https://bgrins.github.io/browser-diff/ ✏️ es una herramienta que compara texto línea por línea, destacando diferencias de manera visual. Ideal para revisar cambios en código o documentos."
+
+  - date: '2025-01-24'
+    image: "2025-01-24.jpg"
+    url: https://templatemaker.nl
+    description: "En la píldora formativa de hoy viernes, templatemaker.nl es una web para crear plantillas personalizadas de cajas y envoltorios. Solo introduces las medidas, descargas el diseño en PDF y ¡a cortar y montar! Perfecto para proyectos DIY o embalajes únicos."
+
+  - date: '2025-01-31'
+    image: "2025-01-31.jpg"
+    url: https://play.google.com/store/apps/details?id=org.rnazarevych.shaketorch
+    description: "En la píldora formativa de hoy viernes, Shake Torch 🔦 es una app sencilla y práctica para Android que enciende la linterna de tu móvil con solo agitarlo. Ideal para emergencias o cuando necesitas luz rápidamente. Descárgala en Google Play: https://play.google.com/store/apps/details?id=org.rnazarevych.shaketorch"
+
+  - date: '2025-02-07'
+    image: 2025-02-07.png
+    url: https://zty.pe
+    description: "En la píldora formativa de hoy viernes: zty.pe es un juego web que te ayuda a mejorar tu velocidad de escritura mientras te diviertes. Las palabras caen como naves espaciales y debes escribirlas correctamente antes de que lleguen abajo. Cuanto más rápido escribas, más puntos obtendrás. Es una forma entretenida de practicar mecanografía y perfeccionar tu técnica de escritura. Un saludo y espero que les sea útil!"
+
+  - date: '2025-02-14'
+    image: 2025-02-14.png
+    url: https://temp-mail.org
+    description: "En la píldora formativa de hoy viernes: temp-mail.org es un servicio gratuito que genera correos electrónicos temporales que se autodestruyen después de cierto tiempo. Es perfecto para registrarse en sitios web sin compartir tu correo personal, evitando así el spam indeseado. No requiere registro y es completamente anónimo. Ideal para probar servicios o acceder a contenido que requiere verificación por email sin comprometer tu privacidad. Un saludo y espero que les sea útil!"
+
+  - date: '2025-02-21'
+    image: 2025-02-21.png
+    url: https://doompdf.pages.dev
+    description: "En la píldora formativa de hoy viernes: https://doompdf.pages.dev es un proyecto que permite jugar al clásico Doom directamente en un archivo PDF. Compatible con navegadores como Chrome, incluye controles básicos y soporte para cargar niveles personalizados. ¡Una combinación creativa de lectura y videojuegos! Un saludo y espero que les sea útil!"
+
+  - date: '2025-02-28'
+    image: 2025-02-28.png
+    url: https://playground.ai.cloudflare.com
+    description: "En la píldora formativa de hoy viernes: playground.ai.cloudflare.com es una web donde puedes probar modelos de IA como Llama, Zephyr y Falcon. Solo entra, elige un modelo y lanza tu pregunta. ¡Rápido, sencillo y gratuito! Un saludo y espero que les sea útil!"
+
+
+  - date: '2025-03-07'
+    image: 2025-03-07.jpg
+    url: https://www.instagram.com/cfallaras/
+    description: "En la píldora formativa de hoy viernes: instagram.com/cfallaras es el perfil de Instagram de la periodista Cristina Fallarás, donde las mujeres pueden denunciar de forma anónima casos de acoso y abuso sexual. A través de esta plataforma, Fallarás ha recopilado y publicado numerosos testimonios, dando voz a víctimas que buscan compartir sus experiencias y visibilizar la violencia machista. Este espacio se ha convertido en un referente para aquellas que desean denunciar de manera confidencial y segura. Un saludo y feliz 8M!"
+
+  - date: '2025-03-14'
+    image: 2025-03-14.png
+    url: https://www.upsidedowntext.com
+    description: "En la píldora formativa de hoy viernes: upsidedowntext.com te permite escribir texto al revés o en espejo de forma gratuita y sencilla. Solo introduces tu texto, lo inviertes y lo copias para usarlo donde quieras: redes, mensajes o correos. ¡Sorprende a todos con este divertido efecto! Un saludo y espero que les sea útil!"
+
+  - date: '2025-03-21'
+    image: 2025-03-21.png
+    url: https://www.acronymfinder.com
+    description: "En la píldora formativa de hoy viernes: acronymfinder.com es un buscador para descubrir el significado de siglas y acrónimos en distintos idiomas y áreas, desde tecnología hasta negocios. Solo ingresas la sigla y obtienes su definición al instante. Un saludo y espero que les sea útil!"
+
+  - date: '2025-03-28'
+    image: 2025-03-28.png
+    url: https://markmap.js.org
+    description: "En la píldora formativa de hoy viernes: markmap.js.org te permite crear mapas mentales interactivos a partir de archivos Markdown. Solo escribe tu contenido estructurado y visualízalo de forma clara y dinámica. Un saludo y espero que les sea útil!"
+
+  - date: '2025-04-04'
+    image: 2025-04-04.png
+    url: https://posterizer.online
+    description: "En la píldora formativa de hoy viernes: posterizer.online es una herramienta gratuita para crear póstere que permite generar imágenes en gran tamaño mediante impresión en mosaico, ideal para hacer carteles grandes en casa. Solo sube tu imagen, indica el tamaño y descárgala lista para imprimir. Un saludo y espero que les sea útil!"
+
+  - date: '2025-04-11'
+    image: 2025-04-11.jpg
+    url: https://wokwi.com
+    description: "En la píldora formativa de hoy viernes: wokwi.com es un simulador de Arduino, ESP32 y STM32 que permite diseñar y probar circuitos sin hardware físico. Con una interfaz visual, puedes conectar placas, cables y componentes, además de ejecutar código en tiempo real. Ideal para aprender, experimentar y evitar errores costosos. Un saludo y espero que les sea útil!"
+
+  - date: '2025-04-18'
+    image: 2025-04-18.png
+    url: https://github.com/tylermenezes/FakeSSH
+    description: "En la píldora formativa de hoy viernes: FakeSSH es una herramienta que simula un servidor SSH en el puerto 22 para despistar escaneos automáticos, mientras el verdadero escucha en otro puerto. Un saludo y espero que les sea útil!"
+
+  - date: '2025-04-25'
+    image: 2025-04-25.png
+    url: https://www.printfriendly.com
+    description: "En la píldora formativa de hoy viernes: Con printfriendly.com puedes limpiar anuncios, ajustar el formato y guardar artículos sin distracciones. ¡Perfecto para leer después o archivar información útil! Un saludo y espero que les sea útil!"
+
+  - date: '2025-05-02'
+    image: 2025-05-02.png
+    url: https://deconstructor.ayush.digital/
+    description: |
+      En la 💊 formativa de hoy viernes: https://deconstructor.ayush.digital/ te permite descubrir el origen y la estructura de cualquier palabra, ¡incluso en español o japonés! Usa inteligencia artificial para descomponer términos y mostrar su historia de forma clara.
+
+  - date: '2025-05-09'
+    image: 2025-05-09.jpg
+    url: https://io808.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://io808.com/ es una fiel recreación online de la legendaria caja de ritmos **Roland TR-808**, usada en grandes éxitos de los 80. Puedes programar ritmos usando su interfaz clásica con botones y pasos, y guardar tus creaciones en formato JSON. ¡Una joya retro para amantes del beat!  
+
+  - date: '2025-05-16'
+    image: 2025-05-16.png
+    url: https://support.google.com/youtube/answer/7631406?hl=es
+    description: |
+      En la 💊 formativa de hoy viernes: Algunos atajos súper útiles para YouTube 
+      - Espacio: Pausa / Reanuda  
+      - ← / → : Retrocede o avanza 5 seg  
+      - , / . : Fotograma anterior / siguiente  
+      - ↑ / ↓ : Volumen  
+      - F: Pantalla completa  
+      - C: Subtítulos  
+      - Doble clic: También activa pantalla completa
+
+  - date: '2025-05-23'
+    image: 2025-05-23.jpg
+    url: https://visualgo.net/en
+    description: |
+      En la 💊 formativa de hoy viernes: https://visualgo.net te enseña de forma interactiva cómo funcionan los algoritmos y las estructuras de datos. Con 26 módulos que abarcan desde ordenación hasta el problema del viajante, es ideal para estudiantes que quieren aprender programando visualmente. Además, cuenta con cuestionarios para poner a prueba tus conocimientos.
+
+  - date: '2025-05-30'
+    image: 2025-05-30.png
+    url: https://www.samsung.com/es/tecnologiaconproposito/accesibilidad-bienestar/themindguardian/
+    description: |
+      En la 💊 formativa de hoy viernes: The mind guardian (https://www.samsung.com/es/tecnologiaconproposito/accesibilidad-bienestar/themindguardian/) es una app gratuita para tabletas Android que ayuda a detectar posibles signos de deterioro cognitivo en mayores de 55 años. A través de minijuegos y con el apoyo de IA, evalúa distintos tipos de memoria en menos de 45 minutos, ofreciendo un informe preliminar.
+
+  - date: '2025-06-06'
+    image: 2025-06-06.png
+    url: https://podcast.adobe.com/es/enhance
+    description: |
+      En la 💊 formativa de hoy viernes: https://podcast.adobe.com/es/enhance *Mejorar la voz* de Adobe limpia tus audios de ruido, clics y eco en segundos. Solo subes el archivo (hasta 30 min y 500 MB sin registro) y la IA lo deja listo para podcast, conferencias o audios de WhatsApp. Simple, rápida y sorprendentemente efectiva.
+
+  - date: '2025-06-13'
+    image: 2025-06-13.png
+    url: https://github.com/pdfarranger/pdfarranger
+    description: |
+      En la 💊 formativa de hoy viernes: https://github.com/pdfarranger/pdfarranger es un software libre y gratuito para editar PDFs de forma local y segura. Permite dividir, combinar, reordenar, extraer o eliminar páginas sin subir tus documentos a la nube. Ideal para docentes y estudiantes que trabajan con materiales digitales.
+
+  - date: '2025-06-20'
+    image: 2025-06-20.jpg
+    url: https://faketravel.net
+    description: |
+      En la 💊 formativa de hoy viernes: En https://faketravel.net puedes crear tus vacaciones falsas con IA. Sube una foto, elige el destino y la IA hace el resto. Como decía Manolo Vieira: «yo me ponía moreno en el balcón... y la gente pensaba que venía de Punta Cana». 😎 Ideal para presumir en redes sin que afecte a nuestras cuentas contables 🐀🐀. Un saludo y felices vacaciones, nos vemos en septiembre.
+
+  - date: '2025-09-05'
+    image: 2025-09-05.png
+    url: https://github.com/mayankmetha/Rucky
+    description: |
+      En la 💊 formativa de hoy viernes: https://github.com/mayankmetha/Rucky una app para Android que convierte tu móvil en un Rubber Ducky (dispositivo USB HID para ataques de inyección de teclado). Permite lanzar scripts Ducky para automatizar tareas, pruebas de seguridad o pentesting. Soporta múltiples comandos y hasta movimientos de ratón. ¡Potente herramienta para profesionales de ciberseguridad! ¡Un saludo y feliz comienzo de curso!
+
+
+  - date: '2025-09-12'
+    image: 2025-09-12.png
+    url: https://github.com/google-ai-edge/gallery
+    description: |
+      En la 💊 formativa de hoy viernes: https://github.com/google-ai-edge/gallery es un experimento de Google que permite ejecutar modelos de IA generativa directamente en tu móvil Android, sin conexión a internet. Puedes hacer preguntas a imágenes, probar modelos de Hugging Face, chatear, generar código o experimentar con prompts. Todo el procesamiento se hace localmente gracias a LiteRT. ¡Ideal para probar IA incluso en el avión! Un saludo y espero que les sea útil!
+
+  - date: '2025-09-19'
+    image: 2025-09-19.jpg
+    url: chrome://flags
+    description: |
+      En la 💊 formativa de hoy viernes: Si usas Chrome, puedes acelerar las descargas activando el modo paralelo. Solo escribe `chrome://flags` en la barra de direcciones, busca *Parallel downloading*, actívalo y reinicia. Chrome dividirá los archivos en partes y los descargará en paralelo, acelerando la bajada especialmente en archivos grandes. ¡Una opción secreta muy efectiva! Un saludo y espero que les sea útil!
+
+  - date: '2025-09-26'
+    image: 2025-09-26.jpg
+    url: https://sequencediagram.org
+    description: |
+      En la 💊 formativa de hoy viernes: https://sequencediagram.org permite crear diagramas de secuencia fácilmente con texto plano. Usas símbolos como `-->` para flechas o `**` para negritas, y puedes exportar el resultado en PNG o SVG. Muy útil para explicar procesos, protocolos o experimentos de forma visual. Un saludo y espero que les sea útil!
+
+  - date: '2025-10-03'
+    image: 2025-10-03.png
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://chromewebstore.google.com/detail/google-accounts-autopilot/hbbpkfgfbdknonpdehbbapiomepacjbp Google Accounts Autopilot gestiona tus múltiples cuentas de Google automáticamente. Programa horarios y servicios (Gmail, YouTube, Drive…) para que cambie al perfil correcto sin que lo notes. Ahorra tiempo, evita errores y olvídate de hacer clic en “Cambiar cuenta”.
+
+  - date: '2025-10-10'
+    image: 2025-10-10.png
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meter
+    description: |
+      En la 💊 formativa de hoy viernes: el elemento de HTML <meter> sirve para mostrar valores dentro de un rango conocido, como el nivel de batería, la nota de un examen o el progreso de una tarea. Permite definir mínimos, máximos, zonas “bajas” y “altas”, e incluso un valor óptimo. Los navegadores lo representan como una barra visual, ideal para dar contexto numérico de forma clara e intuitiva.
+
+  - date: '2025-10-17'
+    image: 2025-10-17.png
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://it-tools.tech/
+       es una auténtica navaja suiza con 60+ herramientas gratis y de código abierto, sin anuncios. Incluye utilidades para dev y uso general: generar QR, convertir JSON/YAML/CSV, probar regex, calcular hashes, formatear texto, redes, imágenes y más. Todo rápido, en el navegador y sin subir tus datos.
+
+  - date: '2025-10-24'
+    image: 2025-10-24.png
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://smry.ai/
+       es una herramienta de código abierto que usa IA para resumir artículos y, además, permite superar ciertos muros de pago utilizando servicios como Archive.org. Funciona con la API de ChatGPT y el SDK de Vercel, ofreciendo respuestas rápidas y en streaming. Ideal para ir al grano sin perder tiempo.
+
+  - date: '2025-10-31'
+    image: 2025-10-31.png
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://mixplorer.com/
+       MiXplorer es un explorador de archivos para Android rápido, sin anuncios y muy completo. Ofrece pestañas ilimitadas, panel doble con arrastrar y soltar, compresión y descompresión de decenas de formatos, acceso a la nube y servidores, lector de libros y visor multimedia. Incluso soporta acceso root y cifrado de archivos. ¡Un todo en uno para gestionar tu dispositivo!
+
+  - date: '2025-11-07'
+    image: 2025-11-07.png
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: investigadores han descubierto la vulnerabilidad BadCam (CVE-2025-4371) que afecta a webcams Lenovo 510 FHD y Performance FHD. Permite reprogramarlas como dispositivos BadUSB, capaces de inyectar comandos, instalar malware persistente e incluso reinfectar equipos tras un formateo. Lenovo ya publicó un parche de firmware (4.8.0) que debe aplicarse cuanto antes. Más info: https://enigmasecurity.cl/ataques-497/
+
+  - date: '2025-11-14'
+    image: 2025-11-14.png
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://matomo.org/
+       es una alternativa de código abierto a Google Analytics que prioriza la privacidad. Permite analizar el tráfico web sin vender datos ni rastrear a los usuarios de forma invasiva. Ofrece métricas detalladas, mapas de calor, embudos de conversión y puede instalarse en tu propio servidor para tener control total.
+
+  - date: '2025-11-21'
+    image: 2025-11-21.png
+    url: null
+    description: |
+      En la 💊 formativa de hoy viernes: https://archive.today/
+       (también accesible como archive.is) permite guardar una copia permanente de cualquier página web. Almacena texto, imágenes y contenido cargado por JavaScript, incluso si luego la página original desaparece o cambia. Cada captura genera una URL única y corta que sirve como referencia estable en el tiempo. Ideal para investigación, verificación de noticias o conservar información importante.
+
+  - date: '2025-11-28'
+    image: 2025-11-28.png
+    url: https://regex101.com
+    description: |
+      En la 💊 formativa de hoy viernes: regex101.com permite probar y depurar **expresiones regulares** en vivo. Explica cada parte del patrón, muestra coincidencias y cuenta con referencias rápidas por motor (PCRE2, ECMAScript, Python). Muy útil para validar patrones de correos, logs o datos.
+
+  - date: '2025-12-05'
+    image: 2025-12-05.png
+    url: https://squoosh.app
+    description: |
+      En la 💊 formativa de hoy viernes: [squoosh.app permite **comprimir y convertir imágenes** directamente en el navegador, sin subirlas a servidores externos. Soporta WebP, AVIF, PNG y JPEG, con vista comparativa antes/después.
+
+  - date: '2025-12-12'
+    image: 2025-12-12.jpg
+    url: https://puzzlezilla.com
+    description: |
+      En la 💊 formativa de hoy viernes: https://puzzlezilla.com es una web para **crear y jugar rompecabezas online**. Tiene puzles clásicos de piezas y rompecabezas deslizantes al estilo del Juego del 15. Puedes elegir la dificultad (de 3×2 a 12×12) o subir tus propias fotos para convertirlas en rompecabezas personalizados.
+      PuzzleZilla permite **guardar tu progreso**, continuar en otros dispositivos y ganar puntos para subir de nivel conforme completas retos. Ideal para desconectar un rato con algo entretenido.
+
+  - date: '2025-12-19'
+    image: 2025-12-19.jpg
+    url: https://radar.cloudflare.com
+    description: |
+      En la 💊 formativa de hoy viernes: https://radar.cloudflare.com es un panel que muestra **qué está pasando en Internet en tiempo real** usando datos del DNS 1.1.1.1 y otros servicios de Cloudflare. Recientemente han añadido métricas para más de **1.400 dominios de nivel superior (TLD)**, permitiendo ver qué extensiones (.com, .es, .net, .ai…) generan más tráfico y cómo evoluciona su uso.
+      El panel también muestra los **servicios más consultados**, las **aplicaciones más utilizadas**, estadísticas de **navegadores**, información sobre **tráfico malicioso**, ataques, conectividad y bots. Entre estos bots destacan GoogleBot, GPTBot, Meta-ExternalAds y BingBot, que exploran la red de forma continua.
+
+  - date: '2026-01-16'
+    image: 2026-01-16.png
+    url: https://snapdrop.net
+    description: |
+      En la 💊 formativa de hoy viernes: snapdrop.net permite **pasar archivos entre dispositivos** conectados a la misma red Wi-Fi usando WebRTC. Solo abres la web en ambos dispositivos y arrastras el archivo.
+
+  - date: '2026-01-23'
+    image: 2026-01-23.png
+    url: https://asciinema.org
+    description: |
+      En la 💊 formativa de hoy viernes: asciinema.org graba sesiones de **terminal como texto**, no como vídeo. Los archivos resultantes son ligeros y se pueden reproducir, pausar y copiar/pegar.
+
+  - date: '2026-01-30'
+    image: 2026-01-30.png
+    url: https://mkcert.dev
+    description: |
+      En la 💊 formativa de hoy viernes: mkcert.dev genera **certificados HTTPS locales de confianza**. Instala una autoridad certificadora en tu máquina y crea certificados válidos para dominios locales como `localhost`.
+
+  - date: '2026-02-13'
+    image: 2026-02-13.png
+    url: https://ray.so
+    description: |
+      En la 💊 formativa de hoy viernes: ray.so genera **imágenes estilizadas de fragmentos de código**. Permite elegir tema, lenguaje y padding, ideal para presentaciones o redes sociales.
+
+  - date: '2026-02-20'
+    image: 2026-02-20.svg
+    url: https://github.com/sharkdp/fd
+    description: |
+      En la 💊 formativa de hoy viernes: [fd](https://github.com/sharkdp/fd) es un reemplazo sencillo y rápido para el comando `find`.  
+      Destaca por su **velocidad**, su sintaxis intuitiva y su soporte integrado para expresiones regulares y resaltado de colores. Ignora automáticamente directorios listados en `.gitignore`, lo que lo hace ideal para proyectos de desarrollo.
+      Ejemplo básico: buscar todos los archivos `.php` en el proyecto:
+      ```bash
+      fd -e php
+      ```
+      Ejemplo con patrón de búsqueda en nombre:
+      ```bash
+      fd config /etc
+      ```
+      Para instalar en Ubuntu:
+      ```bash
+      sudo apt install fd-find
+      # y usarlo como 'fdfind' (o crear alias: alias fd=fdfind)
+      ```
+
+  - date: '2026-02-06'
+    image: 2026-02-06.png
+    url: https://imapsync.lamiral.info/
+    description: |
+      En la 💊 formativa de hoy viernes: [imapsync](https://imapsync.lamiral.info/) es una herramienta de línea de comandos para **sincronizar buzones de correo entre dos servidores IMAP**. Muy útil para migraciones de correo (por ejemplo, cambiar de proveedor o de servidor sin perder mensajes ni carpetas).  
+      Permite ejecutar migraciones incrementales, filtrar carpetas, limitar por fecha y mantener banderas como `Seen` o `Flagged`.
+      Ejemplo básico para migrar un buzón completo:
+      ```bash
+      imapsync   --host1 imap.origen.com --user1 usuario@origen.com --password1 'clave1'   --host2 imap.destino.com --user2 usuario@destino.com --password2 'clave2'
+      ```
+
+  - date: '2026-02-27'
+    image: 2026-02-27.jpg
+    url: https://file.pizza
+    description: |
+      En la 💊 formativa de hoy viernes: htttps://file.pizza permite **enviar archivos directamente P2P** desde el navegador usando WebTorrent. No almacena nada en servidores intermedios.
+
+  - date: '2026-03-06'
+    image: 2026-03-06.png
+    url: https://exifcleaner.com
+    description: |
+      En la 💊 formativa de hoy viernes: exifcleaner.com elimina **metadatos EXIF** de imágenes (ubicación, modelo de cámara, fecha, etc.) con solo arrastrar y soltar. Muy útil para proteger la privacidad antes de publicar fotos.
+
+  - date: '2026-03-13'
+    image: 2026-03-20.png
+    url: https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo
+    description: |
+      En la 💊 formativa de hoy viernes: https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo es un generador de imágenes muy rápido disponible como Space en Hugging Face. La gracia está en ver cómo cambia la experiencia cuando el modelo está optimizado para latencia y se apoya en GPU potente.
+      Útil para hablar de inferencia, optimizaciones y por qué a veces un modelo “menos perfecto” se usa más si responde en tiempo real.
+
+  - date: '2026-03-20'
+    image: 2026-03-19.png
+    url: https://www.ratingraph.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://www.ratingraph.com/ es una web que permite visualizar cómo evolucionan las valoraciones de series y películas a lo largo del tiempo.
+      La herramienta genera gráficos a partir de millones de valoraciones de usuarios, mostrando cómo cambia la puntuación episodio a episodio o temporada a temporada.
+      Esto permite detectar fácilmente cuándo una serie mejora, cuándo empieza a decaer o qué capítulos destacan especialmente. Es muy útil para decidir si merece la pena seguir viendo una serie o incluso para ver en qué momento “se rompe”.
+      Perfecto para descubrir contenido o analizar de forma rápida la evolución de cualquier serie.
+
+  - date: '2026-04-10'
+    image: 2026-04-10.png
+    url: https://runsql.com/
+    description: |
+      En la 💊 formativa de hoy viernes: RunSQL es un entorno para probar SQL desde el navegador sin montar una base de datos local. Te deja crear estructura, cargar datos y ejecutar consultas para validar ideas rápido.
+      Viene bien para formación, entrevistas técnicas o para depurar una query antes de tocar un entorno real.
+
+  - date: '2026-03-27'
+    image: 2026-03-27.jpg
+    url: https://chatjimmy.ai/
+    description: |
+      En la 💊 formativa de hoy viernes: jimmy chatbot basado en un modelo tipo LLaMA (aunque no sea lo último) sirve para una demo muy clara: ver hasta qué punto la velocidad de inferencia cambia la percepción de “inteligencia”.
+      Con hardware especializado, cuantización y buen serving, puedes conseguir respuestas casi instantáneas. Ideal para comentar trade-offs: calidad vs latencia, batch vs streaming, y por qué el tiempo de respuesta suele ganar.
+
+  - date: '2026-04-17'
+    image: 2026-04-17.svg
+    url: https://wasm-test.libreoffice.org/
+    description: |
+      En la 💊 formativa de hoy viernes: esta demo permite ejecutar LibreOffice en el navegador gracias a WebAssembly. Sin instalación, solo abrir y probar.
+      Buen punto de partida para comentar WebAssembly, rendimiento, limitaciones (memoria, carga inicial) y casos de uso donde tiene sentido llevar apps “de escritorio” al navegador.
+
+  - date: '2026-04-24'
+    image: 2026-04-24.webp
+    url: https://slop-or-not.space/
+    description: |
+      En la 💊 formativa de hoy viernes: https://slop-or-not.space/ es un juego online para comprobar si realmente sabemos distinguir textos escritos por personas de textos generados por inteligencia artificial.
+      La dinámica es sencilla: se muestran dos comentarios y hay que elegir cuál es el generado por IA (lo que se conoce como *slop*, un término que se usa para referirse al contenido basura producido por modelos generativos).
+      El experimento utiliza preguntas y comentarios reales extraídos de sitios como Reddit, Hacker News o reseñas de Yelp. En total se generaron unos **13.000 pares de textos humano+IA** a partir de un conjunto enorme de más de **126 millones de comentarios**.
+      Los textos artificiales fueron generados con distintos modelos de Anthropic y OpenAI y organizados en varios niveles de dificultad. El juego empieza en modo fácil y sube de nivel cuando aciertas tres veces seguidas. La partida termina cuando fallas tres veces.
+      Además de ser un juego curioso, sirve para reflexionar sobre lo difícil que empieza a ser diferenciar entre contenido humano y contenido generado por modelos de lenguaje.
+
+  - date: '2026-05-08'
+    image: 2026-05-08.webp
+    url: https://rowan441.github.io/1dchess/chess.html
+    description: |
+      En la 💊 formativa de hoy viernes: https://rowan441.github.io/1dchess/chess.html un ajedrez **en una sola dimensión**: el tablero es una fila de casillas en lugar de la clásica cuadrícula 8×8.
+      Es *1-D Chess* de Rowan Monk, que reduce el ajedrez a su mínima expresión manteniendo la lógica de piezas y movimientos, pero con una profundidad sorprendente: ganar al ordenador se antoja casi imposible.
+      Buena excusa para hablar de **reducción de complejidad**, de cómo las restricciones obligan a replantear estrategias, y de por qué lo mínimo no significa lo sencillo. Vía [Microsiervos](https://www.microsiervos.com/archivo/juegos-y-diversion/un-curioso-ajedrez-1-d.html).
+
+  - date: '2026-05-15'
+    image: 2026-05-15.webp
+    url: https://bubblespop.netlify.app/
+    description: |
+      En la 💊 formativa de hoy viernes: https://bubblespop.netlify.app/ un **plástico de burbujas virtual** para explotar en el navegador, con **8.192 burbujas** y el sonidito correspondiente a cada *pop*.
+      Terapia absurda y antiestrés de las buenas: ni instalación, ni registro, ni plástico de verdad. Sirve como excusa para hablar de microinteracciones, feedback háptico/sonoro y por qué ciertos gestos tan simples enganchan tanto. Vía [Microsiervos](https://www.microsiervos.com/archivo/juegos-y-diversion/plastico-burbujas-virtual-web-terapia-estres-gustirrinin.html).
+
+  - date: '2026-05-22'
+    image: 2026-05-22.png
+    url: https://n8n.io/
+    description: |
+      En la 💊 formativa de hoy viernes: https://n8n.io/ una plataforma de **automatización de flujos de trabajo** al estilo Zapier o Make, pero con un enfoque *fair-code*: nodos visuales para conectar APIs, bases de datos, webhooks, IA, etc., y lógica a medida en JavaScript cuando hace falta.
+      Se puede **probar gratis durante 14 días** en su cloud y, si te convence, **instalarlo en tu propio servidor** (Docker, npm o el paquete que prefieras) sin límites de ejecuciones ni sorpresas en la factura. Ideal para cualquiera que quiera automatizar tareas repetitivas manteniendo el control total de sus datos.
+
+  - date: '2026-05-29'
+    image: 2026-05-29.jpg
+    url: https://docs.new
+    description: |
+      En la 💊 formativa de hoy viernes: https://docs.new abre al instante un **nuevo Google Doc en blanco**, sin pasar por el Drive ni buscar el botón de «nuevo documento».
+      Google registró el TLD **`.new`** para atajos como este y casi todos sus servicios lo soportan: `sheets.new` (hoja de cálculo), `slides.new` (presentación), `form.new` (formulario), `site.new` (Google Sites), `meet.new` (reunión), `cal.new` (evento de calendario), `keep.new` (nota)… Y no es exclusivo de Google: muchas webs lo usan, tienes el catálogo completo en [whats.new/shortcuts](https://whats.new/shortcuts/).
+      Ideal para guardarlos como marcadores o bookmarklets y ahorrarse dos o tres clicks cada vez que hay que empezar algo nuevo.
+
+  - date: '2026-06-05'
+    image: 2026-06-05.webp
+    url: https://css-doodle.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://css-doodle.com/ una librería web para **dibujar patrones, mosaicos y arte generativo usando solo CSS**, sin una línea de JavaScript gráfico.
+      Declaras una cuadrícula con `<css-doodle>` y usas sus funciones (`@rand`, `@nth`, `@repeat`, etc.) para generar formas paramétricas, colores, rotaciones y animaciones. El resultado son composiciones tipo *pen-and-ink* que recuerdan al arte algorítmico clásico, pero escritas en lenguaje declarativo.
+      Excusa perfecta para hablar de **CSS como lenguaje de composición** y de la frontera entre diseño, matemáticas y código. Vía [Microsiervos](https://www.microsiervos.com/archivo/ordenadores/css-doodle-elegancia-dibujar-patrones-css.html).
+
+  - date: '2026-06-12'
+    image: 2026-06-12.jpg
+    url: https://neberej.github.io/exposedbydefault/
+    description: |
+      En la 💊 formativa de hoy viernes: https://neberej.github.io/exposedbydefault/ una web que muestra **todo lo que tu navegador está filtrando sin que lo sepas** con solo visitar una página: IP, ubicación aproximada, sistema operativo, fuentes instaladas, resolución, batería, GPU, idioma, zona horaria…
+      Con esos datos se construye un **fingerprint** prácticamente único que permite rastrear a un usuario entre sesiones aunque borre cookies o use modo incógnito. Una buena herramienta para hablar de **privacidad, fingerprinting y por qué no basta con "borrar el historial"**. Vía [Microsiervos](https://www.microsiervos.com/archivo/internet/todo-navegador-web-revela-sin-que-se-sepa.html).
+
   - date: '2026-06-19'
     image: 2026-06-19.svg
     url: https://www.eye2.ai/
