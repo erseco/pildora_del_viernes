@@ -17,7 +17,7 @@ Este documento es la fuente única de verdad para que cualquier agente (humano o
 
 Toda píldora **debe** cumplir:
 
-- [ ] **Fecha viernes** en formato `YYYY-MM-DD`.
+- [ ] **Fecha viernes** en formato `YYYY-MM-DD`. **Evitar viernes festivos** en España (estatales y de la Comunidad Canaria, donde se publica). Festivos estatales fijos a tener siempre presentes: **1-ene, 6-ene, 1-may, 15-ago, 12-oct, 1-nov, 6-dic, 8-dic, 25-dic**, más Viernes Santo (variable). Si el viernes objetivo cae en festivo, mover al siguiente viernes laborable disponible. **Verano (julio/agosto):** no se publican píldoras — la temporada cierra a finales de junio y vuelve el primer viernes lectivo de septiembre.
 - [ ] **Imagen** asociada en `images/` con nombre exactamente `YYYY-MM-DD.<ext>` (`jpg`, `png`, `gif`, `webp`, `svg`). El valor `image:` en `data.yml` es solo el nombre del fichero (sin ruta).
 - [ ] **Enlace (`url`)** válido, accesible (HTTP 2xx) y con HTTPS siempre que el recurso lo soporte.
 - [ ] **Descripción** que empiece **literalmente** por:

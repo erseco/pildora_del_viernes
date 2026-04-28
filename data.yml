@@ -1304,3 +1304,11 @@ pildoras:
       Sus autores lo describen como *«un rincón donde la imaginación se encuentra con el olvido colectivo de internet»*: una manera distinta de explorar conocimiento, más cercana a hojear una enciclopedia ilustrada infinita que a buscar en Google. Buena excusa para hablar de **interfaces post-textuales, contenido generado on-demand y los límites entre conocimiento real y alucinación visual**. Vía [Microsiervos](https://www.microsiervos.com/archivo/ia/rincon-imaginacion-olvido-internet.html).
 
       Y con esta cerramos **la última píldora del curso** 🎓. ¡Feliz verano y nos vemos de vuelta en septiembre con más recursos! 🌞
+
+  - date: '2026-09-04'
+    image: 2026-09-04.webp
+    url: https://www.fusionenergybase.com/fusion-power-plant-simulator
+    description: |
+      En la 💊 formativa de hoy viernes: https://www.fusionenergybase.com/fusion-power-plant-simulator un **simulador de una central de fusión nuclear** con el que se puede jugar moviendo las palanquitas para entender una idea clave: no basta con que una máquina produzca energía de fusión, tiene que producir **más electricidad de la que ella misma gasta** en mantenerse funcionando.
+      Permite ajustar cuánta energía se usa para calentar el plasma, cuánta libera la reacción, cuánta se pierde al convertir calor en electricidad (el viejo truco de la máquina de vapor: 30-40%) y cuánta consume la propia instalación. Si la flecha que llega a la red sale en verde, la central aporta energía; si sale en rojo, está *chupando* del enchufe.
+      Una buena herramienta contra la **fusión de PowerPoint**: convierte las promesas en una contabilidad de entradas y salidas, fácil de entender sin meterse en fórmulas. Acompaña al artículo [Scientific Gain and Fusion Power Plants](https://www.fusionenergybase.com/articles/fusion-physics-part-1-scientific-gain-and-fusion-power-plants) de Sam Wurzel. Vía [Microsiervos](https://www.microsiervos.com/archivo/energia/simulador-central-fusion-nuclear.html).
