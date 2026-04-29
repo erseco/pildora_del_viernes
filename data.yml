@@ -1312,3 +1312,10 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://www.fusionenergybase.com/fusion-power-plant-simulator un **simulador de una central de fusión nuclear** con el que se puede jugar moviendo las palanquitas para entender una idea clave: no basta con que una máquina produzca energía de fusión, tiene que producir **más electricidad de la que ella misma gasta** en mantenerse funcionando.
       Permite ajustar cuánta energía se usa para calentar el plasma, cuánta libera la reacción, cuánta se pierde al convertir calor en electricidad (el viejo truco de la máquina de vapor: 30-40%) y cuánta consume la propia instalación. Si la flecha que llega a la red sale en verde, la central aporta energía; si sale en rojo, está *chupando* del enchufe.
       Una buena herramienta contra la **fusión de PowerPoint**: convierte las promesas en una contabilidad de entradas y salidas, fácil de entender sin meterse en fórmulas. Acompaña al artículo [Scientific Gain and Fusion Power Plants](https://www.fusionenergybase.com/articles/fusion-physics-part-1-scientific-gain-and-fusion-power-plants) de Sam Wurzel. Vía [Microsiervos](https://www.microsiervos.com/archivo/energia/simulador-central-fusion-nuclear.html).
+
+  - date: '2026-09-11'
+    image: 2026-09-11.svg
+    url: https://sinceerly.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://sinceerly.com/ un plugin gratuito de Chrome que **añade faltas de ortografía y errores tipográficos a tus textos generados con IA** para que parezcan escritos por un humano.
+      Tres modos: Sutil, Normal y nivel CEO (este último convierte un email elaborado en "escribe para confirmar los planes para el almuerzo"). La idea parte de observar que cuanto más alto es el cargo de alguien, más errores tiene su email — y que eso genera más confianza. Paradojas de la IA. Vía [Xataka](https://www.xataka.com/robotica-e-ia/sinceerly-plugin-chrome-que-anade-fallos-faltas-ortografia-a-tus-escritos-ia-para-que-no-parezcan-ia).

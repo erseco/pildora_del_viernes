@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#1a1a2e"/>
+  <!-- Robot head -->
+  <rect x="480" y="120" width="240" height="200" rx="24" fill="#16213e" stroke="#e94560" stroke-width="4"/>
+  <!-- Eyes -->
+  <rect x="520" y="170" width="60" height="50" rx="8" fill="#0f3460"/>
+  <circle cx="550" cy="195" r="18" fill="#e94560"/>
+  <circle cx="550" cy="195" r="8" fill="#fff"/>
+  <rect x="620" y="170" width="60" height="50" rx="8" fill="#0f3460"/>
+  <circle cx="650" cy="195" r="18" fill="#e94560"/>
+  <circle cx="650" cy="195" r="8" fill="#fff"/>
+  <!-- Mouth / typo indicator -->
+  <rect x="520" y="265" width="160" height="30" rx="6" fill="#0f3460"/>
+  <text x="600" y="287" font-family="monospace" font-size="16" fill="#e94560" text-anchor="middle">hOla??? ,,,</text>
+  <!-- Antenna -->
+  <line x1="600" y1="120" x2="600" y2="75" stroke="#e94560" stroke-width="4"/>
+  <circle cx="600" cy="65" r="12" fill="#e94560"/>
+  <!-- Body -->
+  <rect x="510" y="330" width="180" height="120" rx="16" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <!-- Arms -->
+  <rect x="420" y="340" width="80" height="24" rx="12" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <rect x="700" y="340" width="80" height="24" rx="12" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <!-- Title text -->
+  <text x="600" y="510" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">Sinceerly</text>
+  <text x="600" y="560" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#e94560" text-anchor="middle">El plugin que añade errores humanos a textos de IA</text>
+</svg>
