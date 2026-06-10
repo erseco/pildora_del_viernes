@@ -1319,3 +1319,35 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://sinceerly.com/ un plugin gratuito de Chrome que **añade faltas de ortografía y errores tipográficos a tus textos generados con IA** para que parezcan escritos por un humano.
       Tres modos: Sutil, Normal y nivel CEO (este último convierte un email elaborado en "escribe para confirmar los planes para el almuerzo"). La idea parte de observar que cuanto más alto es el cargo de alguien, más errores tiene su email — y que eso genera más confianza. Paradojas de la IA. Vía [Xataka](https://www.xataka.com/robotica-e-ia/sinceerly-plugin-chrome-que-anade-fallos-faltas-ortografia-a-tus-escritos-ia-para-que-no-parezcan-ia).
+
+  - date: '2026-09-18'
+    image: 2026-09-18.webp
+    url: https://web.ntsc.rs/
+    description: |
+      En la 💊 formativa de hoy viernes: https://web.ntsc.rs/ una aplicación web para **«estropear» vídeos** y convertirlos en reliquias **VHS de los años 80**, sin instalar nada y sin salir del navegador.
+      Simula con bastante fidelidad los defectos del vídeo analógico y de la TV **NTSC**: ruido de señal, sangrado de color, interlazado, halos, líneas... Subes una imagen o un vídeo, mueves las palanquitas y ves el antes/después en tiempo real. Todo el procesado ocurre **en tu propio dispositivo** (nada se sube a ningún servidor), funciona también en el móvil y se puede instalar como app y usar sin conexión.
+      Más allá de la nostalgia, es una excusa estupenda para hablar de **WebAssembly**: el motor está escrito en Rust y compilado a WASM, y demuestra cuánta potencia de procesado de vídeo cabe hoy dentro de una simple pestaña del navegador.
+
+  - date: '2026-09-25'
+    image: 2026-09-25.png
+    url: https://gitreverse.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://gitreverse.com/ pega la URL de **cualquier repositorio de GitHub** y te devuelve un **prompt en lenguaje natural** listo para dárselo a un agente de programación (Claude Code, Cursor…) y reconstruir ese proyecto desde cero.
+      Es *ingeniería inversa* aplicada: en vez de copiar el código, describe **qué hace y cómo está montado** para que tú lo levantes a tu manera. Truco rápido: en cualquier enlace de GitHub cambia `hub` por `reverse` (de `github.com/...` a `gitreverse.com/...`) y te genera el prompt al vuelo.
+      Sirve para estudiar arquitecturas ajenas, prototipar clones para aprender o arrancar un proyecto inspirándote en otro. De paso abre debate sobre **licencias, autoría y qué significa “tu” código** cuando un agente lo reescribe a partir de una descripción.
+
+  - date: '2026-10-02'
+    image: 2026-10-02.png
+    url: https://webaim.org/resources/contrastchecker/
+    description: |
+      En la 💊 formativa de hoy viernes: https://webaim.org/resources/contrastchecker/ la herramienta de referencia para comprobar el **contraste de color** entre texto y fondo y saber si cumple las pautas de accesibilidad **WCAG**.
+      Introduces dos colores (texto y fondo) y te calcula el **ratio de contraste** (de 1:1 a 21:1), indicando si pasa los niveles **AA** y **AAA** para texto normal y grande. Incluye deslizadores de luminosidad para ir ajustando el color hasta que apruebe, y un *permalink* para compartir el resultado.
+      Imprescindible para diseñadores y desarrolladores: un contraste pobre deja fuera a personas con baja visión o que usan la pantalla a pleno sol. Buen punto de partida para hablar de **accesibilidad web (a11y)** y de por qué “en mi monitor se ve bien” no basta.
+
+  - date: '2026-10-09'
+    image: 2026-10-09.png
+    url: https://maptap.gg/
+    description: |
+      En la 💊 formativa de hoy viernes: https://maptap.gg/ un **juego diario de geografía** al estilo Wordle: cada día tienes que localizar **5 lugares del mundo** señalándolos sobre un **globo terráqueo 3D**.
+      Puntúas por cercanía (cuanto más afinas, más puntos) y cada ubicación viene con una **pequeña historia o dato curioso**, así que de paso aprendes algo. Funciona en el navegador, es gratis y, al ser un reto que cambia a diario, engancha para competir con quien quieras.
+      Más allá del entretenimiento, es un recurso majo para **practicar geografía** en clase o en casa, y un buen ejemplo de **gamificación**: convertir “estudiar el mapa” en un hábito diario de un par de minutos.
