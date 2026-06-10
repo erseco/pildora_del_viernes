@@ -97,12 +97,20 @@ def simple_markdown_to_html(text: str) -> str:
         return f'\x00MDLINK{len(md_links)-1}\x00'
     text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', save_md_link, text)
 
+    # Extract bare URLs and keep them as PLAIN TEXT (intentionally NOT linkified).
+    # The raw link must reach the reader verbatim so that, when the description is
+    # shared on WhatsApp, the URL travels as plain text and WhatsApp linkifies it
+    # natively. Protecting them as placeholders also avoids the bold/italic passes
+    # mangling URLs that contain '_' or '*'. For clickable secondary links use the
+    # [texto](url) markdown syntax instead.
+    bare_urls = []
+    def save_bare_url(match):
+        bare_urls.append(match.group(0))
+        return f'\x00BAREURL{len(bare_urls)-1}\x00'
+    text = re.sub(r'https?://[\w\-._~:/?#\[\]@!$&\'()*+,;=%]+', save_bare_url, text)
+
     # Escape HTML
     text = html.escape(text)
-
-    # Convert URLs to links (but not placeholders)
-    url_pattern = re.compile(r'(https?://[\w\-._~:/?#\[\]@!$&\'()*+,;=%]+)')
-    text = url_pattern.sub(r'<a href="\1" target="_blank">\1</a>', text)
 
     # Bold **text**
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
@@ -114,6 +122,10 @@ def simple_markdown_to_html(text: str) -> str:
     # Restore markdown links
     for i, (link_text, url) in enumerate(md_links):
         text = text.replace(f'\x00MDLINK{i}\x00', f'<a href="{html.escape(url)}" target="_blank">{html.escape(link_text)}</a>')
+
+    # Restore bare URLs as plain text (escaped, no <a>) — see note above
+    for i, bare_url in enumerate(bare_urls):
+        text = text.replace(f'\x00BAREURL{i}\x00', html.escape(bare_url))
 
     # Restore inline code
     for i, code in enumerate(inline_codes):

@@ -27,6 +27,7 @@ Toda píldora **debe** cumplir:
   - El enlace va **en crudo** (sin `[texto](url)`, sin `<url>`, sin comillas, sin paréntesis).
   - Debe ser el mismo que el campo `url:`.
   - Todo en una sola línea visual detrás de los dos puntos.
+  - Se renderiza **como texto plano (sin `<a>`)**, a propósito: así viaja en crudo en el texto que se comparte por WhatsApp y lo enlaza la propia app (ver §3, *Markdown permitido*).
 - [ ] YAML válido (el workflow `validate-yaml.yml` lo comprueba en cada push/PR).
 - [ ] No duplicar una píldora existente (buscar por `url` y por descripción antes de añadir).
 
@@ -53,8 +54,8 @@ Reglas:
 ### Markdown permitido dentro de la descripción
 El renderer (`simple_markdown_to_html` en `generate_pages.py`) soporta:
 
-- URLs planas → se convierten en enlaces automáticamente.
-- `[texto](url)` en cuerpos secundarios (pero **no** en la primera línea “En la 💊…”, que debe ir en crudo).
+- URLs planas → se dejan **como texto plano, SIN `<a>`** (no se enlazan). Es **a propósito**: el texto de la descripción es el que se comparte por WhatsApp (botón *Compartir* → `data-description`), y allí el enlace tiene que viajar **en crudo** para que WhatsApp lo detecte y lo haga clicable por su cuenta. Además evita que un `_` o `*` dentro de la URL la rompa. El enlace clicable “de verdad” ya lo da el botón **Visitar enlace** (campo `url:`).
+- `[texto](url)` en cuerpos secundarios (pero **no** en la primera línea “En la 💊…”, que debe ir en crudo). Este sí se renderiza como `<a>` clicable; úsalo solo para enlaces secundarios, nunca para la URL principal.
 - `**negrita**`, `*cursiva*`, `_cursiva_`.
 - `` `código inline` `` y bloques ```` ```lang … ``` ````.
 - Saltos de línea se convierten a `<br>` (excepto dentro de `<pre>`).
