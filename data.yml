@@ -131,21 +131,18 @@ pildoras:
   - date: '2022-02-11'
     image: null
     url: null
-    description: 'En la píldora formativa de hoy viernes: El modo oscuro se ha convertido
-      en algo estándar ya para casi todo. Sin embargo, muchas páginas web no lo soportan
-      aún. Con Chrome *puedesforzar el modo oscuro incluso de las webs*que no lo tienen.
-      Para ello, haz lo siguiente: * En Chrome, escribe en la URL *chrome://flags* *
-      Busca *Auto Dark Mode* * Selecciona *Enabled* del desplegable Espero que les sea
-      útil!'
+    description: |
+      En la píldora formativa de hoy viernes: El modo oscuro se ha convertido en algo estándar ya para casi todo. Sin embargo, muchas páginas web no lo soportan aún. Con Chrome *puedes forzar el modo oscuro incluso de las webs* que no lo tienen. Para ello, haz lo siguiente:
+      - En Chrome, escribe en la URL *chrome://flags*
+      - Busca *Auto Dark Mode*
+      - Selecciona *Enabled* del desplegable
+
+      Espero que les sea útil!
   - date: '2022-02-18'
     image: null
     url: null
-    description: 'En la píldora formativa de hoy viernes: Poca gente lo sabe, pero*la
-      mayoría de los navegadoresimplementan un atajo de teclado* (Ctrl + Mayúsc + V)
-      (⌘+⇧+ v en Mac)que elimina el formato del texto al pegarlo. De modo que puedes
-      recurrir a este truco para realizar_copy&paste_en un documento de Google Docs
-      o en cualquier otra aplicación de edición de textos online. Espero que les sea
-      útil!'
+    description: |
+      En la píldora formativa de hoy viernes: Poca gente lo sabe, pero *la mayoría de los navegadores implementan un atajo de teclado* (Ctrl + Mayúsc + V) (⌘+⇧+V en Mac) que elimina el formato del texto al pegarlo. De modo que puedes recurrir a este truco para realizar _copy&paste_ en un documento de Google Docs o en cualquier otra aplicación de edición de textos online. Espero que les sea útil!
   - date: '2022-02-25'
     image: null
     url: null
@@ -179,20 +176,13 @@ pildoras:
   - date: '2022-04-08'
     image: null
     url: https://dle.rae.es/almóndiga
-    description: 'En la píldora formativa de hoy viernes: existe una abreviatura muy
-      útil para quien esté todo el día comprobando palabras, consiste en teclear directamente
-      la dirección corta*dle.rae.es/palabra*en el navegador. Esto realizará la búsqueda
-      automáticamente y es mucho más fácil de recordar y teclear. Por ejemplo:*dle.rae.es/almóndiga*.
-      Espero que les sea útil!'
+    description: |
+      En la píldora formativa de hoy viernes: existe una abreviatura muy útil para quien esté todo el día comprobando palabras, consiste en teclear directamente la dirección corta *dle.rae.es/palabra* en el navegador. Esto realizará la búsqueda automáticamente y es mucho más fácil de recordar y teclear. Por ejemplo: *dle.rae.es/almóndiga*. Espero que les sea útil!
   - date: '2022-04-22'
     image: null
     url: null
-    description: 'En la píldora formativa de hoy viernes: _el 90% de la gente no sabe
-      buscar texto en la web_: simplemente leen y leen hasta dar con lo que buscan.
-      Esta técnica es probable que la conozcan. Pulsar*Ctrl+F*(Win/Linux) o*⌘+F*(Mac).
-      Aparecerá el recuadro de búsqueda donde podrán teclear el texto a buscar. Como
-      píldora adicional, con*Ctrl+G*(Win/Linux) o*⌘+G*(Mac) se puede repetir la búsqueda
-      varias veces si es necesario.  Espero que les sea útil!'
+    description: |
+      En la píldora formativa de hoy viernes: _el 90% de la gente no sabe buscar texto en la web_: simplemente leen y leen hasta dar con lo que buscan. Esta técnica es probable que la conozcan. Pulsar *Ctrl+F* (Win/Linux) o *⌘+F* (Mac). Aparecerá el recuadro de búsqueda donde podrán teclear el texto a buscar. Como píldora adicional, con *Ctrl+G* (Win/Linux) o *⌘+G* (Mac) se puede repetir la búsqueda varias veces si es necesario. Espero que les sea útil!
   - date: '2022-04-29'
     image: null
     url: https://lookscanned.io
@@ -205,12 +195,8 @@ pildoras:
   - date: '2022-05-06'
     image: null
     url: null
-    description: 'En la píldora formativa de hoy viernes: Suele ser _algo molesto_ que,
-      en mitad de una presentación, su equipo entre en modo suspensión, viéndose en
-      la obligación de mover el ratón para que se active con la consiguiente _pérdida
-      de concentración_ que ello supone. Para evitarlo pueden hacer uso de utilidades
-      como *Caffeine* paraWindowsyLinuxo*Amphetamine* paramacOS. Espero que les sea
-      útil!'
+    description: |
+      En la píldora formativa de hoy viernes: Suele ser _algo molesto_ que, en mitad de una presentación, su equipo entre en modo suspensión, viéndose en la obligación de mover el ratón para que se active con la consiguiente _pérdida de concentración_ que ello supone. Para evitarlo pueden hacer uso de utilidades como *Caffeine* para Windows y Linux o *Amphetamine* para macOS. Espero que les sea útil!
   - date: '2022-06-10'
     image: null
     url: https://feed43.com/1070402418282527.xml
@@ -725,8 +711,7 @@ pildoras:
       SpyCloud se encarga de comprobar periódicamente si tus datos han sido filtrados
       en la *dark web*. Si encuentra alguna amenaza, te alerta para que puedas cambiar
       contraseñas comprometidas de inmediato y evitar accesos no autorizados. Un saludo
-      y espero que les sea útil! 6/9/24, 7:32 - Cambiaste el nombre del grupo de "Asesorías
-      TIC 23_24 😊" a "Asesorías TIC 24_25 😊".
+      y espero que les sea útil!
   - date: '2024-09-13'
     image: 2024-09-13.jpg
     url: https://merklemap.com

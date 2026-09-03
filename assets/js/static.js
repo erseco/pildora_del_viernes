@@ -86,22 +86,28 @@ function markdownToWhatsApp(md) {
     spans.push(value);
     return CODE + (spans.length - 1) + CODE;
   };
+  const mono = value => stash('```' + value + '```');
   // Quita el esquema y el www./ final para comparar texto y destino de un enlace.
   const bare = s => s.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '').toLowerCase();
 
   // El código se aparta primero: puede contener asteriscos que no son formato.
   let out = md
     .replace(/```[^\n`]*\n([\s\S]*?)```/g, (_, code) => stash('```\n' + code + '```'))
-    .replace(/`([^`\n]+)`/g, (_, code) => stash('```' + code + '```'));
+    .replace(/`([^`\n]+)`/g, (_, code) => mono(code));
 
   out = out
     // [texto](url) → «texto: url», o solo la url si el texto ya era la url.
     .replace(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g,
       (_, text, url) => (bare(text) === bare(url) ? url : text + ': ' + url))
+    // Las URLs se apartan intactas: WhatsApp ya las enlaza y sus _ o * no son formato.
+    .replace(/https?:\/\/\S+/g, url => stash(url))
     // **negrita** → marcador: en WhatsApp la negrita lleva un solo asterisco.
     .replace(/\*\*([^*\n]+)\*\*/g, BOLD + '$1' + BOLD)
     // *cursiva* → _cursiva_, porque un asterisco suelto sería negrita.
     .replace(/\*([^*\n]+)\*/g, '_$1_')
+    // nube_Medusa, snake_case…: para WhatsApp un _ entre letras abriría cursiva,
+    // así que el identificador va en monoespaciado, que anula el formato.
+    .replace(/\w+(?:_\w+)+/g, id => mono(id))
     .split(BOLD).join('*');
 
   return out.replace(new RegExp(CODE + '(\\d+)' + CODE, 'g'), (_, i) => spans[Number(i)]);
