@@ -3,6 +3,11 @@
 // Lado mayor (px) al que se normaliza la imagen antes de compartirla.
 const SHARE_IMAGE_MAX_SIDE = 1600;
 
+// WhatsApp recorta el pie de foto a 1024 caracteres. Al compartir con imagen se
+// acorta la descripción para que el enlace a la píldora sobreviva: es el que
+// lleva al texto completo.
+const WHATSAPP_CAPTION_LIMIT = 1024;
+
 const MIME_BY_EXT = {
   jpg: 'image/jpeg',
   jpeg: 'image/jpeg',
@@ -70,6 +75,52 @@ async function normalizeImageForShare(blob, filename) {
   }
 }
 
+// WhatsApp tiene su propio formato: *negrita*, _cursiva_ y ```monoespaciado```.
+// El markdown de la descripción se traduce antes de compartir para que no viajen
+// en crudo los asteriscos dobles ni los corchetes de los enlaces.
+function markdownToWhatsApp(md) {
+  const CODE = '\u0000';
+  const BOLD = '\u0001';
+  const spans = [];
+  const stash = value => {
+    spans.push(value);
+    return CODE + (spans.length - 1) + CODE;
+  };
+  // Quita el esquema y el www./ final para comparar texto y destino de un enlace.
+  const bare = s => s.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '').toLowerCase();
+
+  // El código se aparta primero: puede contener asteriscos que no son formato.
+  let out = md
+    .replace(/```[^\n`]*\n([\s\S]*?)```/g, (_, code) => stash('```\n' + code + '```'))
+    .replace(/`([^`\n]+)`/g, (_, code) => stash('```' + code + '```'));
+
+  out = out
+    // [texto](url) → «texto: url», o solo la url si el texto ya era la url.
+    .replace(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g,
+      (_, text, url) => (bare(text) === bare(url) ? url : text + ': ' + url))
+    // **negrita** → marcador: en WhatsApp la negrita lleva un solo asterisco.
+    .replace(/\*\*([^*\n]+)\*\*/g, BOLD + '$1' + BOLD)
+    // *cursiva* → _cursiva_, porque un asterisco suelto sería negrita.
+    .replace(/\*([^*\n]+)\*/g, '_$1_')
+    .split(BOLD).join('*');
+
+  return out.replace(new RegExp(CODE + '(\\d+)' + CODE, 'g'), (_, i) => spans[Number(i)]);
+}
+
+// Une texto y enlace sin pasarse del pie de foto de WhatsApp. Si no cabe, corta
+// por la última palabra entera, así nunca queda una URL partida por la mitad.
+function buildCaption(text, url) {
+  const suffix = '\n\n' + url;
+  const room = WHATSAPP_CAPTION_LIMIT - suffix.length;
+  if (text.length <= room) return text + suffix;
+
+  const cut = text
+    .slice(0, room - 1)
+    .replace(/\S*$/, '')
+    .replace(/[\s.,;:]+$/, '');
+  return (cut ? cut + '…' : '') + suffix;
+}
+
 function setupShareButtons() {
   const buttons = document.querySelectorAll('.share-btn');
   buttons.forEach(btn => {
@@ -83,7 +134,8 @@ function setupShareButtons() {
       const imageUrl = image ? `${baseUrl}images/${image}` : '';
 
       // El enlace a la píldora va al final, detrás de la descripción.
-      const shareText = `${description}\n\n${shareUrl}`;
+      const body = markdownToWhatsApp(description).trim();
+      const shareText = `${body}\n\n${shareUrl}`;
 
       if (!navigator.share) {
         try {
@@ -103,7 +155,7 @@ function setupShareButtons() {
           const file = new File([normalized.blob], normalized.filename, { type: normalized.blob.type });
 
           // Sin `title`: WhatsApp lo ignora y otras apps lo repiten encima del texto.
-          const shareDataWithFile = { text: shareText, files: [file] };
+          const shareDataWithFile = { text: buildCaption(body, shareUrl), files: [file] };
           if (navigator.canShare(shareDataWithFile)) {
             await navigator.share(shareDataWithFile);
             return;

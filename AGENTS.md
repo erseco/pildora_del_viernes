@@ -28,6 +28,7 @@ Toda píldora **debe** cumplir:
   - Debe ser el mismo que el campo `url:`.
   - Todo en una sola línea visual detrás de los dos puntos.
   - Se renderiza **como texto plano (sin `<a>`)**, a propósito: así viaja en crudo en el texto que se comparte por WhatsApp y lo enlaza la propia app (ver §3, *Markdown permitido*).
+- [ ] **Descripción por debajo de ~980 caracteres.** WhatsApp corta el pie de foto a 1024 y el botón *Compartir* añade al final el enlace a la píldora. Si te pasas, el texto se recorta con «…» y solo sobrevive el enlace (ver §3, *Cómo se comparte*).
 - [ ] YAML válido (el workflow `validate-yaml.yml` lo comprueba en cada push/PR).
 - [ ] No duplicar una píldora existente (buscar por `url` y por descripción antes de añadir).
 
@@ -59,6 +60,17 @@ El renderer (`simple_markdown_to_html` en `generate_pages.py`) soporta:
 - `**negrita**`, `*cursiva*`, `_cursiva_`.
 - `` `código inline` `` y bloques ```` ```lang … ``` ````.
 - Saltos de línea se convierten a `<br>` (excepto dentro de `<pre>`).
+
+### Cómo se comparte
+El botón *Compartir* (`setupShareButtons` en `assets/js/static.js`) no manda el markdown en crudo: lo traduce
+al formato de WhatsApp con `markdownToWhatsApp()`. Conviene saberlo al escribir una descripción:
+
+- `**negrita**` → `*negrita*` (en WhatsApp la negrita lleva **un solo** asterisco).
+- `*cursiva*` → `_cursiva_`; `_cursiva_` se queda igual.
+- `` `código` `` y bloques ```` ```lang ```` → ```` ``` ````, el monoespaciado de WhatsApp.
+- `[texto](url)` → «texto: url», o solo la url si el texto ya era la url.
+- El enlace a la píldora (`https://pildoras.ernesto.es/YYYY-MM-DD/`) se añade **al final**, detrás de la descripción.
+- La imagen se reescala a 1600 px y se recomprime a JPEG antes de adjuntarla; los GIF van intactos.
 
 ---
 

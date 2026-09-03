@@ -2,6 +2,7 @@
 import os
 import re
 import shutil
+import hashlib
 import html
 import yaml
 import sys
@@ -10,6 +11,20 @@ from datetime import datetime
 BASE_URL = "https://pildoras.ernesto.es/"
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(ROOT, sys.argv[1]) if len(sys.argv) > 1 else ROOT
+
+ASSETS = ('assets/css/main.css', 'assets/js/static.js')
+
+def versioned_template(template):
+    """Añade ?v=<hash> a CSS y JS para que el navegador no sirva la versión
+    cacheada después de un deploy."""
+    for rel in ASSETS:
+        path = os.path.join(ROOT, rel)
+        if not os.path.isfile(path):
+            continue
+        with open(path, 'rb') as f:
+            digest = hashlib.sha1(f.read()).hexdigest()[:8]
+        template = template.replace(f'"{rel}"', f'"{rel}?v={digest}"')
+    return template
 
 def load_data():
     with open(os.path.join(ROOT, 'data.yml'), 'r', encoding='utf-8') as f:
@@ -202,6 +217,7 @@ def generate():
     clean_output()
 
     # Generate homepage content
+    template = versioned_template(page_template)
     cards_html = ''.join([render_card(p) for p in pildoras])
     controls = """
         <div class=\"row justify-content-center mb-4\">
@@ -211,7 +227,7 @@ def generate():
     og_home = """
         <meta property=\"og:title\" content=\"💊 Píldoras del Viernes\">\n        <meta property=\"og:description\" content=\"Píldora formativa semanal\">\n        <meta property=\"og:image\" content=\"\">\n        <meta property=\"og:url\" content=\"\">\n    """
     header_home = '💊 Píldoras del Viernes <small class="text-muted fs-6 d-block d-sm-inline">(<span id="pildoraCount">0 de %d</span> píldoras)</small>' % len(pildoras)
-    index_html = page_template.format(
+    index_html = template.format(
         og_tags=og_home,
         title="Píldoras del Viernes",
         header=header_home,
@@ -234,7 +250,7 @@ def generate():
         body_controls = """
         <div class=\"row justify-content-center mb-4\">\n            <div class=\"col-md-12 text-center\" id=\"viewAllContainer\">\n                <a href=\"/\" class=\"btn btn-primary\">Ver todas las píldoras</a>\n            </div>\n        </div>
         """
-        html_page = page_template.format(
+        html_page = template.format(
             og_tags=og,
             title=f"Píldora Formativa del {date}",
             header=header,
