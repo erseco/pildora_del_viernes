@@ -1250,14 +1250,14 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://rowan441.github.io/1dchess/chess.html un ajedrez **en una sola dimensión**: el tablero es una fila de casillas en lugar de la clásica cuadrícula 8×8.
       Es *1-D Chess* de Rowan Monk, que reduce el ajedrez a su mínima expresión manteniendo la lógica de piezas y movimientos, pero con una profundidad sorprendente: ganar al ordenador se antoja casi imposible.
-      Buena excusa para hablar de **reducción de complejidad**, de cómo las restricciones obligan a replantear estrategias, y de por qué lo mínimo no significa lo sencillo. Vía [Microsiervos](https://www.microsiervos.com/archivo/juegos-y-diversion/un-curioso-ajedrez-1-d.html).
+      Buena excusa para hablar de **reducción de complejidad**, de cómo las restricciones obligan a replantear estrategias, y de por qué lo mínimo no significa lo sencillo.
 
   - date: '2026-05-15'
     image: 2026-05-15.webp
     url: https://bubblespop.netlify.app/
     description: |
       En la 💊 formativa de hoy viernes: https://bubblespop.netlify.app/ un **plástico de burbujas virtual** para explotar en el navegador, con **8.192 burbujas** y el sonidito correspondiente a cada *pop*.
-      Terapia absurda y antiestrés de las buenas: ni instalación, ni registro, ni plástico de verdad. Sirve como excusa para hablar de microinteracciones, feedback háptico/sonoro y por qué ciertos gestos tan simples enganchan tanto. Vía [Microsiervos](https://www.microsiervos.com/archivo/juegos-y-diversion/plastico-burbujas-virtual-web-terapia-estres-gustirrinin.html).
+      Terapia absurda y antiestrés de las buenas: ni instalación, ni registro, ni plástico de verdad. Sirve como excusa para hablar de microinteracciones, feedback háptico/sonoro y por qué ciertos gestos tan simples enganchan tanto.
 
   - date: '2026-05-22'
     image: 2026-05-22.png
@@ -1280,14 +1280,14 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://css-doodle.com/ una librería web para **dibujar patrones, mosaicos y arte generativo usando solo CSS**, sin una línea de JavaScript gráfico.
       Declaras una cuadrícula con `<css-doodle>` y usas sus funciones (`@rand`, `@nth`, `@repeat`, etc.) para generar formas paramétricas, colores, rotaciones y animaciones. El resultado son composiciones tipo *pen-and-ink* que recuerdan al arte algorítmico clásico, pero escritas en lenguaje declarativo.
-      Excusa perfecta para hablar de **CSS como lenguaje de composición** y de la frontera entre diseño, matemáticas y código. Vía [Microsiervos](https://www.microsiervos.com/archivo/ordenadores/css-doodle-elegancia-dibujar-patrones-css.html).
+      Excusa perfecta para hablar de **CSS como lenguaje de composición** y de la frontera entre diseño, matemáticas y código.
 
   - date: '2026-06-12'
     image: 2026-06-12.jpg
     url: https://neberej.github.io/exposedbydefault/
     description: |
       En la 💊 formativa de hoy viernes: https://neberej.github.io/exposedbydefault/ una web que muestra **todo lo que tu navegador está filtrando sin que lo sepas** con solo visitar una página: IP, ubicación aproximada, sistema operativo, fuentes instaladas, resolución, batería, GPU, idioma, zona horaria…
-      Con esos datos se construye un **fingerprint** prácticamente único que permite rastrear a un usuario entre sesiones aunque borre cookies o use modo incógnito. Una buena herramienta para hablar de **privacidad, fingerprinting y por qué no basta con "borrar el historial"**. Vía [Microsiervos](https://www.microsiervos.com/archivo/internet/todo-navegador-web-revela-sin-que-se-sepa.html).
+      Con esos datos se construye un **fingerprint** prácticamente único que permite rastrear a un usuario entre sesiones aunque borre cookies o use modo incógnito. Una buena herramienta para hablar de **privacidad, fingerprinting y por qué no basta con "borrar el historial"**.
 
   - date: '2026-06-19'
     image: 2026-06-19.svg
@@ -1301,7 +1301,7 @@ pildoras:
     url: https://flipbook.page/
     description: |
       En la 💊 formativa de hoy viernes: https://flipbook.page/ un **navegador wikipédico generativo** donde cada página es una imagen creada al vuelo por IA y puedes hacer clic en cualquier zona para profundizar en ese detalle, sin texto ni enlaces tradicionales.
-      Sus autores lo describen como *«un rincón donde la imaginación se encuentra con el olvido colectivo de internet»*: una manera distinta de explorar conocimiento, más cercana a hojear una enciclopedia ilustrada infinita que a buscar en Google. Buena excusa para hablar de **interfaces post-textuales, contenido generado on-demand y los límites entre conocimiento real y alucinación visual**. Vía [Microsiervos](https://www.microsiervos.com/archivo/ia/rincon-imaginacion-olvido-internet.html).
+      Sus autores lo describen como *«un rincón donde la imaginación se encuentra con el olvido colectivo de internet»*: una manera distinta de explorar conocimiento, más cercana a hojear una enciclopedia ilustrada infinita que a buscar en Google. Buena excusa para hablar de **interfaces post-textuales, contenido generado on-demand y los límites entre conocimiento real y alucinación visual**.
 
       Y con esta cerramos **la última píldora del curso** 🎓. ¡Feliz verano y nos vemos de vuelta en septiembre con más recursos! 🌞
 
@@ -1311,7 +1311,7 @@ pildoras:
     description: |
       En la 💊 formativa de hoy viernes: https://www.fusionenergybase.com/fusion-power-plant-simulator un **simulador de una central de fusión nuclear** con el que se puede jugar moviendo las palanquitas para entender una idea clave: no basta con que una máquina produzca energía de fusión, tiene que producir **más electricidad de la que ella misma gasta** en mantenerse funcionando.
       Permite ajustar cuánta energía se usa para calentar el plasma, cuánta libera la reacción, cuánta se pierde al convertir calor en electricidad (el viejo truco de la máquina de vapor: 30-40%) y cuánta consume la propia instalación. Si la flecha que llega a la red sale en verde, la central aporta energía; si sale en rojo, está *chupando* del enchufe.
-      Una buena herramienta contra la **fusión de PowerPoint**: convierte las promesas en una contabilidad de entradas y salidas, fácil de entender sin meterse en fórmulas. Acompaña al artículo [Scientific Gain and Fusion Power Plants](https://www.fusionenergybase.com/articles/fusion-physics-part-1-scientific-gain-and-fusion-power-plants) de Sam Wurzel. Vía [Microsiervos](https://www.microsiervos.com/archivo/energia/simulador-central-fusion-nuclear.html).
+      Una buena herramienta contra la **fusión de PowerPoint**: convierte las promesas en una contabilidad de entradas y salidas, fácil de entender sin meterse en fórmulas. Acompaña al artículo [Scientific Gain and Fusion Power Plants](https://www.fusionenergybase.com/articles/fusion-physics-part-1-scientific-gain-and-fusion-power-plants) de Sam Wurzel.
 
   - date: '2026-09-11'
     image: 2026-09-11.svg

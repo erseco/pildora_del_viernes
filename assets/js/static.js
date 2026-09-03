@@ -1,8 +1,73 @@
 // Búsqueda y compartir sin cargar YAML dinámico
 
+// Lado mayor (px) al que se normaliza la imagen antes de compartirla.
+const SHARE_IMAGE_MAX_SIDE = 1600;
+
+const MIME_BY_EXT = {
+  jpg: 'image/jpeg',
+  jpeg: 'image/jpeg',
+  png: 'image/png',
+  gif: 'image/gif',
+  svg: 'image/svg+xml',
+  webp: 'image/webp',
+};
+
 function getBasePath() {
   const base = document.querySelector('base');
   return base ? base.getAttribute('href') : '/';
+}
+
+function mimeFromName(name) {
+  const ext = (name.split('.').pop() || '').toLowerCase();
+  return MIME_BY_EXT[ext] || 'image/png';
+}
+
+// Reescala y recomprime a JPEG antes de compartir: las capturas originales llegan
+// a varios MB y WhatsApp las recomprime igualmente. También rasteriza los SVG, que
+// de otro modo llegarían como documento adjunto en lugar de como foto.
+// Los GIF se dejan intactos para no perder la animación.
+// Ante cualquier fallo se devuelve el original: normalizar nunca debe romper el compartir.
+async function normalizeImageForShare(blob, filename) {
+  const original = { blob, filename };
+  if (blob.type === 'image/gif') return original;
+  const isSvg = blob.type === 'image/svg+xml';
+
+  const objectUrl = URL.createObjectURL(blob);
+  try {
+    const img = new Image();
+    img.decoding = 'async';
+    img.src = objectUrl;
+    await img.decode();
+
+    const srcW = img.naturalWidth;
+    const srcH = img.naturalHeight;
+    if (!srcW || !srcH) return original;
+
+    // Los SVG son vectoriales: también se pueden ampliar sin perder calidad.
+    const ratio = SHARE_IMAGE_MAX_SIDE / Math.max(srcW, srcH);
+    const scale = isSvg ? ratio : Math.min(1, ratio);
+
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.max(1, Math.round(srcW * scale));
+    canvas.height = Math.max(1, Math.round(srcH * scale));
+
+    const ctx = canvas.getContext('2d');
+    // JPEG no tiene canal alfa: sin fondo blanco las transparencias saldrían negras.
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+    const jpeg = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', 0.85));
+    if (!jpeg || !jpeg.size) return original;
+    // En SVG compensa aunque pese más: lo que importa es que llegue como foto.
+    if (!isSvg && jpeg.size >= blob.size) return original;
+
+    return { blob: jpeg, filename: filename.replace(/\.[^.]*$/, '') + '.jpg' };
+  } catch (_) {
+    return original;
+  } finally {
+    URL.revokeObjectURL(objectUrl);
+  }
 }
 
 function setupShareButtons() {
@@ -17,8 +82,8 @@ function setupShareButtons() {
       const shareUrl = `${baseUrl}${date ? date + '/' : ''}`;
       const imageUrl = image ? `${baseUrl}images/${image}` : '';
 
-      // Texto: primero el enlace para preview OG, luego descripción
-      const shareText = `${shareUrl}\n\n${description}`;
+      // El enlace a la píldora va al final, detrás de la descripción.
+      const shareText = `${description}\n\n${shareUrl}`;
 
       if (!navigator.share) {
         try {
@@ -32,12 +97,12 @@ function setupShareButtons() {
       if (imageUrl && navigator.canShare) {
         try {
           const response = await fetch(imageUrl);
-          const blob = await response.blob();
-          const ext = image.split('.').pop().toLowerCase();
-          const mimeTypes = { jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', gif: 'image/gif', svg: 'image/svg+xml', webp: 'image/webp' };
-          const mimeType = mimeTypes[ext] || 'image/png';
-          const file = new File([blob], image, { type: mimeType });
+          const fetched = await response.blob();
+          const source = fetched.type ? fetched : new Blob([fetched], { type: mimeFromName(image) });
+          const normalized = await normalizeImageForShare(source, image);
+          const file = new File([normalized.blob], normalized.filename, { type: normalized.blob.type });
 
+          // Sin `title`: WhatsApp lo ignora y otras apps lo repiten encima del texto.
           const shareDataWithFile = { text: shareText, files: [file] };
           if (navigator.canShare(shareDataWithFile)) {
             await navigator.share(shareDataWithFile);

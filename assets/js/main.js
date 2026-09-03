@@ -72,8 +72,8 @@ async function sharePildora(date) {
         year: 'numeric' 
     });
     
-    // Colocar primero el enlace para forzar preview OG en WhatsApp
-    const shareText = `${shareUrl}\n\n${pildora.description}`;
+    // El enlace a la píldora va al final, detrás de la descripción.
+    const shareText = `${pildora.description}\n\n${shareUrl}`;
 
     if (!navigator.share) {
         try {
@@ -85,7 +85,8 @@ async function sharePildora(date) {
         return;
     }
 
-    const shareData = { title: pildora.description, text: shareText };
+    // Sin `title`: WhatsApp lo ignora y otras apps lo repiten encima del texto.
+    const shareData = { text: shareText };
 
     try {
         // Compartir solo texto + enlace (sin archivo) para que WhatsApp conserve el texto

@@ -162,7 +162,7 @@ Recomendado añadir un workflow `.github/workflows/linkcheck.yml` con `lychee` o
 
 ## 7. Flujo recomendado para un agente
 
-> **Regla importante sobre fuentes:** si el usuario pide una píldora pasando una URL de **microsiervos.com** (u otro agregador tipo blog/curador), esa URL es la **fuente**, **no el destino**. Hay que abrir el artículo, extraer la URL externa del producto/servicio/juego del que habla el post, y usar **esa** como `url:` de la píldora. La imagen (`og:image`) y parte del texto sí pueden salir del post, y se acredita al final con «Vía [Microsiervos](url-del-post)».
+> **Regla importante sobre fuentes:** si el usuario pide una píldora pasando una URL de **microsiervos.com** (u otro agregador tipo blog/curador), esa URL es la **fuente**, **no el destino**. Hay que abrir el artículo, extraer la URL externa del producto/servicio/juego del que habla el post, y usar **esa** como `url:` de la píldora. La imagen (`og:image`) y parte del texto sí pueden salir del post, pero **no se añade línea de atribución** al final («Vía [Microsiervos](…)» y similares): la descripción termina en el texto de la píldora.
 >
 > Extracción rápida:
 > ```bash
