@@ -1368,3 +1368,11 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://pdfmergely.com/ **PDFMergely** es una caja de herramientas gratuita para trabajar con archivos PDF **directamente en el navegador**, sin tener que enviarlos a un servidor.
       Permite **unir, dividir, comprimir, reordenar páginas, convertir formatos, reconocer texto con OCR, firmar, quitar metadatos y censurar contenido**. Su web anuncia **68 herramientas**, sin registro ni marcas de agua, y permite trabajar sin conexión tras cargar los componentes necesarios.
       Lo interesante es su enfoque de **privacidad**: según el proyecto, procesa los documentos localmente mediante WebAssembly y Web Workers y muestra un contador de bytes subidos. Una opción útil para documentos cotidianos; con archivos especialmente sensibles, conviene verificar el tráfico de red y las condiciones del servicio.
+
+  - date: '2026-11-13'
+    image: 2026-11-13.svg
+    url: https://www.robinlinacre.com/letterpaths/
+    description: |
+      En la 💊 formativa de hoy viernes: https://www.robinlinacre.com/letterpaths/ **Letterpaths** es una colección de herramientas gratuitas y de **código abierto** para aprender y practicar caligrafía, sin registro ni publicidad.
+      Permite crear **fichas personalizadas para imprimir** con nombres o palabras, tanto en letra cursiva ligada como de imprenta. Las guías de escritura incluyen flechas, números y líneas de referencia para aprender el orden y la dirección de los trazos. También ofrece **ejercicios interactivos** para repasar letras con el dedo o un lápiz digital y un juego de constelaciones para formar caracteres.
+      Está pensado originalmente para la enseñanza primaria del Reino Unido, por lo que sus modelos de letra no siempre coinciden con los de España. Su código abierto facilita **adaptarlo a otras lenguas y estilos de escritura**, una posibilidad interesante para el aula.
