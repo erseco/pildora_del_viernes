@@ -1352,3 +1352,11 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://takeitdown.ncmec.org/es/ **Take It Down**, un servicio gratuito para ayudar a retirar de internet imágenes o vídeos de desnudos, parciales o totales, y contenido sexualmente explícito tomado antes de cumplir los 18 años.
       La persona no tiene que enviar la imagen: el sistema crea en su dispositivo una huella digital (*hash*) del archivo y las plataformas participantes pueden detectar y bloquear copias coincidentes. Es importante conservar el archivo original, no descargarlo ni compartirlo de nuevo y utilizar el servicio solo con imágenes en las que aparezca la propia persona cuando era menor.
       Una píldora especialmente útil para hablar de **seguridad digital, consentimiento, sextorsión y derecho a pedir ayuda**. Si existe una amenaza inmediata o riesgo para alguien, hay que contactar también con las autoridades y con una persona adulta de confianza.
+
+  - date: '2026-10-30'
+    image: 2026-10-30.svg
+    url: https://learn-arduino-red.vercel.app/
+    description: |
+      En la 💊 formativa de hoy viernes: https://learn-arduino-red.vercel.app/ **Learn Arduino** es una aplicación para aprender electrónica y programación con una **placa Arduino Uno en 3D**, directamente desde el navegador y sin necesidad de tener un kit físico.
+      Incluye **16 lecciones interactivas**, desde encender un LED hasta proyectos con sensores, en las que puedes inspeccionar los componentes, ejecutar ejemplos de código y observar el circuito y el monitor serie. Se practican botones, potenciómetros, sensores de luz y distancia, motores y servos.
+      Es especialmente útil para **experimentar antes de montar circuitos reales** o preparar actividades de tecnología cuando no hay placas para todo el alumnado. La creó **Dilum Sanjaya** con ayuda de Claude Opus 5.5.
