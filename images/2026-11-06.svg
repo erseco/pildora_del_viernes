@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="PDFMergely: herramientas PDF privadas en tu navegador">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10213a"/>
+      <stop offset="100%" stop-color="#172c48"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#e8f5f6"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#80bbcf" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1112" cy="65" r="255" fill="#43cfba" opacity=".07"/>
+  <circle cx="630" cy="648" r="250" fill="#64a8ff" opacity=".06"/>
+  <rect x="67" y="74" width="282" height="42" rx="21" fill="#24465a"/>
+  <circle cx="93" cy="95" r="8" fill="#65f0cc"/>
+  <text x="111" y="102" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#cbf9e9">HERRAMIENTAS EN LÍNEA</text>
+  <text x="66" y="229" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="bold" fill="#ffffff">PDFMergely</text>
+  <text x="69" y="291" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#bcdded">Edita tus PDF sin subirlos</text>
+  <text x="69" y="329" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#bcdded">a la nube</text>
+  <rect x="67" y="398" width="198" height="57" rx="14" fill="#1f534f" stroke="#6de0bb" stroke-width="2"/>
+  <text x="166" y="435" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="23" fill="#d4ffed">68 herramientas</text>
+  <rect x="280" y="398" width="226" height="57" rx="14" fill="#26445c" stroke="#8daabd" stroke-width="2"/>
+  <text x="393" y="435" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="22" fill="#eff9ff">0 bytes subidos</text>
+  <text x="69" y="549" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#93b9cb">Unir · Comprimir · OCR · Firmar</text>
+  <text x="69" y="581" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#93b9cb">Convertir · Proteger · Organizar</text>
+
+  <!-- Stylized document cards -->
+  <g transform="translate(624 77)">
+    <rect x="104" y="95" width="300" height="388" rx="20" fill="#040f22" opacity=".26" transform="rotate(11 254 289)"/>
+    <g transform="rotate(11 254 289)">
+      <rect x="93" y="80" width="300" height="388" rx="19" fill="#bcd1e1" stroke="#dbe9f4" stroke-width="3"/>
+      <path d="M326 80v67h67" fill="#d4e3ef" stroke="#a9c0d1" stroke-width="2"/>
+      <rect x="129" y="184" width="203" height="16" rx="8" fill="#99b8cc"/>
+      <rect x="129" y="217" width="154" height="13" rx="7" fill="#b5cddd"/>
+      <rect x="129" y="254" width="211" height="13" rx="7" fill="#b5cddd"/>
+    </g>
+    <g transform="rotate(-8 180 250)">
+      <rect x="17" y="23" width="310" height="401" rx="20" fill="url(#card)" stroke="#fff" stroke-width="3"/>
+      <path d="M253 23v74h74" fill="#cbdde9" stroke="#9fbed0" stroke-width="2"/>
+      <rect x="56" y="82" width="119" height="65" rx="13" fill="#e94e61"/>
+      <text x="115" y="126" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#fff">PDF</text>
+      <rect x="56" y="183" width="209" height="16" rx="8" fill="#a9c0ce"/>
+      <rect x="56" y="218" width="174" height="16" rx="8" fill="#c1d2dd"/>
+      <rect x="56" y="253" width="197" height="16" rx="8" fill="#c1d2dd"/>
+      <rect x="56" y="288" width="134" height="16" rx="8" fill="#c1d2dd"/>
+      <rect x="55" y="337" width="227" height="51" rx="10" fill="#d6efe8"/>
+      <circle cx="82" cy="363" r="13" fill="#18a889"/>
+      <path d="M75 363l5 5 10-12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="104" y="371" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#287462">LOCAL</text>
+    </g>
+    <circle cx="398" cy="355" r="94" fill="#153d48" stroke="#62e8ca" stroke-width="7"/>
+    <path d="M398 306l49 19v34c0 39-29 66-49 73-20-7-49-34-49-73v-34z" fill="#43cba8"/>
+    <rect x="384" y="347" width="28" height="34" rx="5" fill="#153d48"/>
+    <path d="M389 347v-10a9 9 0 0 1 18 0v10" fill="none" stroke="#153d48" stroke-width="7"/>
+  </g>
+</svg>
