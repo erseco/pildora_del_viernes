@@ -1392,3 +1392,43 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://moodle-playground.com/ **Moodle Playground** permite arrancar un **Moodle completo directamente en el navegador**, sin instalar nada ni configurar un servidor. Todo el entorno se ejecuta con **PHP WebAssembly y SQLite**, y puedes entrar como administrador para crear cursos, probar actividades o explorar sus opciones.
       Permite seleccionar distintas versiones de **Moodle y PHP** e importar **blueprints** (recetas en JSON) para preparar automáticamente cursos, usuarios, matrículas, plugins o temas. Son una forma cómoda de **compartir demostraciones y reproducir escenarios de prueba**.
       Es un proyecto **gratuito y de código abierto del Área de Tecnología Educativa del Gobierno de Canarias**, independiente de Moodle HQ. Ideal para formación y experimentación: **no es un entorno de producción** ni conviene usarlo para almacenar información importante.
+
+  - date: '2026-12-04'
+    image: 2026-12-04.svg
+    url: https://online.exelearning.net/
+    description: |
+      En la 💊 formativa de hoy viernes: https://online.exelearning.net/ **eXeLearning** tiene su **editor en línea abierto y sin registro**: entra y empieza a crear recursos educativos interactivos sin instalar nada. Puedes combinar textos, imágenes, vídeos y actividades, y exportar el resultado como **web, SCORM para Moodle, ePub o proyecto .elpx** para seguir editándolo.
+      Es **software libre (AGPL)** coordinado por **Cedec-INTEF**, desarrollado colaborativamente por varias administraciones educativas, entre ellas **Canarias**, Extremadura, Galicia, Comunidad Valenciana y Madrid.
+      Una manera sencilla de crear y compartir materiales propios. Recuerda **descargar tu proyecto** para conservar una copia: acceder sin registro no significa que el trabajo se guarde en una cuenta en la nube.
+
+  - date: '2026-12-11'
+    image: 2026-12-11.svg
+    url: https://ateeducacion.github.io/mbzoo/
+    description: |
+      En la 💊 formativa de hoy viernes: https://ateeducacion.github.io/mbzoo/ **MBZoo** permite abrir un archivo **.mbz**, la copia de seguridad de un curso Moodle, **sin instalar Moodle ni subir el archivo a un servidor**. Arrastra la copia y explora sus secciones, actividades, preguntas, materiales y archivos, con vistas previas de muchos formatos.
+      También puedes **extraer archivos y contenidos de actividades** y utilizar **MBZ Doctor** para detectar ciertos problemas estructurales. Las reparaciones son experimentales: **no garantizan que un curso pueda restaurarse en Moodle**.
+      Es una herramienta libre de **ATE Canarias**, útil para revisar copias, recuperar materiales y entender la estructura de un curso. El análisis se hace localmente en tu navegador.
+
+  - date: '2026-12-18'
+    image: 2026-12-18.svg
+    url: https://ateeducacion.github.io/elpx-optimizer/
+    description: |
+      En la 💊 formativa de hoy viernes: https://ateeducacion.github.io/elpx-optimizer/ **ELPX Optimizer** hace más ligeros los proyectos **.elpx de eXeLearning** sin perder su capacidad de edición. Arrastras un archivo y descargas una **copia optimizada**, conservando intacto el original.
+      Puede recomprimir imágenes, vídeos, audio y PDF, detectar recursos duplicados, ausentes o sin uso y actualizar la miniatura del proyecto. **Verifica el paquete** antes de entregarlo, aunque siempre conviene comprobar el resultado.
+      Todo se procesa **en tu navegador, sin subir el proyecto**. Es software libre del **Área de Tecnología Educativa del Gobierno de Canarias**. Con esta cerramos las píldoras de 2026. ¡Felices fiestas y **volvemos el 15 de enero**!
+
+  - date: '2027-01-15'
+    image: 2027-01-15.svg
+    url: https://ateeducacion.github.io/normativa_educativa_canaria/
+    description: |
+      En la 💊 formativa de hoy viernes: https://ateeducacion.github.io/normativa_educativa_canaria/ **Normativa Educativa Canaria** reúne en un portal abierto **normas, currículos, fuentes oficiales y relaciones entre disposiciones** aplicables a la educación en Canarias.
+      Organiza fichas documentales con enlaces a las fuentes, fechas, estado de vigencia y metadatos estructurados. Prepara un **corpus reutilizable para búsquedas y asistentes de IA**, manteniendo la trazabilidad de cada referencia.
+      Puede ayudar a docentes, equipos directivos y personal técnico a localizar el marco normativo de una cuestión. **Los resúmenes no sustituyen la consulta de los textos oficiales**. Con este recurso retomamos las píldoras del viernes tras el descanso navideño.
+
+  - date: '2027-01-22'
+    image: 2027-01-22.svg
+    url: https://ateeducacion.github.io/nextcloud-playground/
+    description: |
+      En la 💊 formativa de hoy viernes: https://ateeducacion.github.io/nextcloud-playground/ **Nextcloud Playground** ejecuta una instalación de **Nextcloud dentro del navegador**: sin montar un servidor ni crear una cuenta, entras como administrador para explorar la plataforma.
+      Funciona con **PHP en WebAssembly y SQLite en memoria**. Puedes seleccionar versiones de Nextcloud y preparar demostraciones con **blueprints JSON**, por ejemplo creando usuarios, grupos o configuraciones de prueba.
+      Es un proyecto libre del **Área de Tecnología Educativa del Gobierno de Canarias**, útil para formación y experimentación. **El entorno es temporal: al cerrar la pestaña se pierden los cambios**, y algunas funciones del Nextcloud tradicional no están disponibles.
