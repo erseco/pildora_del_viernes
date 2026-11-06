@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Destroy Any Website: personaje pixelado destruyendo una página web">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141b34"/>
+      <stop offset="100%" stop-color="#3b2446"/>
+    </linearGradient>
+    <linearGradient id="browser" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fcfbfa"/>
+      <stop offset="100%" stop-color="#ddddea"/>
+    </linearGradient>
+    <pattern id="pixels" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="4" height="4" fill="#98a0f9" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect width="1200" height="630" fill="url(#pixels)"/>
+  <circle cx="1075" cy="65" r="242" fill="#f8a54b" opacity=".08"/>
+  <rect x="62" y="64" width="241" height="43" rx="12" fill="#442f5b"/>
+  <circle cx="84" cy="86" r="8" fill="#ffc060"/>
+  <text x="105" y="94" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="18" fill="#fff0c4">JUEGOS EN EL NAVEGADOR</text>
+  <text x="62" y="206" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="68" fill="#ffffff">Destroy</text>
+  <text x="62" y="280" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="68" fill="#ffbd62">Any Website</text>
+  <text x="64" y="340" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#d7d9ee">Convierte cualquier web</text>
+  <text x="64" y="380" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#d7d9ee">en un videojuego destructible.</text>
+  <rect x="62" y="436" width="257" height="55" rx="11" fill="#6a3654" stroke="#e99c7c" stroke-width="2"/>
+  <text x="191" y="471" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" font-size="21" font-weight="bold" fill="#fff2e2">Gratuito · Multijugador</text>
+  <text x="64" y="564" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#aaa8c9">Sin dañar la web original</text>
+
+  <!-- Fictional browser window with destructible DOM elements -->
+  <g transform="translate(636 76)">
+    <rect x="12" y="20" width="505" height="462" rx="19" fill="#0c1024" opacity=".46"/>
+    <rect x="0" y="0" width="505" height="462" rx="17" fill="url(#browser)" stroke="#9eb1d8" stroke-width="3"/>
+    <path d="M16 0h473q16 0 16 16v41H0V16Q0 0 16 0z" fill="#b4b7d4"/>
+    <circle cx="26" cy="29" r="8" fill="#ff676d"/>
+    <circle cx="51" cy="29" r="8" fill="#ffbe5d"/>
+    <circle cx="76" cy="29" r="8" fill="#68ce89"/>
+    <rect x="111" y="13" width="354" height="31" rx="9" fill="#e9eaf5"/>
+    <text x="130" y="34" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#48516b">example.com</text>
+    <rect x="34" y="92" width="350" height="42" rx="7" fill="#353b5b"/>
+    <rect x="34" y="157" width="297" height="14" rx="6" fill="#9caac1"/>
+    <rect x="34" y="185" width="367" height="14" rx="6" fill="#b0bad0"/>
+    <rect x="34" y="213" width="194" height="14" rx="6" fill="#b0bad0"/>
+    <rect x="35" y="258" width="183" height="126" rx="8" fill="#b1d7e5"/>
+    <rect x="235" y="258" width="181" height="126" rx="8" fill="#dbc9e3"/>
+    <rect x="35" y="410" width="150" height="27" rx="6" fill="#ed9f65"/>
+    <!-- Browser blocks breaking apart in pixels -->
+    <g fill="#f5a663">
+      <rect x="335" y="93" width="30" height="30"/><rect x="370" y="106" width="22" height="22"/>
+      <rect x="407" y="80" width="18" height="18"/><rect x="449" y="116" width="24" height="24"/>
+      <rect x="396" y="160" width="15" height="15"/><rect x="465" y="180" width="15" height="15"/>
+    </g>
+    <g fill="#49517f">
+      <rect x="315" y="111" width="15" height="15"/><rect x="352" y="150" width="18" height="18"/>
+      <rect x="434" y="149" width="14" height="14"/><rect x="452" y="221" width="12" height="12"/>
+    </g>
+    <g fill="#d8d3e7">
+      <rect x="390" y="191" width="19" height="19"/><rect x="419" y="216" width="12" height="12"/>
+      <rect x="471" y="260" width="22" height="22"/><rect x="449" y="303" width="17" height="17"/>
+    </g>
+    <!-- Stylized explosion -->
+    <path d="M326 114l24-27 5 27 26-17-8 29 29 4-26 17 17 24-31-7-13 27-10-29-28 10 14-30-27-14z" fill="#ffd065" stroke="#f28b4d" stroke-width="5"/>
+    <circle cx="346" cy="135" r="21" fill="#fff0ac"/>
+    <g stroke="#ee824a" stroke-width="5" stroke-linecap="square">
+      <path d="M306 68l-13-24"/><path d="M418 89l24-21"/><path d="M419 189l25 12"/>
+    </g>
+  </g>
+
+  <!-- Retro pixel stickman, with blaster -->
+  <g transform="translate(770 390)" fill="none" stroke="#131527" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter">
+    <rect x="5" y="-51" width="30" height="30" fill="#ffc989" stroke-width="8"/>
+    <path d="M20-13V44M20 4L73-19M20 6L-14 29M20 42L-14 91M20 42L58 89"/>
+    <path d="M76-19h47" stroke="#4a4f6f" stroke-width="14"/>
+  </g>
+  <g fill="#ffda71">
+    <rect x="911" y="354" width="18" height="9"/>
+    <rect x="945" y="340" width="11" height="11"/>
+    <rect x="970" y="348" width="8" height="8"/>
+  </g>
+  <rect x="715" y="574" width="400" height="13" rx="5" fill="#080f22" opacity=".3"/>
+</svg>
