@@ -1384,3 +1384,11 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://destroy.spritefusion.com/ **Destroy Any Website** es un juego gratuito que convierte **cualquier página web en un escenario destructible**, sin causar daños al sitio original.
       Escribes una dirección, aparece un **muñeco de palitos** y te dedicas a destrozar titulares, botones y bloques de la página con pistolas, escopetas, lanzacohetes y hasta un lanzallamas. Puedes correr, saltar, usar un *jetpack* y lanzar granadas; también hay **partidas multijugador** para compartir el caos con otras personas.
       Creado por **Hugo Duprez**, de Sprite Fusion, es una curiosa mezcla de videojuego retro y web: perfecta para desconectar unos minutos y recordar que, detrás de cada página, hay elementos que el navegador dibuja y organiza.
+
+  - date: '2026-11-27'
+    image: 2026-11-27.svg
+    url: https://moodle-playground.com/
+    description: |
+      En la 💊 formativa de hoy viernes: https://moodle-playground.com/ **Moodle Playground** permite arrancar un **Moodle completo directamente en el navegador**, sin instalar nada ni configurar un servidor. Todo el entorno se ejecuta con **PHP WebAssembly y SQLite**, y puedes entrar como administrador para crear cursos, probar actividades o explorar sus opciones.
+      Permite seleccionar distintas versiones de **Moodle y PHP** e importar **blueprints** (recetas en JSON) para preparar automáticamente cursos, usuarios, matrículas, plugins o temas. Son una forma cómoda de **compartir demostraciones y reproducir escenarios de prueba**.
+      Es un proyecto **gratuito y de código abierto del Área de Tecnología Educativa del Gobierno de Canarias**, independiente de Moodle HQ. Ideal para formación y experimentación: **no es un entorno de producción** ni conviene usarlo para almacenar información importante.
