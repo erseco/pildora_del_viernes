@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Moodle Playground: una instalación de Moodle en el navegador mediante WebAssembly">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e1c34"/>
+      <stop offset="100%" stop-color="#213d63"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5fb"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.3" fill="#bfd7ef" opacity=".12"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-30%" width="150%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#040c20" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <circle cx="1090" cy="55" r="245" fill="#ff9b32" opacity=".06"/>
+  <circle cx="690" cy="600" r="250" fill="#5cbff2" opacity=".07"/>
+
+  <rect x="66" y="66" width="295" height="43" rx="21" fill="#304a66"/>
+  <circle cx="91" cy="87" r="8" fill="#ffb64c"/>
+  <text x="112" y="94" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#dfebfa">TECNOLOGÍA EDUCATIVA</text>
+  <text x="65" y="214" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">Moodle</text>
+  <text x="65" y="294" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#ffaf46">Playground</text>
+  <text x="68" y="354" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#d9e6f6">Tu Moodle en el navegador.</text>
+  <text x="68" y="392" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#d9e6f6">Sin servidor ni instalación.</text>
+  <rect x="65" y="438" width="177" height="54" rx="12" fill="#274e6a" stroke="#81bbda" stroke-width="1.5"/>
+  <text x="153" y="472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#e8f8ff">PHP · WASM</text>
+  <rect x="256" y="438" width="137" height="54" rx="12" fill="#315368" stroke="#82b3cf" stroke-width="1.5"/>
+  <text x="324" y="472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#e8f8ff">SQLite</text>
+  <text x="68" y="566" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#a9bed4">Cursos · Usuarios · Plugins · Blueprints</text>
+
+  <!-- Illustration of a self-contained Moodle-like learning dashboard in a browser. -->
+  <g transform="translate(606 82)" filter="url(#shadow)">
+    <rect width="541" height="445" rx="18" fill="url(#shell)" stroke="#b9cadb" stroke-width="2"/>
+    <path d="M18 0H523Q541 0 541 18V56H0V18Q0 0 18 0Z" fill="#dce4ef"/>
+    <circle cx="27" cy="28" r="8" fill="#ed6c69"/>
+    <circle cx="53" cy="28" r="8" fill="#f5c05c"/>
+    <circle cx="79" cy="28" r="8" fill="#65c28a"/>
+    <rect x="119" y="13" width="375" height="30" rx="9" fill="#f9fafc"/>
+    <text x="141" y="34" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#547086">moodle-playground.com</text>
+    <rect y="56" width="541" height="60" fill="#f7f8fb"/>
+    <circle cx="34" cy="86" r="17" fill="#f89b38"/>
+    <text x="34" y="93" text-anchor="middle" font-size="23" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#fff">M</text>
+    <text x="66" y="94" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#2f465e">Mi espacio de aprendizaje</text>
+    <rect x="17" y="135" width="128" height="289" rx="11" fill="#edf2f8"/>
+    <g fill="#698199">
+      <rect x="33" y="159" width="90" height="12" rx="6"/>
+      <rect x="33" y="200" width="73" height="11" rx="5"/>
+      <rect x="33" y="240" width="84" height="11" rx="5"/>
+      <rect x="33" y="280" width="65" height="11" rx="5"/>
+    </g>
+    <rect x="162" y="135" width="361" height="68" rx="10" fill="#e6f2f7"/>
+    <text x="178" y="160" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#42728a">MIS CURSOS</text>
+    <text x="178" y="186" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#233f5c">Explora, aprende y experimenta</text>
+
+    <rect x="162" y="219" width="168" height="185" rx="10" fill="#fff" stroke="#ccd7e6" stroke-width="2"/>
+    <rect x="174" y="231" width="144" height="86" rx="7" fill="#f4ae59"/>
+    <path d="M174 300L219 263L254 295L280 269L318 300V317H174Z" fill="#e88943"/>
+    <circle cx="291" cy="253" r="14" fill="#fff2bb"/>
+    <text x="176" y="348" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#37506a">Curso de ejemplo</text>
+    <rect x="176" y="366" width="113" height="11" rx="5" fill="#d0dce8"/>
+
+    <rect x="345" y="219" width="178" height="185" rx="10" fill="#fff" stroke="#ccd7e6" stroke-width="2"/>
+    <rect x="357" y="231" width="154" height="86" rx="7" fill="#87b5d8"/>
+    <path d="M357 298L402 260L438 289L474 255L511 292V317H357Z" fill="#4a84b4"/>
+    <circle cx="470" cy="252" r="12" fill="#e6f7ff"/>
+    <text x="359" y="348" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#37506a">Prueba de actividades</text>
+    <rect x="359" y="366" width="131" height="11" rx="5" fill="#d0dce8"/>
+    <rect x="162" y="415" width="361" height="13" rx="6" fill="#e2eaf4"/>
+  </g>
+  <rect x="877" y="511" width="225" height="48" rx="13" fill="#144c52" stroke="#73d9b5" stroke-width="2"/>
+  <circle cx="902" cy="535" r="8" fill="#75e1b3"/>
+  <text x="921" y="543" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#d2fff0">Ejecución local</text>
+</svg>
