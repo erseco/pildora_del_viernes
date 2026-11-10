@@ -1432,3 +1432,11 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://ateeducacion.github.io/nextcloud-playground/ **Nextcloud Playground** ejecuta una instalación de **Nextcloud dentro del navegador**: sin montar un servidor ni crear una cuenta, entras como administrador para explorar la plataforma.
       Funciona con **PHP en WebAssembly y SQLite en memoria**. Puedes seleccionar versiones de Nextcloud y preparar demostraciones con **blueprints JSON**, por ejemplo creando usuarios, grupos o configuraciones de prueba.
       Es un proyecto libre del **Área de Tecnología Educativa del Gobierno de Canarias**, útil para formación y experimentación. **El entorno es temporal: al cerrar la pestaña se pierden los cambios**, y algunas funciones del Nextcloud tradicional no están disponibles.
+
+  - date: '2027-01-29'
+    image: 2027-01-29.svg
+    url: https://meetily.ai/
+    description: |
+      En la 💊 formativa de hoy viernes: https://meetily.ai/ **Meetily** es un asistente de reuniones que **graba el micrófono y el audio del equipo** mientras utilizas Teams, Zoom o Google Meet, y **transcribe en tiempo real** con modelos locales como Whisper o Parakeet.
+      Con **Ollama** también puede generar **resúmenes de la reunión sin enviar la transcripción a la nube**. Es software de **código abierto (licencia MIT)** y tiene una **edición Community gratuita** para Windows y macOS; en Linux requiere compilarlo desde el código fuente. Algunas funciones avanzadas son de pago.
+      La privacidad depende de la configuración: **el audio y la transcripción se procesan localmente**, pero si eliges un proveedor de IA en la nube para resumir, se le envía el texto. Antes de grabar una reunión, **informa a las personas participantes** y respeta la normativa aplicable.
