@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Meetily: grabación, transcripción y resumen local de reuniones">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111e31"/>
+      <stop offset="100%" stop-color="#1b3850"/>
+    </linearGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbfdff"/>
+      <stop offset="100%" stop-color="#eef4fa"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.5" fill="#91b9d2" opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <circle cx="1133" cy="44" r="286" fill="#4ad7ba" opacity=".07"/>
+  <circle cx="452" cy="662" r="255" fill="#5597d2" opacity=".06"/>
+
+  <rect x="65" y="68" width="273" height="43" rx="21" fill="#285064"/>
+  <circle cx="90" cy="90" r="8" fill="#49dfbb"/>
+  <text x="111" y="97" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#d8f7ee">HERRAMIENTAS LIBRES</text>
+
+  <text x="63" y="219" font-family="Arial, Helvetica, sans-serif" font-size="89" font-weight="bold" fill="#ffffff">Meetily</text>
+  <text x="68" y="283" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#cfe3ed">Tus reuniones, transcritas</text>
+  <text x="68" y="325" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#cfe3ed">en tu propio equipo</text>
+
+  <rect x="65" y="388" width="200" height="54" rx="12" fill="#245b5b" stroke="#60debc" stroke-width="1.7"/>
+  <text x="165" y="422" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#d9fff1">Whisper · Ollama</text>
+  <rect x="279" y="388" width="177" height="54" rx="12" fill="#294e63" stroke="#82b7cd" stroke-width="1.7"/>
+  <text x="367" y="422" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#e0f4fa">Licencia MIT</text>
+
+  <text x="68" y="514" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#a9c7d5">Grabación · Transcripción · Resumen</text>
+  <text x="68" y="554" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#79cfbd">La privacidad depende de tu configuración</text>
+
+  <!-- Stylized meeting recorder and transcript UI, not a literal product screenshot -->
+  <g transform="translate(627 85)">
+    <rect x="13" y="14" width="533" height="456" rx="19" fill="#081222" opacity=".36"/>
+    <rect width="533" height="456" rx="18" fill="url(#pane)" stroke="#b2c8d8" stroke-width="3"/>
+    <path d="M18 0H515Q533 0 533 18V59H0V18Q0 0 18 0Z" fill="#d9e5ed"/>
+    <circle cx="25" cy="29" r="8" fill="#ef7169"/>
+    <circle cx="51" cy="29" r="8" fill="#f2c25e"/>
+    <circle cx="77" cy="29" r="8" fill="#6bc997"/>
+    <text x="113" y="36" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#496279">Notas de la reunión</text>
+
+    <rect x="18" y="76" width="496" height="114" rx="12" fill="#e7f6f3"/>
+    <circle cx="52" cy="107" r="13" fill="#ef625f"/>
+    <circle cx="52" cy="107" r="6" fill="#ffffff"/>
+    <text x="74" y="113" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="#456e70">Grabando</text>
+    <text x="444" y="113" font-family="monospace" font-size="19" font-weight="bold" fill="#33736e">03:12</text>
+
+    <!-- Audio waveform -->
+    <path d="M34 156H502" fill="none" stroke="#a8d5ce" stroke-width="2"/>
+    <g stroke="#24a790" stroke-width="5" stroke-linecap="round">
+      <path d="M45 149v15"/><path d="M63 136v40"/><path d="M81 146v20"/>
+      <path d="M99 121v70"/><path d="M117 142v27"/><path d="M135 132v50"/>
+      <path d="M153 147v18"/><path d="M171 119v73"/><path d="M189 135v44"/>
+      <path d="M207 146v18"/><path d="M225 124v63"/><path d="M243 137v38"/>
+      <path d="M261 148v16"/><path d="M279 119v72"/><path d="M297 134v42"/>
+      <path d="M315 149v14"/><path d="M333 125v61"/><path d="M351 139v31"/>
+      <path d="M369 146v17"/><path d="M387 120v71"/><path d="M405 137v38"/>
+      <path d="M423 147v17"/><path d="M441 135v39"/><path d="M459 146v18"/>
+      <path d="M477 151v10"/>
+    </g>
+
+    <rect x="18" y="206" width="294" height="227" rx="11" fill="#fff" stroke="#d0dce6" stroke-width="2"/>
+    <text x="36" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#2c4e64">TRANSCRIPCIÓN EN DIRECTO</text>
+    <rect x="36" y="254" width="84" height="22" rx="11" fill="#dbf3eb"/>
+    <text x="49" y="270" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#307f68">00:01:12</text>
+    <rect x="36" y="289" width="243" height="10" rx="5" fill="#a9c0d0"/>
+    <rect x="36" y="309" width="218" height="10" rx="5" fill="#d1deeb"/>
+    <rect x="36" y="345" width="84" height="22" rx="11" fill="#dbf3eb"/>
+    <text x="49" y="361" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#307f68">00:02:09</text>
+    <rect x="36" y="380" width="231" height="10" rx="5" fill="#a9c0d0"/>
+    <rect x="36" y="400" width="191" height="10" rx="5" fill="#d1deeb"/>
+
+    <rect x="327" y="206" width="187" height="227" rx="11" fill="#fff" stroke="#d0dce6" stroke-width="2"/>
+    <text x="342" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#2c4e64">RESUMEN IA</text>
+    <rect x="343" y="250" width="151" height="40" rx="8" fill="#e5f6ef"/>
+    <circle cx="357" cy="270" r="7" fill="#2eaa7a"/>
+    <text x="370" y="276" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#37775d">Modelo local</text>
+    <g fill="#b2c4d2">
+      <rect x="343" y="311" width="148" height="9" rx="4"/>
+      <rect x="343" y="329" width="126" height="9" rx="4"/>
+      <rect x="343" y="362" width="149" height="9" rx="4"/>
+      <rect x="343" y="380" width="104" height="9" rx="4"/>
+    </g>
+  </g>
+</svg>
