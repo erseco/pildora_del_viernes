@@ -1440,3 +1440,11 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://meetily.ai/ **Meetily** es un asistente de reuniones que **graba el micrófono y el audio del equipo** mientras utilizas Teams, Zoom o Google Meet, y **transcribe en tiempo real** con modelos locales como Whisper o Parakeet.
       Con **Ollama** también puede generar **resúmenes de la reunión sin enviar la transcripción a la nube**. Es software de **código abierto (licencia MIT)** y tiene una **edición Community gratuita** para Windows y macOS; en Linux requiere compilarlo desde el código fuente. Algunas funciones avanzadas son de pago.
       La privacidad depende de la configuración: **el audio y la transcripción se procesan localmente**, pero si eliges un proveedor de IA en la nube para resumir, se le envía el texto. Antes de grabar una reunión, **informa a las personas participantes** y respeta la normativa aplicable.
+
+  - date: '2027-02-05'
+    image: 2027-02-05.svg
+    url: https://developer.chrome.com/docs/modern-web-guidance
+    description: |
+      En la 💊 formativa de hoy viernes: https://developer.chrome.com/docs/modern-web-guidance **Modern Web Guidance** es un conjunto de *skills* del equipo de Google Chrome para que los asistentes de programación con IA utilicen **estándares web modernos y buenas prácticas** en lugar de recurrir siempre a soluciones antiguas.
+      Por ejemplo, ayuda a usar `<dialog>` y la API Popover para ventanas y menús, CSS Container Queries para diseños adaptables, o passkeys para autenticación. También ofrece orientación sobre **accesibilidad, rendimiento y seguridad**, teniendo en cuenta la compatibilidad entre navegadores mediante **Baseline** y alternativas para los que no soporten ciertas funciones.
+      Puedes instalarlo en agentes compatibles, como Claude Code o Copilot CLI, con `npx modern-web-guidance@latest install`. Una buena manera de **enseñar a la IA a programar para la web actual**, sin dejar de revisar y probar el código que genera.
