@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Modern Web Guidance: estándares web y compatibilidad para agentes de programación">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10223a"/><stop offset="1" stop-color="#214562"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#9bcde7" stroke-opacity=".07" fill="none"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1100" cy="35" r="270" fill="#8bd8d0" opacity=".07"/>
+  <rect x="62" y="65" width="244" height="42" rx="21" fill="#294d60"/>
+  <circle cx="84" cy="86" r="8" fill="#78dbb2"/>
+  <text x="104" y="93" fill="#def4ee" font-family="Arial, sans-serif" font-size="17" font-weight="bold">DESARROLLO WEB</text>
+  <text x="62" y="202" fill="#fff" font-family="Arial, sans-serif" font-size="62" font-weight="bold">Modern Web</text>
+  <text x="62" y="273" fill="#8adac9" font-family="Arial, sans-serif" font-size="62" font-weight="bold">Guidance</text>
+  <text x="64" y="335" fill="#d9e7f4" font-family="Arial, sans-serif" font-size="27">Mejores estándares web</text>
+  <text x="64" y="372" fill="#d9e7f4" font-family="Arial, sans-serif" font-size="27">para tus agentes de IA.</text>
+  <rect x="63" y="432" width="420" height="54" rx="12" fill="#214d61" stroke="#80d2cb" stroke-width="1.5"/>
+  <text x="81" y="466" fill="#e0f8f4" font-family="Arial, sans-serif" font-size="21" font-weight="bold">HTML · CSS · Baseline · Accesibilidad</text>
+  <text x="65" y="561" fill="#a7c8da" font-family="Arial, sans-serif" font-size="20">Chrome for Developers · Agent Skills</text>
+  <!-- Vector diagram: guidance feeds an agent and a browser test. -->
+  <g transform="translate(603 77)">
+    <rect width="537" height="477" rx="22" fill="#edf5fa" stroke="#c6d9e8" stroke-width="2"/>
+    <rect x="0" y="0" width="537" height="54" rx="20" fill="#d3e4ee"/>
+    <circle cx="26" cy="27" r="7" fill="#f17770"/><circle cx="49" cy="27" r="7" fill="#efbf5c"/><circle cx="72" cy="27" r="7" fill="#65bc8d"/>
+    <text x="101" y="34" fill="#39576e" font-size="17" font-family="Arial, sans-serif" font-weight="bold">Flujo de desarrollo</text>
+    <rect x="24" y="77" width="489" height="93" rx="13" fill="#fff" stroke="#c6dce8" stroke-width="2"/>
+    <rect x="39" y="95" width="56" height="56" rx="12" fill="#d5f1e8"/>
+    <path d="M54 116l13-10 13 10M54 130l13 10 13-10" fill="none" stroke="#258b77" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="113" y="112" fill="#28485f" font-family="Arial, sans-serif" font-size="23" font-weight="bold">Modern Web Guidance</text>
+    <text x="113" y="140" fill="#537589" font-family="Arial, sans-serif" font-size="16">Guías y datos de compatibilidad</text>
+    <path d="M269 170v36m-10-11 10 12 10-12" stroke="#50a397" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+    <rect x="24" y="208" width="489" height="100" rx="13" fill="#263c59"/>
+    <text x="43" y="235" fill="#9ec7e8" font-family="Arial, sans-serif" font-size="15" font-weight="bold">AGENTE DE PROGRAMACIÓN</text>
+    <text x="43" y="268" fill="#d9f6ea" font-family="monospace" font-size="18">&lt;dialog&gt; ... &lt;/dialog&gt;</text>
+    <text x="43" y="292" fill="#9bd1e8" font-family="monospace" font-size="16">CSS @container ...</text>
+    <path d="M269 308v31m-10-10 10 12 10-12" stroke="#50a397" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+    <rect x="24" y="343" width="489" height="109" rx="13" fill="#fff" stroke="#c6dce8" stroke-width="2"/>
+    <text x="42" y="371" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#28485f">Pruebas y compatibilidad</text>
+    <g font-family="Arial, sans-serif" font-size="15" font-weight="bold">
+      <rect x="42" y="386" width="137" height="42" rx="9" fill="#e2f3e9"/>
+      <circle cx="60" cy="407" r="8" fill="#3a9d78"/><path d="M56 407l3 3 5-6" stroke="white" stroke-width="2" fill="none"/><text x="74" y="412" fill="#397a63">Baseline</text>
+      <rect x="190" y="386" width="145" height="42" rx="9" fill="#e4edf7"/><text x="204" y="412" fill="#4e7191">Accesibilidad</text>
+      <rect x="346" y="386" width="148" height="42" rx="9" fill="#fff1d7"/><text x="365" y="412" fill="#9a6a23">Rendimiento</text>
+    </g>
+  </g>
+</svg>
