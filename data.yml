@@ -1448,3 +1448,11 @@ pildoras:
       En la 💊 formativa de hoy viernes: https://developer.chrome.com/docs/modern-web-guidance **Modern Web Guidance** es un conjunto de *skills* del equipo de Google Chrome para que los asistentes de programación con IA utilicen **estándares web modernos y buenas prácticas** en lugar de recurrir siempre a soluciones antiguas.
       Por ejemplo, ayuda a usar `<dialog>` y la API Popover para ventanas y menús, CSS Container Queries para diseños adaptables, o passkeys para autenticación. También ofrece orientación sobre **accesibilidad, rendimiento y seguridad**, teniendo en cuenta la compatibilidad entre navegadores mediante **Baseline** y alternativas para los que no soporten ciertas funciones.
       Puedes instalarlo en agentes compatibles, como Claude Code o Copilot CLI, con `npx modern-web-guidance@latest install`. Una buena manera de **enseñar a la IA a programar para la web actual**, sin dejar de revisar y probar el código que genera.
+
+  - date: '2027-02-12'
+    image: 2027-02-12.svg
+    url: https://tendedero.app/
+    description: |
+      En la 💊 formativa de hoy viernes: https://tendedero.app/ **Tendedero** es una aplicación **gratuita y de código abierto** para Mac que cuelga cada captura de pantalla en una pequeña cuerda sobre la barra de menús. Solo tienes que acercar el puntero para desplegarla: **un clic copia**, una pulsación larga permite anotar y puedes arrastrar las imágenes directamente a otra aplicación o carpeta.
+      Así evitas acumular capturas en el escritorio. También admite grabaciones de pantalla e imágenes copiadas; funciona en **macOS 14 o posterior**, sin cuentas, sin analíticas y sin enviar los archivos a internet. Su código tiene **licencia MIT**.
+      Y tiene acento gallego: la ha creado **Alejandro Buján, un desarrollador natural de Melide (A Coruña)**. Puedes probar una demostración interactiva en la propia web antes de instalarla.
