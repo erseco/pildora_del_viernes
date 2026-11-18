@@ -283,21 +283,29 @@ function setupSearch() {
       filter();
     });
   });
-  // Alt mantiene el peek temporal de píldoras futuras en desktop
+  // Pulsar y soltar Alt (sin otra tecla) alterna las píldoras futuras en desktop.
+  // Es un interruptor y no "mantener pulsado" para poder hacer clic en los enlaces.
+  let altAlone = false;
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Alt' && !advancedMode.showFuture) {
-      advancedMode._tempPeek = true;
-      advancedMode.showFuture = true;
-      filter();
-    }
+    if (e.key !== 'Alt') altAlone = false;
+    else if (!e.repeat) altAlone = true;
   });
   document.addEventListener('keyup', (e) => {
-    if (e.key === 'Alt' && advancedMode._tempPeek) {
+    if (e.key !== 'Alt' || !altAlone) return;
+    altAlone = false;
+    if (advancedMode._tempPeek) {
       advancedMode._tempPeek = false;
       advancedMode.showFuture = false;
-      filter();
+    } else if (!advancedMode.showFuture) {
+      advancedMode._tempPeek = true;
+      advancedMode.showFuture = true;
+    } else {
+      return; // el modo avanzado ya las muestra
     }
+    filter();
   });
+  // Alt+clic o Alt+rueda no cuentan como pulsación suelta
+  document.addEventListener('mousedown', () => { altAlone = false; });
 
   filter();
 }
