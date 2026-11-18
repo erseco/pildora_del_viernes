@@ -1,4 +1,4 @@
-// Búsqueda y compartir sin cargar YAML dinámico
+// Búsqueda, filtro por año, paginación y compartir sin cargar YAML dinámico
 
 // Lado mayor (px) al que se normaliza la imagen antes de compartirla.
 const SHARE_IMAGE_MAX_SIDE = 1600;
@@ -190,34 +190,43 @@ const advancedMode = {
   filter: () => {},
 };
 
+const PAGE_SIZE = 24;
+
+function parseDate(dateStr) {
+  const [y, m, d] = (dateStr || '').split('-').map(Number);
+  return new Date(y, (m || 1) - 1, d || 1);
+}
+
+function beyondNextWeek(dateStr) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const nextWeek = new Date(today);
+  nextWeek.setDate(today.getDate() + 6);
+  return parseDate(dateStr) > nextWeek;
+}
+
 function setupSearch() {
   const input = document.getElementById('searchInput');
   if (!input) return; // página por fecha
 
   const cards = Array.from(document.querySelectorAll('#pildorasContainer > div'));
-  const total = cards.length;
   const countSpan = document.getElementById('pildoraCount');
-  if (countSpan) countSpan.textContent = `0 de ${total}`;
-
-  function parseDate(dateStr) {
-    const [y, m, d] = (dateStr || '').split('-').map(Number);
-    return new Date(y, (m || 1) - 1, d || 1);
-  }
-
-  function beyondNextWeek(dateStr) {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const nextWeek = new Date(today);
-    nextWeek.setDate(today.getDate() + 6);
-    return parseDate(dateStr) > nextWeek;
-  }
+  const loadMore = document.getElementById('loadMore');
+  const noResults = document.getElementById('noResults');
+  const yearButtons = Array.from(document.querySelectorAll('#yearFilter [data-year]'));
+  let year = '';
+  let limit = PAGE_SIZE;
 
   function filter() {
     const term = input.value.trim().toLowerCase();
-    let visible = 0;
+    const filtering = term !== '' || year !== '';
+    let available = 0;
+    let matches = 0;
+
     cards.forEach(card => {
+      card.classList.remove('is-featured');
       const btn = card.querySelector('.share-btn');
-      const date = btn?.dataset.date || '';
+      const date = card.dataset.date || btn?.dataset.date || '';
       const description = btn?.dataset.description || '';
       const urlEl = card.querySelector('.btn.btn-secondary');
       const url = urlEl ? urlEl.getAttribute('href') : '';
@@ -226,28 +235,54 @@ function setupSearch() {
         card.classList.add('d-none');
         return;
       }
+      available += 1;
 
-      const hay = (
+      const hay = (!year || date.startsWith(year)) && (
         description.toLowerCase().includes(term) ||
         (date && date.includes(term)) ||
         (url && url.toLowerCase().includes(term)) ||
         card.textContent.toLowerCase().includes(term)
       );
-
-      if (hay) {
-        card.classList.remove('d-none');
-        visible += 1;
-      } else {
+      if (!hay) {
         card.classList.add('d-none');
+        return;
       }
+
+      matches += 1;
+      if (matches > limit) {
+        card.classList.add('d-none');
+        return;
+      }
+      card.classList.remove('d-none');
+      // La más reciente se destaca solo cuando no hay búsqueda ni filtro
+      if (!filtering && matches === 1) card.classList.add('is-featured');
     });
 
-    if (countSpan) countSpan.textContent = `${visible} de ${total}`;
+    if (countSpan) countSpan.textContent = filtering ? `${matches} de ${available}` : String(available);
+    if (noResults) noResults.hidden = matches > 0;
+    if (loadMore) {
+      const rest = matches - limit;
+      loadMore.hidden = rest <= 0;
+      loadMore.textContent = `Ver más (${rest})`;
+    }
   }
 
   advancedMode.filter = filter;
 
-  input.addEventListener('input', filter);
+  input.addEventListener('input', () => { limit = PAGE_SIZE; filter(); });
+  if (loadMore) loadMore.addEventListener('click', () => { limit += PAGE_SIZE; filter(); });
+  yearButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      year = btn.dataset.year || '';
+      limit = PAGE_SIZE;
+      yearButtons.forEach(b => {
+        const active = b === btn;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', String(active));
+      });
+      filter();
+    });
+  });
   // Alt mantiene el peek temporal de píldoras futuras en desktop
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Alt' && !advancedMode.showFuture) {
@@ -265,6 +300,18 @@ function setupSearch() {
   });
 
   filter();
+}
+
+// En la página de una píldora, el enlace "Siguiente" no apunta a píldoras futuras
+function setupPillNav() {
+  const update = () => {
+    document.querySelectorAll('.pill-nav__link[data-date]').forEach(a => {
+      a.classList.toggle('d-none', !advancedMode.showFuture && beyondNextWeek(a.dataset.date));
+    });
+  };
+  if (!document.querySelector('.pill-nav')) return;
+  if (!document.getElementById('searchInput')) advancedMode.filter = update;
+  update();
 }
 
 // ---------------------------------------------------------------------------
@@ -402,5 +449,6 @@ function setupAdvancedModeTriggers() {
 document.addEventListener('DOMContentLoaded', () => {
   setupShareButtons();
   setupSearch();
+  setupPillNav();
   setupAdvancedModeTriggers();
 });
