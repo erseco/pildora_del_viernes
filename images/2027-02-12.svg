@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Ilustración de Tendedero, con tres capturas colgadas bajo la barra de menús de macOS">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#192738"/>
+      <stop offset="1" stop-color="#355264"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbe8ed"/>
+      <stop offset="1" stop-color="#c5d6de"/>
+    </linearGradient>
+    <linearGradient id="photo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffdaa7"/>
+      <stop offset="1" stop-color="#e38a6a"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#19303e" flood-opacity=".32"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#back)"/>
+  <circle cx="1102" cy="25" r="268" fill="#a5e6c8" opacity=".06"/>
+  <circle cx="548" cy="620" r="200" fill="#a9c7fd" opacity=".06"/>
+
+  <rect x="56" y="66" width="228" height="42" rx="21" fill="#3c5666"/>
+  <circle cx="82" cy="87" r="8" fill="#9edbc4"/>
+  <text x="102" y="94" fill="#e4f2ee" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold">APP LIBRE PARA MAC</text>
+
+  <text x="57" y="217" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="bold">Tendedero</text>
+  <text x="60" y="284" fill="#dbe9f0" font-family="Arial, Helvetica, sans-serif" font-size="27">Las capturas, colgadas</text>
+  <text x="60" y="324" fill="#dbe9f0" font-family="Arial, Helvetica, sans-serif" font-size="27">en vez de amontonadas.</text>
+  <rect x="57" y="390" width="242" height="54" rx="13" fill="#335c5c" stroke="#9cddba" stroke-width="1.5"/>
+  <text x="178" y="425" text-anchor="middle" fill="#e9fff4" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">Gratis · Código MIT</text>
+  <text x="60" y="524" fill="#b3d2dc" font-family="Arial, Helvetica, sans-serif" font-size="22">Alejandro Buján · Melide</text>
+  <text x="60" y="561" fill="#a5c6d0" font-family="Arial, Helvetica, sans-serif" font-size="19">macOS 14+ · Sin nube ni cuentas</text>
+
+  <!-- Original vector illustration based on the app's concept, not a copied screenshot -->
+  <g transform="translate(560 77)" filter="url(#shadow)">
+    <rect x="0" y="0" width="583" height="471" rx="19" fill="url(#wall)" stroke="#eff8fa" stroke-width="3"/>
+    <path d="M19 0H564Q583 0 583 19V47H0V19Q0 0 19 0Z" fill="#faf9fb"/>
+    <circle cx="25" cy="23" r="7" fill="#dc7371"/>
+    <circle cx="46" cy="23" r="7" fill="#e5b65e"/>
+    <circle cx="67" cy="23" r="7" fill="#65ba86"/>
+    <text x="112" y="30" font-family="Arial, Helvetica, sans-serif" fill="#697683" font-size="16">Archivo    Edición    Visualización    Ventana</text>
+    <circle cx="515" cy="23" r="6" fill="#7f94a5"/>
+    <path d="M542 18h15m-15 6h15m-15 6h15" stroke="#738b9a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M18 94Q286 129 564 94" fill="none" stroke="#7e6a61" stroke-width="5" stroke-linecap="round"/>
+    <path d="M18 97Q286 130 564 97" fill="none" stroke="#dec4a2" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Three translucent hanging glass frames -->
+    <g transform="translate(38 112) rotate(-5 92 125)">
+      <path d="M80-6v17" stroke="#74695f" stroke-width="4" stroke-linecap="round"/>
+      <rect x="72" y="-15" width="18" height="28" rx="4" fill="#d5a983" stroke="#8e7966" stroke-width="2"/>
+      <rect x="0" y="0" width="183" height="244" rx="12" fill="#ffffff" fill-opacity=".85" stroke="#ffffff" stroke-width="5"/>
+      <rect x="10" y="12" width="163" height="219" rx="6" fill="#e4e5f1"/>
+      <rect x="10" y="12" width="163" height="29" rx="6" fill="#b4b9cd"/>
+      <circle cx="26" cy="26" r="5" fill="#fb9890"/><circle cx="42" cy="26" r="5" fill="#f2c47f"/><circle cx="58" cy="26" r="5" fill="#9dcaaf"/>
+      <rect x="19" y="57" width="65" height="162" rx="6" fill="#c4c8dc"/>
+      <rect x="95" y="57" width="67" height="50" rx="6" fill="#889fc9"/>
+      <rect x="95" y="118" width="67" height="45" rx="6" fill="#a3d7da"/>
+      <rect x="95" y="174" width="67" height="45" rx="6" fill="#efcba7"/>
+      <path d="M102 145l17-13 14 10 13-9 11 12v12h-55z" fill="#5aadae"/>
+      <text x="91" y="256" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">Captura 1</text>
+    </g>
+
+    <g transform="translate(213 130) rotate(4 92 124)">
+      <path d="M92-27v29" stroke="#74695f" stroke-width="4" stroke-linecap="round"/>
+      <rect x="83" y="-31" width="18" height="28" rx="4" fill="#d5a983" stroke="#8e7966" stroke-width="2"/>
+      <rect x="0" y="0" width="183" height="244" rx="12" fill="#ffffff" fill-opacity=".85" stroke="#ffffff" stroke-width="5"/>
+      <rect x="10" y="12" width="163" height="219" rx="6" fill="url(#photo)"/>
+      <circle cx="138" cy="62" r="22" fill="#fff0bd"/>
+      <path d="M10 186l54-92 47 58 31-43 31 42v80H10Z" fill="#ba7375"/>
+      <path d="M10 199l49-69 36 48 43-54 35 51v56H10Z" fill="#6a7f90"/>
+      <text x="92" y="257" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">Captura 2</text>
+    </g>
+
+    <g transform="translate(390 113) rotate(-3 82 123)">
+      <path d="M82-8v20" stroke="#74695f" stroke-width="4" stroke-linecap="round"/>
+      <rect x="73" y="-16" width="18" height="28" rx="4" fill="#d5a983" stroke="#8e7966" stroke-width="2"/>
+      <rect x="0" y="0" width="166" height="244" rx="12" fill="#ffffff" fill-opacity=".85" stroke="#ffffff" stroke-width="5"/>
+      <rect x="10" y="12" width="146" height="219" rx="6" fill="#24344c"/>
+      <g font-family="monospace" font-size="11">
+        <text x="20" y="36" fill="#8eb4eb">const</text><text x="58" y="36" fill="#f4be7d">app</text><text x="87" y="36" fill="#efebf9">=</text>
+        <text x="20" y="57" fill="#81d3bd">function</text><text x="20" y="80" fill="#b0c7e2">() {</text>
+        <text x="31" y="102" fill="#efb2cd">return</text>
+        <text x="41" y="126" fill="#8bd0b9">"hola";</text>
+        <text x="20" y="150" fill="#b0c7e2">}</text>
+      </g>
+      <g fill="#5d738c">
+        <rect x="20" y="169" width="114" height="5" rx="3"/>
+        <rect x="20" y="183" width="95" height="5" rx="3"/>
+        <rect x="20" y="197" width="120" height="5" rx="3"/>
+      </g>
+      <text x="83" y="257" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">Captura 3</text>
+    </g>
+
+    <rect x="20" y="425" width="543" height="29" rx="11" fill="#eef4f7" fill-opacity=".64"/>
+    <text x="291" y="445" text-anchor="middle" fill="#5a7585" font-family="Arial, Helvetica, sans-serif" font-size="15">Haz clic para copiar  ·  Arrastra para compartir</text>
+  </g>
+</svg>
