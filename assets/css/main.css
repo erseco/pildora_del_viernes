@@ -244,6 +244,30 @@ body.advanced-mode h1::after {
     color: #e0a800;
 }
 
+/* Vista previa: se están mostrando las píldoras programadas (Alt o modo avanzado) */
+body.show-future {
+    background: repeating-linear-gradient(-45deg, #fff4e0 0 18px, #fbeccf 18px 36px);
+}
+body.show-future::before {
+    content: "👁 Vista previa · mostrando píldoras programadas";
+    position: sticky; top: 0; z-index: 1500;
+    padding: 8px 16px;
+    background: #b45309; color: #fff;
+    font: 600 14px/1.3 var(--font-body);
+    text-align: center;
+}
+.pill-col.is-future .pill-card {
+    position: relative;
+    outline: 3px dashed #b45309; outline-offset: -3px;
+}
+.pill-col.is-future .pill-card::before {
+    content: "Programada";
+    position: absolute; top: 10px; left: 10px; z-index: 1;
+    padding: 3px 10px; border-radius: 999px;
+    background: #b45309; color: #fff;
+    font: 700 12px/1.4 var(--font-mono); letter-spacing: 0.03em;
+}
+
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { transition: none !important; }
 }

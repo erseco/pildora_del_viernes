@@ -231,7 +231,9 @@ function setupSearch() {
       const urlEl = card.querySelector('.btn.btn-secondary');
       const url = urlEl ? urlEl.getAttribute('href') : '';
 
-      if (!advancedMode.showFuture && beyondNextWeek(date)) {
+      const future = beyondNextWeek(date);
+      card.classList.toggle('is-future', future);
+      if (!advancedMode.showFuture && future) {
         card.classList.add('d-none');
         return;
       }
@@ -258,6 +260,7 @@ function setupSearch() {
       if (!filtering && matches === 1) card.classList.add('is-featured');
     });
 
+    document.body.classList.toggle('show-future', advancedMode.showFuture);
     if (countSpan) countSpan.textContent = filtering ? `${matches} de ${available}` : String(available);
     if (noResults) noResults.hidden = matches > 0;
     if (loadMore) {
